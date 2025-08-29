@@ -1,0 +1,77 @@
+name: 🧪 Test GeoJSON
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x, 22.x]
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+    
+    - name: 🟢 Setup Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    
+    - name: 📦 Install dependencies
+      run: npm ci
+    
+    - name: 🧪 Run tests
+      run: npm test
+    
+    - name: 📊 Generate coverage report
+      run: npm run test:coverage
+    
+    - name: 📈 Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage/coverage-final.json
+        flags: unittests
+        name: codecov-umbrella
+    
+    - name: ✅ Validate GeoJSON structure
+      run: npm run validate
+
+  validate-geojson:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+    
+    - name: 🗺️ Validate GeoJSON syntax
+      run: |
+        # Check if the GeoJSON file is valid JSON
+        python -m json.tool nyc-neighborhood-boundaries.geojson > /dev/null
+        echo "✅ GeoJSON is valid JSON"
+    
+    - name: 📐 Check file size
+      run: |
+        FILE_SIZE=$(stat -f%z nyc-neighborhood-boundaries.geojson 2>/dev/null || stat -c%s nyc-neighborhood-boundaries.geojson)
+        echo "📊 GeoJSON file size: $FILE_SIZE bytes"
+        
+        # Warn if file is larger than 50MB
+        if [ $FILE_SIZE -gt 52428800 ]; then
+          echo "⚠️ Warning: GeoJSON file is larger than 50MB"
+        fi
+    
+    - name: 🔍 Check for required features
+      run: |
+        FEATURE_COUNT=$(grep -o '"type":"Feature"' nyc-neighborhood-boundaries.geojson | wc -l)
+        echo "🏘️ Found $FEATURE_COUNT features"
+        
+        if [ $FEATURE_COUNT -lt 200 ]; then
+          echo "❌ Error: Expected at least 200 features, found $FEATURE_COUNT"
+          exit 1
+        fi

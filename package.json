@@ -1,0 +1,23 @@
+{
+  "name": "nyc-neighborhood-boundaries",
+  "version": "1.0.0",
+  "description": "NYC neighborhood boundaries GeoJSON with validation tests",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "nyc",
+    "neighborhoods",
+    "geojson",
+    "boundaries",
+    "geographic-data"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}

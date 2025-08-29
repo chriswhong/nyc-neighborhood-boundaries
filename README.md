@@ -41,4 +41,3 @@ The data were originally published at `https://www.zillow.com/howto/api/neighbor
 The first commit of this repo includes a geoJSON file derived from the original NY State Boundaries shapefile:
 - the data was filtered to include only New York City neighborhoods
 - the coordinate reference system was converted to EPSG 4326 (WGS84)
-
