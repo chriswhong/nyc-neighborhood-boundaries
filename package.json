@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "add-random-colors": "node add-random-colors.js"
   },
   "keywords": [
     "nyc",
@@ -19,5 +20,8 @@
   "license": "MIT",
   "devDependencies": {
     "vitest": "^2.0.5"
+  },
+  "dependencies": {
+    "@turf/centroid": "^7.2.0"
   }
 }

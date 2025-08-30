@@ -1,0 +1,78 @@
+{
+    "version": 8,
+    "name": "NYC Neighborhood Boundaries",
+    "center": [-34, 38],
+    "zoom": 2,
+    "terrain": null,
+    "imports": [
+        {
+            "id": "basemap",
+            "url": "mapbox://styles/mapbox/standard",
+            "config": {"theme": "faded", "lightPreset": "day"}
+        }
+    ],
+    "sources": {
+        "neighborhoods": {
+            "type": "geojson",
+            "data": "../data/nyc-neighborhood-boundaries.geojson"
+        },
+        "centroids": {
+            "type": "geojson",
+            "data": "../data/nyc-neighborhood-boundaries-centroids.geojson"
+        }
+    },
+    "sprite": "mapbox://sprites/chriswhongmapbox/cmex1c2ou003i01se0k2gcq51/b8fjw435hx85pp7j172f016pl",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "projection": {"name": "globe"},
+    "layers": [
+        {
+            "id": "neighborhoods-fill",
+            "type": "fill",
+            "source": "neighborhoods",
+            "paint": {
+                "fill-color": [
+                    "case",
+                    ["==", ["get", "color"], 0], "#a6cee3",
+                    ["==", ["get", "color"], 1], "#1f78b4",
+                    ["==", ["get", "color"], 2], "#b2df8a",
+                    ["==", ["get", "color"], 3], "#33a02c",
+                    "#fb9a99"
+                    ],
+                    "fill-opacity": 0.4
+                }
+            },
+            {
+                "id": "neighborhoods-stroke",
+                "type": "line",
+                "source": "neighborhoods",
+                "paint": {
+                    "line-color": "#666",
+                    "line-width": 2
+                }
+            },
+            {
+                "id": "centroids-symbol",
+                "type": "symbol",
+                "source": "centroids",
+                "minzoom": 2,
+                "maxzoom": 22,
+                "layout": {
+                    "text-line-height": 1.1,
+                    "text-size": 18,
+                    "text-field": ["upcase", ["get", "name"]],
+                    "text-radial-offset": 8,
+                    "text-font": [ 
+                        "DIN Pro Medium"
+                    ],
+                    "text-anchor": "center",
+                    "text-max-width": 7
+                },
+                "paint": {
+                    "text-color": "#666666",
+                    "text-halo-color": "#ffffff",
+                    "text-halo-width": 1,
+                    "text-halo-blur": 1
+                }
+            }
+    ]
+}

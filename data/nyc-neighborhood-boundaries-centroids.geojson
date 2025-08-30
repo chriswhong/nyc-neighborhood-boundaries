@@ -1,0 +1,3841 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rego Park",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85802867437091,
+          40.72556575127459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belle Harbor",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85214952763856,
+          40.57353966594288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roosevelt Island",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95049375855017,
+          40.76147214906841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Howard Beach",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84659558225786,
+          40.650037918879704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Breezy Point",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92473164007359,
+          40.55350174207665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neponsit",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86025294618119,
+          40.569009539006124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Elmhurst",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87216757826744,
+          40.76276454455172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Farms",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87974429974012,
+          40.84283383679661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cambria Heights",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.73365771099121,
+          40.693283877030794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fresh Meadows",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78330636778632,
+          40.73175417474792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maspeth",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90478552123597,
+          40.72422673492922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Hamilton",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0331433053692,
+          40.612250627824245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bay Terrace",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13641114351942,
+          40.55638872340092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Far Rockaway",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76363327225283,
+          40.60100680353775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hollis",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76723977543149,
+          40.709868201471366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamaica",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78771145771618,
+          40.70038758879001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Ozone Park",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8187206985036,
+          40.677144644099236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ellis Island",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03957909090455,
+          40.69964890909492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bayside",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76642731398701,
+          40.7651965149933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Guardia Airport",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86870752627573,
+          40.77421777156117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodhaven",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85782740741415,
+          40.69029343730023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arverne",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.79684401934378,
+          40.59350805749267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Broad Channel",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82057217726506,
+          40.60755077424587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flushing",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82237325756174,
+          40.75363857311297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oakland Gardens",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.74825685806749,
+          40.741994495369724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ozone Park",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8488087292331,
+          40.67924539194869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Tilden",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9002824824014,
+          40.560047307545005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malba",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82959671347903,
+          40.793769002277664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Briarwood",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81211871790444,
+          40.712589197976904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "College Point",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84828079265714,
+          40.78455288690675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corona",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86169914735385,
+          40.747883217122556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pomonok",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8085032644019,
+          40.73192704497281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamaica Estates",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7859977409907,
+          40.71940919193434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rockaway Park",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83237604491126,
+          40.58104647912058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roxbury",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89243634186361,
+          40.56795934548863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rockaway Beach",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81259384763146,
+          40.588311718304055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glen Oaks",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.71673024576671,
+          40.75045347414232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arrochar",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07220010311819,
+          40.59723255654868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kew Gardens Hills",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81998093983691,
+          40.72860481534001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bensonhurst",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98891368657198,
+          40.61017110014198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bath Beach",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9992948040969,
+          40.58953603397297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bay Ridge",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0367307498836,
+          40.63424732411154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clason Point",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85516931604631,
+          40.806846575129256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clifton",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07288989542229,
+          40.61998772105652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Flatbush",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92947636649109,
+          40.64907308189475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bergen Beach",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8956999883769,
+          40.614058374928334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Borough Park",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99022340501111,
+          40.6323383635372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brighton Beach",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95959059948656,
+          40.57560189137423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brownsville",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90849877903824,
+          40.6636848357866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canarsie",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88797035571551,
+          40.63446616969643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East New York",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87268384484301,
+          40.654273920268594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elm Park",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.14681942615441,
+          40.63184205454992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dyker Heights",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01923814122718,
+          40.6153442610622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fresh Kills",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.20869225502894,
+          40.56857150016012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huguenot",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.18365274864595,
+          40.52355102550652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coney Island",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99618994685302,
+          40.57473288247523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flatbush",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9620011708722,
+          40.644038113521816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manhattan Beach",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94076413960212,
+          40.576573513183604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mariner's Harbor",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15468497529038,
+          40.639592208452655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Brighton",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09134498586903,
+          40.638174165578675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Dorp Beach",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09900352364471,
+          40.56282881622074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Hill",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0830807574174,
+          40.60994891136677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park Slope",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98314157094845,
+          40.670661154797216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Ivory",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.17881172441123,
+          40.64336169090591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Richmond",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13518225736254,
+          40.63844419785603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunnyside",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1129031209822,
+          40.61490206301142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Van Nest",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86587262873327,
+          40.84559278029054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Washington Heights",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94248973236627,
+          40.850322677470295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Willowbrook",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15178085137232,
+          40.6015408226665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodrow",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.21655496515254,
+          40.53444558739834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodside",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90659678838985,
+          40.749147423826464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Wadsworth",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05397135422443,
+          40.6029655212146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grant City",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10419339923486,
+          40.57930703905251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bulls Head",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.16547387663998,
+          40.606768597807644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bushwick",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90834388883495,
+          40.695729626857435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chinatown",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99651032708988,
+          40.7162781481181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dongan Hills",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09732811250592,
+          40.58340069372993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Tremont",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89115969957089,
+          40.848818840804974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Graniteville",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1590123898574,
+          40.62179572392107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greenwich Village",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99668454361483,
+          40.72954658880409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grymes Hill",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08893661200264,
+          40.62213385072822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Great Kills",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1335448307784,
+          40.544130254905895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greenridge",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1842352498497,
+          40.55778089368049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Inwood",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92548214878106,
+          40.872421743377686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midland Beach",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08785204515668,
+          40.57400070929575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harlem",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94018249806324,
+          40.81619387569949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Middle Village",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87995312911255,
+          40.71635388114859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Murray Hill",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81240349511532,
+          40.771331688911275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pleasant Plains",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.21678355864401,
+          40.51181748114062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rosebank",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06501705345941,
+          40.61691557875186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Dorp",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11756510884406,
+          40.572291204087136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Utrecht",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0018961136471,
+          40.61180536194686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oakwood",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11182592910825,
+          40.55457084409118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Port Morris",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9154717306383,
+          40.80235638423074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Springville",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13259852408781,
+          40.58921782106042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rossville",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22374311492338,
+          40.555557220601095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Red Hook",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01516935159167,
+          40.67250566908638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shore Acres",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0593860204905,
+          40.6108116876251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Beach",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07249827241408,
+          40.58808699362518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stapleton",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08079512673173,
+          40.62429540043807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tompkinsville",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08008819929343,
+          40.6337367408186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Williamsburg",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95749254196309,
+          40.71390922079232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Auburndale",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.79328051115438,
+          40.74791656939101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bay Terrace",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.77895979948975,
+          40.78766881584977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clinton Hill",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9648305067829,
+          40.69034734200048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cobble Hill",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99579829595457,
+          40.68716378834488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Concourse",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92147352773033,
+          40.83066953638645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greenpoint",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94923611916401,
+          40.72874759459298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hamilton Heights",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95592781736698,
+          40.826472295238524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marble Hill",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9104804276962,
+          40.87531352023616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marine Park",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91735114618021,
+          40.60027538722033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Riverdale",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90842203276287,
+          40.90957074725716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prospect Park South",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96716329143841,
+          40.64581441851493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Randall Manor",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10097386507677,
+          40.639141309498896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Todt Hill",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10819661199905,
+          40.59322058055041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Astoria Heights",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89111524337771,
+          40.773462421669464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carnegie Hill",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95626552575337,
+          40.78408211925445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Castle Hill",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84495354367972,
+          40.81567183667293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Co-op City",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82195132353412,
+          40.86936212381523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Harlem",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9342325698387,
+          40.79528499023128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Financial District",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0078155848593,
+          40.70210148276926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gerritsen Beach",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92756608517332,
+          40.59136202460448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gowanus",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99063436980565,
+          40.67602551042254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heartland Village",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15535283980492,
+          40.59003782125877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midtown",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97985436014682,
+          40.76238158097959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ocean Parkway",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97236049717108,
+          40.6215282048054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prince's Bay",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.20075839915319,
+          40.51507913512779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SoHo",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00968633798675,
+          40.72725491654556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sutton Place",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96130505345523,
+          40.756403935600744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tribeca",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0151700874181,
+          40.722171251145234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Turtle Bay",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96657702906838,
+          40.75335894599098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vinegar Hill",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98216746756674,
+          40.70553688265521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Village",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01302934098668,
+          40.7360894680532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Annadale",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.16962297099549,
+          40.53132899082301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Battery Park",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01856679829609,
+          40.71080077907047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wingate",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94347792980508,
+          40.66131322429841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Astoria",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91681106689464,
+          40.77605192462343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bedford Stuyvesant",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94348004487738,
+          40.687294260575584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chelsea-Travis",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.19986476643678,
+          40.59199377703545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98879785376376,
+          40.69536894141323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DUMBO",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99061451486232,
+          40.70427435971577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garment District",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98847918526614,
+          40.751364656803524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Homecrest",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95728087341953,
+          40.5994892042954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hunters Point",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95592127812668,
+          40.745147354019615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Little Italy",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99492313419526,
+          40.723951499562105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lower East Side",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98451971891791,
+          40.713632846448576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morningside Heights",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96523275314688,
+          40.813186824359875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pelham Bay",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83230702376325,
+          40.842732668548926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pelham Gardens",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84044498786585,
+          40.865242690617734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rikers Island",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88298262468936,
+          40.790221295717934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper East Side",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94887259920218,
+          40.76866238164141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper West Side",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.989312244925,
+          40.78003127177147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boerum Hill",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98708824369486,
+          40.686491663248844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Central Park",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96240503754971,
+          40.7859188049604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Queens Village",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.74174637797061,
+          40.71423161175874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clinton",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00425083437042,
+          40.76277236307914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rosedale",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.73766937478759,
+          40.64988032896276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whitestone",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.80941787595921,
+          40.79331550356941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hunts Point",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89025926560576,
+          40.80266888013419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "High Bridge",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92421962319703,
+          40.836942640334925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Throggs Neck",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81347205107319,
+          40.81678785574324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Bronx",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89916144119613,
+          40.83132291950576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverdale",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90866129312136,
+          40.893605921867334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eastchester",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82606598137832,
+          40.888344474646786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Country Club",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81516621955052,
+          40.84329436458976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Governors Island",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.01749787897319,
+          40.68970902131257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Forest Hills",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8457911684009,
+          40.71563830146918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Murray Hill",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97752625970409,
+          40.74953719453596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kew Gardens",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83251556277703,
+          40.70600876698995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Greene",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97817009077416,
+          40.69535520911423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jackson Heights",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88369299459846,
+          40.75204325334351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laurelton",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.745755030686,
+          40.679539835291806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brooklyn Heights",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99836086647936,
+          40.698259743591166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sheepshead Bay",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92962242594466,
+          40.58604609824163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fresh Kills Park",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.18117518698124,
+          40.58070586350901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grasmere - Concord",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08514975667855,
+          40.603106048682605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flatiron District",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98941327170007,
+          40.74219578441797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Van Cortlandt Park",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88385538041908,
+          40.89707260299287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gravesend",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97202623721748,
+          40.597274279259615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blissville",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93709818199864,
+          40.73404564018894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Butler Manor",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22894528534523,
+          40.50354491598945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carroll Gardens",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99592724777501,
+          40.68059303814594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Village",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.98355937255675,
+          40.724157042833724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fieldston",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90275167776514,
+          40.89336965713816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Forest Hills Gardens",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84281253426717,
+          40.715056591834475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hart Island",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76951994195838,
+          40.85228575486429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holliswood",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76729469994626,
+          40.72170623430337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamaica Hills",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7987077537473,
+          40.713526124865226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Richmond Hill",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83219525934149,
+          40.697305440588785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lighthouse Hill",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13724145059959,
+          40.57568945473887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manhattanville",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.95833298826905,
+          40.820558937783275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midwood",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94607388349095,
+          40.621645371116145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mill Basin",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90771290100456,
+          40.60673120284684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Glendale",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87597831606422,
+          40.70036592347399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Navy Yard",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9760204644154,
+          40.703441241318174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NoHo",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.992981359154,
+          40.727375637609704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ocean Hill",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9139443330821,
+          40.67513435417892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old Town",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08850851375688,
+          40.59316640523403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunset Park",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0261672784087,
+          40.65122122460757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tudor City",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96997790848273,
+          40.7457661152359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flatlands",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92829681611454,
+          40.628042918220366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Springfield Gardens",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76374649495476,
+          40.6634890852906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Albans",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.75912188620065,
+          40.68918781660297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morris Park",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85686270350867,
+          40.85018173856685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "University Heights",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91117521828703,
+          40.85969554812376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunnyside",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92544363200906,
+          40.743163924850336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tottenville",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.24716370498611,
+          40.5049528084369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Westerleigh",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13504667865405,
+          40.618747709349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chelsea",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00968016207678,
+          40.750823207079776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Utopia",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78713578315981,
+          40.72943846984956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mott Haven",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91861523845466,
+          40.81187694361478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soundview",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87722239521987,
+          40.82432825240614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Woodlawn",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87165394085241,
+          40.89462627562112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "City Island",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78646091930236,
+          40.84937516225487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kingsbridge",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90057482671133,
+          40.878524518580605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bedford Park",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8917474865835,
+          40.87548003570146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fordham",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89141971470099,
+          40.85909051559136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tremont",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90690359136954,
+          40.84926913982513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Williamsbridge",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86210210312463,
+          40.875204028292515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baychester",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83858397208436,
+          40.86962608485834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rochdale",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76893689894375,
+          40.67547912426848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Westchester Heights",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84236180719445,
+          40.84718014667506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Randals-Wards Island",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9254635486038,
+          40.78956988954428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prospect Park",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9686634843839,
+          40.65616925487097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Melrose",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91363476825212,
+          40.818312797730826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Longwood",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89519666794105,
+          40.821546447720884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pelham Bay Park",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.79824243783146,
+          40.86614227464958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norwood",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87890325439109,
+          40.87848966993499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bellerose",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.72746573919282,
+          40.72960664756493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emerson Hill",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1038015357321,
+          40.60352215552657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Tourette Park",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15148428707016,
+          40.573795918490895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Jamaica Bay Islands",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85135482626784,
+          40.61885066018334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Clove Lake",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11393028530128,
+          40.618496522374805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. George",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07579379199062,
+          40.643963115341336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West Brighton",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11362228215548,
+          40.63865514731725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Castleton Corners",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.12618436855917,
+          40.61824003482708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Georgetown",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91008063526309,
+          40.62338364730629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Windsor Terrace",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97671910969216,
+          40.653680494013116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arden Heights",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.18729873731428,
+          40.55358184628104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charleston",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.24294584373739,
+          40.539122521370906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Douglaston-Little Neck",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.74778438114284,
+          40.769598059500815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eltingville",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15957664129184,
+          40.538028432354615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gramercy",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97346159196039,
+          40.73729593195557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Greenwood",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00513124677461,
+          40.66292816539755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Richmond Town",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13329470169154,
+          40.56949193461489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ridgewood",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.90303650098276,
+          40.703166426077026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unionport",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84729518727302,
+          40.8326093785843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parkchester",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86234220097857,
+          40.83818124791101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morris Heights",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91537584454046,
+          40.85198968127765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spuyten Duyvil",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91911662177935,
+          40.88031570496938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wakefield",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84972754868616,
+          40.902749067490724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "John F. Kennedy International Airport",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.79029749405042,
+          40.6268696610791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meiers Corners",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13759183562078,
+          40.61539257006327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bloomfield",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.19747843703706,
+          40.61465687769314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liberty Island",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04538513916191,
+          40.68992476578992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mill Rock Park",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.93860135831211,
+          40.78045958022242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Richmond Valley",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.24113130934875,
+          40.51953815458169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silver Lake",
+        "borough": "staten-island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09707538383554,
+          40.62670905844133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stuyvesant Town",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97260487731094,
+          40.72995400035189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbus Circle",
+        "borough": "manhattan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9969928298671,
+          40.77020658771528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belmont",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.88774874541538,
+          40.85861356868272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bronx Park",
+        "borough": "bronx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87604187568155,
+          40.85882740166067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kensington",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97567652638617,
+          40.64061768837074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crown Heights",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94097061899376,
+          40.67185124000101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia Street Waterfront District",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0054413189393,
+          40.68997795186052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prospect Heights",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9691494392095,
+          40.67975581686322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prospect Lefferts Gardens",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9548938625553,
+          40.66063235623235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Jamaica Bay Islands",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.82031612956887,
+          40.61277861620905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flushing Meadows Corona Park",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83871230910448,
+          40.735022428500706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hillcrest",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.79989692887438,
+          40.72398006029161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jacob Riis Park",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87872794148069,
+          40.564326201824265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Floyd Bennett Field",
+        "borough": "brooklyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89084806228205,
+          40.59137997107401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elmhurst",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87689503186392,
+          40.74089277620945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Floral park",
+        "borough": "queens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.70730322466632,
+          40.738653881668
+        ]
+      }
+    }
+  ]
+}

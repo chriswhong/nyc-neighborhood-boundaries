@@ -147,14 +147,15 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
     })
 
     describe('Property Structure Validation', () => {
-        test('all features should have exactly two lowercase properties: name and borough', () => {
+        test('all features should have exactly three lowercase properties: name, borough, and color', () => {
             geojson.features.forEach((feature, index) => {
                 const properties = feature.properties
                 const propertyNames = Object.keys(properties)
                 
-                expect(propertyNames, `Feature ${index + 1} should have exactly 2 properties`).toHaveLength(2)
+                expect(propertyNames, `Feature ${index + 1} should have exactly 3 properties`).toHaveLength(3)
                 expect(propertyNames, `Feature ${index + 1} should have 'name' property`).toContain('name')
                 expect(propertyNames, `Feature ${index + 1} should have 'borough' property`).toContain('borough')
+                expect(propertyNames, `Feature ${index + 1} should have 'color' property`).toContain('color')
                 
                 // Ensure no uppercase versions exist
                 expect(propertyNames, `Feature ${index + 1} should not have uppercase 'Name'`).not.toContain('Name')
@@ -166,7 +167,7 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
             geojson.features.forEach((feature, index) => {
                 const properties = feature.properties
                 const propertyNames = Object.keys(properties)
-                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough'].includes(prop))
+                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color'].includes(prop))
                 
                 expect(unexpectedProps, `Feature ${index + 1} should not have unexpected properties: ${unexpectedProps.join(', ')}`).toHaveLength(0)
             })
@@ -179,6 +180,15 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
                 
                 expect(typeof feature.properties.borough, `Feature ${index + 1} borough should be a string`).toBe('string')
                 expect(feature.properties.borough.length, `Feature ${index + 1} borough should not be empty`).toBeGreaterThan(0)
+            })
+        })
+
+        test('color property should be an integer between 0-4', () => {
+            geojson.features.forEach((feature, index) => {
+                expect(typeof feature.properties.color, `Feature ${index + 1} color should be a number`).toBe('number')
+                expect(Number.isInteger(feature.properties.color), `Feature ${index + 1} color should be an integer`).toBe(true)
+                expect(feature.properties.color, `Feature ${index + 1} color should be between 0-4`).toBeGreaterThanOrEqual(0)
+                expect(feature.properties.color, `Feature ${index + 1} color should be between 0-4`).toBeLessThanOrEqual(4)
             })
         })
     })
