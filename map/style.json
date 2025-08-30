@@ -14,11 +14,11 @@
     "sources": {
         "neighborhoods": {
             "type": "geojson",
-            "data": "../data/nyc-neighborhood-boundaries.geojson"
+            "data": "https://raw.githubusercontent.com/chriswhong/nyc-neighborhood-boundaries/refs/heads/main/data/nyc-neighborhood-boundaries.geojson"
         },
         "centroids": {
             "type": "geojson",
-            "data": "../data/nyc-neighborhood-boundaries-centroids.geojson"
+            "data": "https://raw.githubusercontent.com/chriswhong/nyc-neighborhood-boundaries/refs/heads/main/data/nyc-neighborhood-boundaries-centroids.geojson"
         }
     },
     "sprite": "mapbox://sprites/chriswhongmapbox/cmex1c2ou003i01se0k2gcq51/b8fjw435hx85pp7j172f016pl",
