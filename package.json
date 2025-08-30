@@ -7,7 +7,7 @@
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
-    "add-random-colors": "node add-random-colors.js"
+    "generate-centroids": "node scripts/generate-centroids.js"
   },
   "keywords": [
     "nyc",
