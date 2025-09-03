@@ -1,8 +1,8 @@
 {
     "version": 8,
     "name": "NYC Neighborhood Boundaries",
-    "center": [-34, 38],
-    "zoom": 2,
+    "center": [-74.00775, 40.70664],
+    "zoom": 10.3,
     "terrain": null,
     "imports": [
         {
