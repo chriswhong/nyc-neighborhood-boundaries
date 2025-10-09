@@ -14,7 +14,7 @@
     "sources": {
         "neighborhoods": {
             "type": "geojson",
-            "data": "https://raw.githubusercontent.com/chriswhong/nyc-neighborhood-boundaries/refs/heads/main/data/nyc-neighborhood-boundaries.geojson"
+            "data": "/data/nyc-neighborhood-boundaries.geojson"
         },
         "centroids": {
             "type": "geojson",
@@ -32,13 +32,13 @@
             "paint": {
                 "fill-color": [
                     "case",
-                    ["==", ["get", "color"], 0], "#a6cee3",
-                    ["==", ["get", "color"], 1], "#1f78b4",
-                    ["==", ["get", "color"], 2], "#b2df8a",
-                    ["==", ["get", "color"], 3], "#33a02c",
-                    "#fb9a99"
+                    ["==", ["get", "color"], 0], "#66c2a5",
+                    ["==", ["get", "color"], 1], "#fc8d62",
+                    ["==", ["get", "color"], 2], "#8da0cb",
+                    ["==", ["get", "color"], 3], "#e78ac3",
+                    "#ccc"
                     ],
-                    "fill-opacity": 0.4
+                    "fill-opacity": 0.7
                 }
             },
             {
@@ -48,6 +48,32 @@
                 "paint": {
                     "line-color": "#666",
                     "line-width": 2
+                }
+            },
+            {
+                "id": "neighborhoods-border-labels",
+                "type": "symbol",
+                "source": "neighborhoods",
+                "minzoom": 11,
+                "maxzoom": 22,
+                "layout": {
+                    "symbol-placement": "line",
+                    "text-field": ["upcase", ["get", "name"]],
+                    "text-font": ["DIN Pro Medium"],
+                    "text-size": 14,
+                    "text-letter-spacing": 0.2,
+                    "text-rotation-alignment": "map",
+                    "text-pitch-alignment": "viewport",
+                    "text-max-angle": 30,
+                    "text-offset": [0, 1.5],
+                    "symbol-spacing": 400,
+                    "text-repeat-distance": 300
+                },
+                "paint": {
+                    "text-color": "#444444",
+                    "text-halo-color": "#ffffff",
+                    "text-halo-width": 2,
+                    "text-halo-blur": 1
                 }
             },
             {
