@@ -38,7 +38,13 @@
                     ["==", ["get", "color"], 3], "#e78ac3",
                     "#ccc"
                     ],
-                    "fill-opacity": 0.7
+                    "fill-opacity": [
+                        "interpolate",
+                        ["linear"],
+                        ["zoom"],
+                        8, 0.7,
+                        14, 0.3
+                    ]
                 }
             },
             {
