@@ -27,7 +27,7 @@
       "properties": {
         "name": "Belle Harbor",
         "borough": "queens",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +283,7 @@
       "properties": {
         "name": "Ellis Island",
         "borough": "manhattan",
-        "color": 0
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -539,7 +539,7 @@
       "properties": {
         "name": "Rockaway Park",
         "borough": "queens",
-        "color": 1
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -571,7 +571,7 @@
       "properties": {
         "name": "Rockaway Beach",
         "borough": "queens",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -2233,7 +2233,7 @@
       "type": "Feature",
       "id": "downtown-brooklyn",
       "properties": {
-        "name": "Downtown",
+        "name": "Downtown Brooklyn",
         "borough": "brooklyn",
         "color": 2
       },
@@ -2459,7 +2459,7 @@
       "properties": {
         "name": "Central Park",
         "borough": "manhattan",
-        "color": 0
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -2651,7 +2651,7 @@
       "properties": {
         "name": "Governors Island",
         "borough": "manhattan",
-        "color": 1
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -2843,7 +2843,7 @@
       "properties": {
         "name": "Van Cortlandt Park",
         "borough": "bronx",
-        "color": 3
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -2971,7 +2971,7 @@
       "properties": {
         "name": "Hart Island",
         "borough": "bronx",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3579,7 +3579,7 @@
       "properties": {
         "name": "Prospect Park",
         "borough": "brooklyn",
-        "color": 0
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -3627,7 +3627,7 @@
       "properties": {
         "name": "Pelham Bay Park",
         "borough": "bronx",
-        "color": 0
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -3691,7 +3691,7 @@
       "properties": {
         "name": "La Tourette Park",
         "borough": "staten-island",
-        "color": 2
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -3707,7 +3707,7 @@
       "properties": {
         "name": "West Jamaica Bay Islands",
         "borough": "brooklyn",
-        "color": 3
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -4075,7 +4075,7 @@
       "properties": {
         "name": "Liberty Island",
         "borough": "manhattan",
-        "color": 0
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -4187,7 +4187,7 @@
       "properties": {
         "name": "Bronx Park",
         "borough": "bronx",
-        "color": 2
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -4283,7 +4283,7 @@
       "properties": {
         "name": "East Jamaica Bay Islands",
         "borough": "queens",
-        "color": 3
+        "color": 4
       },
       "geometry": {
         "type": "Point",
@@ -4299,7 +4299,7 @@
       "properties": {
         "name": "Flushing Meadows Corona Park",
         "borough": "queens",
-        "color": 2
+        "color": 4
       },
       "geometry": {
         "type": "Point",
