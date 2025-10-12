@@ -1,7 +1,10 @@
 {
     "version": 8,
     "name": "NYC Neighborhood Boundaries",
-    "center": [-74.00775, 40.70664],
+    "center": [
+        -74.00775,
+        40.70664
+    ],
     "zoom": 10.3,
     "terrain": null,
     "imports": [
@@ -73,6 +76,15 @@
                         3
                     ],
                     "#e78ac3",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        4
+                    ],
+                    "#66c2a5",
                     "#ccc"
                 ],
                 "fill-opacity": [
@@ -182,6 +194,15 @@
                         3
                     ],
                     "#e78ac3",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        4
+                    ],
+                    "#66c2a5",
                     "#ccc"
                 ],
                 "text-halo-width": 2,
@@ -198,12 +219,18 @@
                 "text-line-height": 1.1,
                 "text-size": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    
-                    10, 8,
-                    12, 15,
-                    18, 35
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    10,
+                    8,
+                    12,
+                    15,
+                    18,
+                    35
                 ],
                 "text-field": [
                     "upcase",
@@ -259,6 +286,15 @@
                         3
                     ],
                     "#e78ac3",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        4
+                    ],
+                    "#66c2a5",
                     "#ccc"
                 ],
                 "text-halo-width": 1,
