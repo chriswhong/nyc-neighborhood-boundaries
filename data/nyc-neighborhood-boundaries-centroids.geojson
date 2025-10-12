@@ -11,7 +11,7 @@
       "properties": {
         "name": "Rego Park",
         "borough": "queens",
-        "color": 2
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -123,7 +123,7 @@
       "properties": {
         "name": "West Farms",
         "borough": "bronx",
-        "color": 3
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +139,7 @@
       "properties": {
         "name": "Cambria Heights",
         "borough": "queens",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -171,7 +171,7 @@
       "properties": {
         "name": "Maspeth",
         "borough": "queens",
-        "color": 2
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -203,7 +203,7 @@
       "properties": {
         "name": "Bay Terrace",
         "borough": "staten-island",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -235,7 +235,7 @@
       "properties": {
         "name": "Hollis",
         "borough": "queens",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -267,7 +267,7 @@
       "properties": {
         "name": "South Ozone Park",
         "borough": "queens",
-        "color": 2
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -299,7 +299,7 @@
       "properties": {
         "name": "Bayside",
         "borough": "queens",
-        "color": 3
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -315,7 +315,7 @@
       "properties": {
         "name": "La Guardia Airport",
         "borough": "queens",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -331,7 +331,7 @@
       "properties": {
         "name": "Woodhaven",
         "borough": "queens",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -395,7 +395,7 @@
       "properties": {
         "name": "Oakland Gardens",
         "borough": "queens",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -443,7 +443,7 @@
       "properties": {
         "name": "Malba",
         "borough": "queens",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -459,7 +459,7 @@
       "properties": {
         "name": "Briarwood",
         "borough": "queens",
-        "color": 2
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -475,7 +475,7 @@
       "properties": {
         "name": "College Point",
         "borough": "queens",
-        "color": 2
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -507,7 +507,7 @@
       "properties": {
         "name": "Pomonok",
         "borough": "queens",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +523,7 @@
       "properties": {
         "name": "Jamaica Estates",
         "borough": "queens",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -587,7 +587,7 @@
       "properties": {
         "name": "Glen Oaks",
         "borough": "queens",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -603,7 +603,7 @@
       "properties": {
         "name": "Arrochar",
         "borough": "staten-island",
-        "color": 1
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -635,7 +635,7 @@
       "properties": {
         "name": "Bensonhurst",
         "borough": "brooklyn",
-        "color": 0
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -651,7 +651,7 @@
       "properties": {
         "name": "Bath Beach",
         "borough": "brooklyn",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -683,7 +683,7 @@
       "properties": {
         "name": "Clason Point",
         "borough": "bronx",
-        "color": 2
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -779,7 +779,7 @@
       "properties": {
         "name": "Brownsville",
         "borough": "brooklyn",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -795,7 +795,7 @@
       "properties": {
         "name": "Canarsie",
         "borough": "brooklyn",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -811,7 +811,7 @@
       "properties": {
         "name": "East New York",
         "borough": "brooklyn",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -827,7 +827,7 @@
       "properties": {
         "name": "Elm Park",
         "borough": "staten-island",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -843,7 +843,7 @@
       "properties": {
         "name": "Dyker Heights",
         "borough": "brooklyn",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -859,7 +859,7 @@
       "properties": {
         "name": "Fresh Kills",
         "borough": "staten-island",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -875,7 +875,7 @@
       "properties": {
         "name": "Huguenot",
         "borough": "staten-island",
-        "color": 3
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -907,7 +907,7 @@
       "properties": {
         "name": "Flatbush",
         "borough": "brooklyn",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -987,7 +987,7 @@
       "properties": {
         "name": "Park Hill",
         "borough": "staten-island",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1051,7 +1051,7 @@
       "properties": {
         "name": "Sunnyside",
         "borough": "staten-island",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1067,7 +1067,7 @@
       "properties": {
         "name": "Van Nest",
         "borough": "bronx",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1115,7 +1115,7 @@
       "properties": {
         "name": "Woodrow",
         "borough": "staten-island",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1147,7 +1147,7 @@
       "properties": {
         "name": "Fort Wadsworth",
         "borough": "staten-island",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -1163,7 +1163,7 @@
       "properties": {
         "name": "Grant City",
         "borough": "staten-island",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1179,7 +1179,7 @@
       "properties": {
         "name": "Bulls Head",
         "borough": "staten-island",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -1211,7 +1211,7 @@
       "properties": {
         "name": "Chinatown",
         "borough": "manhattan",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1227,7 +1227,7 @@
       "properties": {
         "name": "Dongan Hills",
         "borough": "staten-island",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -1259,7 +1259,7 @@
       "properties": {
         "name": "Graniteville",
         "borough": "staten-island",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1275,7 +1275,7 @@
       "properties": {
         "name": "Greenwich Village",
         "borough": "manhattan",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1307,7 +1307,7 @@
       "properties": {
         "name": "Great Kills",
         "borough": "staten-island",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1355,7 +1355,7 @@
       "properties": {
         "name": "Midland Beach",
         "borough": "staten-island",
-        "color": 1
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1371,7 +1371,7 @@
       "properties": {
         "name": "Harlem",
         "borough": "manhattan",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1387,7 +1387,7 @@
       "properties": {
         "name": "Middle Village",
         "borough": "queens",
-        "color": 3
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1403,7 +1403,7 @@
       "properties": {
         "name": "Murray Hill",
         "borough": "queens",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1419,7 +1419,7 @@
       "properties": {
         "name": "Pleasant Plains",
         "borough": "staten-island",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1451,7 +1451,7 @@
       "properties": {
         "name": "New Dorp",
         "borough": "staten-island",
-        "color": 1
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1515,7 +1515,7 @@
       "properties": {
         "name": "New Springville",
         "borough": "staten-island",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -1531,7 +1531,7 @@
       "properties": {
         "name": "Rossville",
         "borough": "staten-island",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1547,7 +1547,7 @@
       "properties": {
         "name": "Red Hook",
         "borough": "brooklyn",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1563,7 +1563,7 @@
       "properties": {
         "name": "Shore Acres",
         "borough": "staten-island",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1579,7 +1579,7 @@
       "properties": {
         "name": "South Beach",
         "borough": "staten-island",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1611,7 +1611,7 @@
       "properties": {
         "name": "Tompkinsville",
         "borough": "staten-island",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1643,7 +1643,7 @@
       "properties": {
         "name": "Auburndale",
         "borough": "queens",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1675,7 +1675,7 @@
       "properties": {
         "name": "Clinton Hill",
         "borough": "brooklyn",
-        "color": 3
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1707,7 +1707,7 @@
       "properties": {
         "name": "Concourse",
         "borough": "bronx",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -1723,7 +1723,7 @@
       "properties": {
         "name": "Greenpoint",
         "borough": "brooklyn",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1739,7 +1739,7 @@
       "properties": {
         "name": "Hamilton Heights",
         "borough": "manhattan",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1771,7 +1771,7 @@
       "properties": {
         "name": "Marine Park",
         "borough": "brooklyn",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -1787,7 +1787,7 @@
       "properties": {
         "name": "North Riverdale",
         "borough": "bronx",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1803,7 +1803,7 @@
       "properties": {
         "name": "Prospect Park South",
         "borough": "brooklyn",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1819,7 +1819,7 @@
       "properties": {
         "name": "Randall Manor",
         "borough": "staten-island",
-        "color": 0
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1835,7 +1835,7 @@
       "properties": {
         "name": "Todt Hill",
         "borough": "staten-island",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -1851,7 +1851,7 @@
       "properties": {
         "name": "Astoria Heights",
         "borough": "queens",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -1899,7 +1899,7 @@
       "properties": {
         "name": "Co-op City",
         "borough": "bronx",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1915,7 +1915,7 @@
       "properties": {
         "name": "East Harlem",
         "borough": "manhattan",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1931,7 +1931,7 @@
       "properties": {
         "name": "Financial District",
         "borough": "manhattan",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -1947,7 +1947,7 @@
       "properties": {
         "name": "Gerritsen Beach",
         "borough": "brooklyn",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1963,7 +1963,7 @@
       "properties": {
         "name": "Gowanus",
         "borough": "brooklyn",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -1995,7 +1995,7 @@
       "properties": {
         "name": "Midtown",
         "borough": "manhattan",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -2043,7 +2043,7 @@
       "properties": {
         "name": "SoHo",
         "borough": "manhattan",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -2107,7 +2107,7 @@
       "properties": {
         "name": "Vinegar Hill",
         "borough": "brooklyn",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2123,7 +2123,7 @@
       "properties": {
         "name": "West Village",
         "borough": "manhattan",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -2139,7 +2139,7 @@
       "properties": {
         "name": "Annadale",
         "borough": "staten-island",
-        "color": 0
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -2151,9 +2151,9 @@
     },
     {
       "type": "Feature",
-      "id": "battery-park-manhattan",
+      "id": "battery-park-city-manhattan",
       "properties": {
-        "name": "Battery Park",
+        "name": "Battery Park City",
         "borough": "manhattan",
         "color": 0
       },
@@ -2187,7 +2187,7 @@
       "properties": {
         "name": "Astoria",
         "borough": "queens",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -2203,7 +2203,7 @@
       "properties": {
         "name": "Bedford Stuyvesant",
         "borough": "brooklyn",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -2267,7 +2267,7 @@
       "properties": {
         "name": "Garment District",
         "borough": "manhattan",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2299,7 +2299,7 @@
       "properties": {
         "name": "Hunters Point",
         "borough": "queens",
-        "color": 3
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -2315,7 +2315,7 @@
       "properties": {
         "name": "Little Italy",
         "borough": "manhattan",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -2331,7 +2331,7 @@
       "properties": {
         "name": "Lower East Side",
         "borough": "manhattan",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -2363,7 +2363,7 @@
       "properties": {
         "name": "Pelham Bay",
         "borough": "bronx",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -2443,7 +2443,7 @@
       "properties": {
         "name": "Boerum Hill",
         "borough": "brooklyn",
-        "color": 3
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2459,7 +2459,7 @@
       "properties": {
         "name": "Central Park",
         "borough": "manhattan",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2523,7 +2523,7 @@
       "properties": {
         "name": "Whitestone",
         "borough": "queens",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -2539,7 +2539,7 @@
       "properties": {
         "name": "Hunts Point",
         "borough": "bronx",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2555,7 +2555,7 @@
       "properties": {
         "name": "High Bridge",
         "borough": "bronx",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2571,7 +2571,7 @@
       "properties": {
         "name": "Throggs Neck",
         "borough": "bronx",
-        "color": 3
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2603,7 +2603,7 @@
       "properties": {
         "name": "Riverdale",
         "borough": "bronx",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -2635,7 +2635,7 @@
       "properties": {
         "name": "Country Club",
         "borough": "bronx",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -2651,7 +2651,7 @@
       "properties": {
         "name": "Governors Island",
         "borough": "manhattan",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -2667,7 +2667,7 @@
       "properties": {
         "name": "Forest Hills",
         "borough": "queens",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2683,7 +2683,7 @@
       "properties": {
         "name": "Murray Hill",
         "borough": "manhattan",
-        "color": 2
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -2731,7 +2731,7 @@
       "properties": {
         "name": "Jackson Heights",
         "borough": "queens",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2747,7 +2747,7 @@
       "properties": {
         "name": "Laurelton",
         "borough": "queens",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -2779,7 +2779,7 @@
       "properties": {
         "name": "Sheepshead Bay",
         "borough": "brooklyn",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2795,7 +2795,7 @@
       "properties": {
         "name": "Fresh Kills Park",
         "borough": "staten-island",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -2811,7 +2811,7 @@
       "properties": {
         "name": "Grasmere - Concord",
         "borough": "staten-island",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -2827,7 +2827,7 @@
       "properties": {
         "name": "Flatiron District",
         "borough": "manhattan",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -2859,7 +2859,7 @@
       "properties": {
         "name": "Gravesend",
         "borough": "brooklyn",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -2923,7 +2923,7 @@
       "properties": {
         "name": "East Village",
         "borough": "manhattan",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -2939,7 +2939,7 @@
       "properties": {
         "name": "Fieldston",
         "borough": "bronx",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3003,7 +3003,7 @@
       "properties": {
         "name": "Jamaica Hills",
         "borough": "queens",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -3035,7 +3035,7 @@
       "properties": {
         "name": "Lighthouse Hill",
         "borough": "staten-island",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3051,7 +3051,7 @@
       "properties": {
         "name": "Manhattanville",
         "borough": "manhattan",
-        "color": 3
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -3067,7 +3067,7 @@
       "properties": {
         "name": "Midwood",
         "borough": "brooklyn",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3099,7 +3099,7 @@
       "properties": {
         "name": "Glendale",
         "borough": "queens",
-        "color": 2
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -3115,7 +3115,7 @@
       "properties": {
         "name": "Navy Yard",
         "borough": "brooklyn",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3131,7 +3131,7 @@
       "properties": {
         "name": "NoHo",
         "borough": "manhattan",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3147,7 +3147,7 @@
       "properties": {
         "name": "Ocean Hill",
         "borough": "brooklyn",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -3211,7 +3211,7 @@
       "properties": {
         "name": "Flatlands",
         "borough": "brooklyn",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3259,7 +3259,7 @@
       "properties": {
         "name": "Morris Park",
         "borough": "bronx",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3275,7 +3275,7 @@
       "properties": {
         "name": "University Heights",
         "borough": "bronx",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3291,7 +3291,7 @@
       "properties": {
         "name": "Sunnyside",
         "borough": "queens",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3339,7 +3339,7 @@
       "properties": {
         "name": "Chelsea",
         "borough": "manhattan",
-        "color": 0
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3355,7 +3355,7 @@
       "properties": {
         "name": "Utopia",
         "borough": "queens",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3435,7 +3435,7 @@
       "properties": {
         "name": "Kingsbridge",
         "borough": "bronx",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3451,7 +3451,7 @@
       "properties": {
         "name": "Bedford Park",
         "borough": "bronx",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -3467,7 +3467,7 @@
       "properties": {
         "name": "Fordham",
         "borough": "bronx",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -3499,7 +3499,7 @@
       "properties": {
         "name": "Williamsbridge",
         "borough": "bronx",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -3515,7 +3515,7 @@
       "properties": {
         "name": "Baychester",
         "borough": "bronx",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3531,7 +3531,7 @@
       "properties": {
         "name": "Rochdale",
         "borough": "queens",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3547,7 +3547,7 @@
       "properties": {
         "name": "Westchester Heights",
         "borough": "bronx",
-        "color": 0
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -3563,7 +3563,7 @@
       "properties": {
         "name": "Randals-Wards Island",
         "borough": "manhattan",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -3579,7 +3579,7 @@
       "properties": {
         "name": "Prospect Park",
         "borough": "brooklyn",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3595,7 +3595,7 @@
       "properties": {
         "name": "Melrose",
         "borough": "bronx",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3611,7 +3611,7 @@
       "properties": {
         "name": "Longwood",
         "borough": "bronx",
-        "color": 3
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -3643,7 +3643,7 @@
       "properties": {
         "name": "Norwood",
         "borough": "bronx",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3659,7 +3659,7 @@
       "properties": {
         "name": "Bellerose",
         "borough": "queens",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3675,7 +3675,7 @@
       "properties": {
         "name": "Emerson Hill",
         "borough": "staten-island",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3691,7 +3691,7 @@
       "properties": {
         "name": "La Tourette Park",
         "borough": "staten-island",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3723,7 +3723,7 @@
       "properties": {
         "name": "Clove Lake",
         "borough": "staten-island",
-        "color": 0
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3739,7 +3739,7 @@
       "properties": {
         "name": "St. George",
         "borough": "staten-island",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -3755,7 +3755,7 @@
       "properties": {
         "name": "West Brighton",
         "borough": "staten-island",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -3771,7 +3771,7 @@
       "properties": {
         "name": "Castleton Corners",
         "borough": "staten-island",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3819,7 +3819,7 @@
       "properties": {
         "name": "Arden Heights",
         "borough": "staten-island",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3851,7 +3851,7 @@
       "properties": {
         "name": "Douglaston-Little Neck",
         "borough": "queens",
-        "color": 3
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3867,7 +3867,7 @@
       "properties": {
         "name": "Eltingville",
         "borough": "staten-island",
-        "color": 3
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -3915,7 +3915,7 @@
       "properties": {
         "name": "Richmond Town",
         "borough": "staten-island",
-        "color": 0
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -3931,7 +3931,7 @@
       "properties": {
         "name": "Ridgewood",
         "borough": "queens",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -3947,7 +3947,7 @@
       "properties": {
         "name": "Unionport",
         "borough": "bronx",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -3979,7 +3979,7 @@
       "properties": {
         "name": "Morris Heights",
         "borough": "bronx",
-        "color": 2
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -3995,7 +3995,7 @@
       "properties": {
         "name": "Spuyten Duyvil",
         "borough": "bronx",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -4011,7 +4011,7 @@
       "properties": {
         "name": "Wakefield",
         "borough": "bronx",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -4027,7 +4027,7 @@
       "properties": {
         "name": "John F. Kennedy International Airport",
         "borough": "queens",
-        "color": 0
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -4107,7 +4107,7 @@
       "properties": {
         "name": "Richmond Valley",
         "borough": "staten-island",
-        "color": 4
+        "color": 3
       },
       "geometry": {
         "type": "Point",
@@ -4123,7 +4123,7 @@
       "properties": {
         "name": "Silver Lake",
         "borough": "staten-island",
-        "color": 4
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -4139,7 +4139,7 @@
       "properties": {
         "name": "Stuyvesant Town",
         "borough": "manhattan",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -4171,7 +4171,7 @@
       "properties": {
         "name": "Belmont",
         "borough": "bronx",
-        "color": 2
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -4187,7 +4187,7 @@
       "properties": {
         "name": "Bronx Park",
         "borough": "bronx",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -4219,7 +4219,7 @@
       "properties": {
         "name": "Crown Heights",
         "borough": "brooklyn",
-        "color": 4
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -4235,7 +4235,7 @@
       "properties": {
         "name": "Columbia Street Waterfront District",
         "borough": "brooklyn",
-        "color": 4
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -4251,7 +4251,7 @@
       "properties": {
         "name": "Prospect Heights",
         "borough": "brooklyn",
-        "color": 3
+        "color": 1
       },
       "geometry": {
         "type": "Point",
@@ -4299,7 +4299,7 @@
       "properties": {
         "name": "Flushing Meadows Corona Park",
         "borough": "queens",
-        "color": 1
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -4315,7 +4315,7 @@
       "properties": {
         "name": "Hillcrest",
         "borough": "queens",
-        "color": 1
+        "color": 0
       },
       "geometry": {
         "type": "Point",
@@ -4347,7 +4347,7 @@
       "properties": {
         "name": "Floyd Bennett Field",
         "borough": "brooklyn",
-        "color": 0
+        "color": 2
       },
       "geometry": {
         "type": "Point",
@@ -4363,7 +4363,7 @@
       "properties": {
         "name": "Elmhurst",
         "borough": "queens",
-        "color": 0
+        "color": 2
       },
       "geometry": {
         "type": "Point",
