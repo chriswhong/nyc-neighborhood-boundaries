@@ -5,8 +5,8 @@
     <meta charset='utf-8' />
     <title>NYC Neighborhood Boundaries</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v3.14.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.css' rel='stylesheet' />
     <style>
         body {
             margin: 0;
@@ -43,21 +43,69 @@
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoiY2hyaXN3aG9uZ21hcGJveCIsImEiOiJjbDl6bzJ6N3EwMGczM3BudjZmbm5yOXFnIn0.lPhc5Z5H3byF_gf_Jz48Ug';
 
-        const map = new mapboxgl.Map({
-            container: 'map',
-            style: './style.json',
-            config: {
-                basemap: {
-                    showPlaceLabels: false,
-                    theme: "faded"
+        // Load style.json, patch local data paths, then create the map
+        (async () => {
+            // Load the style file
+            const resp = await fetch('./style.json')
+            if (!resp.ok) throw new Error(`Failed to load style.json: ${resp.status} ${resp.statusText}`)
+            const style = await resp.json()
+
+            // Replace source data URLs with local files
+            if (style.sources && style.sources.neighborhoods) {
+                style.sources.neighborhoods.data = '../data/nyc-neighborhood-boundaries.geojson'
+            }
+            if (style.sources && style.sources.centroids) {
+                style.sources.centroids.data = '../data/nyc-neighborhood-boundaries-centroids.geojson'
+            }
+
+            // Create the map using the modified style object
+            const map = new mapboxgl.Map({
+                container: 'map',
+                style: style,
+                config: {
+                    basemap: {
+                        showPlaceLabels: false,
+                        theme: "faded"
+                    }
+                },
+                center: [-73.99201, 40.74584],
+                zoom: 12.00,
+                bearing: 0.00,
+                pitch: 0.00,
+                hash: true,
+            });
+
+            map.on('load', () => {
+                // disable map rotation using right click + drag
+                map.dragRotate.disable();
+
+                // disable map rotation using touch rotation gesture
+                map.touchZoomRotate.disableRotation();
+            });
+
+            map.on('zoom', () => {
+                const zoom = map.getZoom();
+
+                // Calculate pitch based on zoom level
+                // Pitch starts at 0 at zoom 8 and below, reaches 45 degrees at zoom 16 and above
+                let pitch;
+                if (zoom <= 8) {
+                    pitch = 0;
+                } else if (zoom >= 16) {
+                    pitch = 45;
+                } else {
+                    // Linear interpolation between zoom 8-16
+                    pitch = ((zoom - 8) / (16 - 8)) * 45;
                 }
-            },
-            center: [-73.99201, 40.74584],
-            zoom: 12.00,
-            bearing: 0.00,
-            pitch: 0.00,
-            hash: true
-        });
+
+                map.setPitch(pitch);
+            });
+        })().catch(err => {
+            // Minimal error handling for debug
+            // eslint-disable-next-line no-console
+            console.error(err)
+            alert('Failed to initialize map: ' + err.message)
+        })
     </script>
 </body>
 

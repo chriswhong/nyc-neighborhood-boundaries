@@ -8,22 +8,27 @@
         {
             "id": "basemap",
             "url": "mapbox://styles/mapbox/standard",
-            "config": {"theme": "faded", "lightPreset": "day"}
+            "config": {
+                "theme": "monochrome",
+                "lightPreset": "day"
+            }
         }
     ],
     "sources": {
         "neighborhoods": {
             "type": "geojson",
-            "data": "/data/nyc-neighborhood-boundaries.geojson"
+            "data": "{{neighborhoods_geojson_url}}"
         },
         "centroids": {
             "type": "geojson",
-            "data": "https://raw.githubusercontent.com/chriswhong/nyc-neighborhood-boundaries/refs/heads/main/data/nyc-neighborhood-boundaries-centroids.geojson"
+            "data": "{{centroids_geojson_url}}"
         }
     },
     "sprite": "mapbox://sprites/chriswhongmapbox/cmex1c2ou003i01se0k2gcq51/b8fjw435hx85pp7j172f016pl",
     "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
-    "projection": {"name": "globe"},
+    "projection": {
+        "name": "globe"
+    },
     "layers": [
         {
             "id": "neighborhoods-fill",
@@ -32,79 +37,233 @@
             "paint": {
                 "fill-color": [
                     "case",
-                    ["==", ["get", "color"], 0], "#66c2a5",
-                    ["==", ["get", "color"], 1], "#fc8d62",
-                    ["==", ["get", "color"], 2], "#8da0cb",
-                    ["==", ["get", "color"], 3], "#e78ac3",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        0
+                    ],
+                    "#e5c494",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        1
+                    ],
+                    "#fc8d62",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        2
+                    ],
+                    "#8da0cb",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        3
+                    ],
+                    "#e78ac3",
                     "#ccc"
+                ],
+                "fill-opacity": [
+                    "interpolate",
+                    [
+                        "linear"
                     ],
-                    "fill-opacity": [
-                        "interpolate",
-                        ["linear"],
-                        ["zoom"],
-                        8, 0.7,
-                        14, 0.3
-                    ]
-                }
-            },
-            {
-                "id": "neighborhoods-stroke",
-                "type": "line",
-                "source": "neighborhoods",
-                "paint": {
-                    "line-color": "#666",
-                    "line-width": 2
-                }
-            },
-            {
-                "id": "neighborhoods-border-labels",
-                "type": "symbol",
-                "source": "neighborhoods",
-                "minzoom": 11,
-                "maxzoom": 22,
-                "layout": {
-                    "symbol-placement": "line",
-                    "text-field": ["upcase", ["get", "name"]],
-                    "text-font": ["DIN Pro Medium"],
-                    "text-size": 14,
-                    "text-letter-spacing": 0.2,
-                    "text-rotation-alignment": "map",
-                    "text-pitch-alignment": "viewport",
-                    "text-max-angle": 30,
-                    "text-offset": [0, 1.5],
-                    "symbol-spacing": 400,
-                    "text-repeat-distance": 300
-                },
-                "paint": {
-                    "text-color": "#444444",
-                    "text-halo-color": "#ffffff",
-                    "text-halo-width": 2,
-                    "text-halo-blur": 1
-                }
-            },
-            {
-                "id": "centroids-symbol",
-                "type": "symbol",
-                "source": "centroids",
-                "minzoom": 2,
-                "maxzoom": 22,
-                "layout": {
-                    "text-line-height": 1.1,
-                    "text-size": 18,
-                    "text-field": ["upcase", ["get", "name"]],
-                    "text-radial-offset": 8,
-                    "text-font": [ 
-                        "DIN Pro Medium"
+                    [
+                        "zoom"
                     ],
-                    "text-anchor": "center",
-                    "text-max-width": 7
-                },
-                "paint": {
-                    "text-color": "#666666",
-                    "text-halo-color": "#ffffff",
-                    "text-halo-width": 1,
-                    "text-halo-blur": 1
-                }
+                    8,
+                    0.7,
+                    14,
+                    0.5
+                ]
+            },
+            "slot": "bottom"
+        },
+        {
+            "id": "neighborhoods-stroke",
+            "type": "line",
+            "source": "neighborhoods",
+            "paint": {
+                "line-color": "#666",
+                "line-width": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    9,
+                    0.1,
+                    14,
+                    3
+                ]
             }
+        },
+        {
+            "id": "neighborhoods-border-labels",
+            "type": "symbol",
+            "source": "neighborhoods",
+            "minzoom": 14,
+            "maxzoom": 22,
+            "layout": {
+                "symbol-placement": "line",
+                "text-field": [
+                    "upcase",
+                    [
+                        "get",
+                        "name"
+                    ]
+                ],
+                "text-font": [
+                    "DIN Pro Medium"
+                ],
+                "text-size": 14,
+                "text-letter-spacing": 0.2,
+                "text-rotation-alignment": "map",
+                "text-pitch-alignment": "viewport",
+                "text-max-angle": 30,
+                "text-offset": [
+                    0,
+                    1.5
+                ],
+                "symbol-spacing": 400,
+                "text-repeat-distance": 300
+            },
+            "paint": {
+                "text-color": "#444444",
+                "text-halo-color": [
+                    "case",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        0
+                    ],
+                    "#e5c494",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        1
+                    ],
+                    "#fc8d62",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        2
+                    ],
+                    "#8da0cb",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        3
+                    ],
+                    "#e78ac3",
+                    "#ccc"
+                ],
+                "text-halo-width": 2,
+                "text-halo-blur": 1
+            }
+        },
+        {
+            "id": "neighborhoods-labels",
+            "type": "symbol",
+            "source": "centroids",
+            "minzoom": 2,
+            "maxzoom": 18,
+            "layout": {
+                "text-line-height": 1.1,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    
+                    10, 8,
+                    12, 15,
+                    18, 35
+                ],
+                "text-field": [
+                    "upcase",
+                    [
+                        "get",
+                        "name"
+                    ]
+                ],
+                "text-radial-offset": 8,
+                "text-font": [
+                    "DIN Pro Medium"
+                ],
+                "text-anchor": "center",
+                "text-max-width": 7
+            },
+            "paint": {
+                "text-color": "#666666",
+                "text-halo-color": [
+                    "case",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        0
+                    ],
+                    "#e5c494",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        1
+                    ],
+                    "#fc8d62",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        2
+                    ],
+                    "#8da0cb",
+                    [
+                        "==",
+                        [
+                            "get",
+                            "color"
+                        ],
+                        3
+                    ],
+                    "#e78ac3",
+                    "#ccc"
+                ],
+                "text-halo-width": 1,
+                "text-halo-blur": 1
+            }
+        }
     ]
 }
