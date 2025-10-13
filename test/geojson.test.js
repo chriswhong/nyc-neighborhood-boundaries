@@ -25,7 +25,7 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
     let fileContent
 
     beforeAll(() => {
-        const filePath = join(__dirname, 'nyc-neighborhood-boundaries.geojson')
+        const filePath = join(__dirname, '../data/nyc-neighborhood-boundaries.geojson')
         
         try {
             fileContent = readFileSync(filePath, 'utf8')
@@ -152,10 +152,10 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
                 const properties = feature.properties
                 const propertyNames = Object.keys(properties)
                 
-                expect(propertyNames, `Feature ${index + 1} should have exactly 3 properties`).toHaveLength(3)
                 expect(propertyNames, `Feature ${index + 1} should have 'name' property`).toContain('name')
                 expect(propertyNames, `Feature ${index + 1} should have 'borough' property`).toContain('borough')
                 expect(propertyNames, `Feature ${index + 1} should have 'color' property`).toContain('color')
+
                 
                 // Ensure no uppercase versions exist
                 expect(propertyNames, `Feature ${index + 1} should not have uppercase 'Name'`).not.toContain('Name')
@@ -167,7 +167,7 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
             geojson.features.forEach((feature, index) => {
                 const properties = feature.properties
                 const propertyNames = Object.keys(properties)
-                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color'].includes(prop))
+                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color', 'wikipedia_url'].includes(prop))
                 
                 expect(unexpectedProps, `Feature ${index + 1} should not have unexpected properties: ${unexpectedProps.join(', ')}`).toHaveLength(0)
             })

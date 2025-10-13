@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v3
+- add an optional `wikipedia_url` property
+
 ## v2
 - add a `color` property for use in mapping
 - reduce coordinate precision to 6 places to reduce file size
