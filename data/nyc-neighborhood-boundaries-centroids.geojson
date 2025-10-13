@@ -11,7 +11,8 @@
       "properties": {
         "name": "Rego Park",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rego_Park"
       },
       "geometry": {
         "type": "Point",
@@ -27,7 +28,8 @@
       "properties": {
         "name": "Belle Harbor",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Belle_Harbor,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +45,8 @@
       "properties": {
         "name": "Roosevelt Island",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roosevelt_Island"
       },
       "geometry": {
         "type": "Point",
@@ -59,7 +62,8 @@
       "properties": {
         "name": "Howard Beach",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Howard_Beach"
       },
       "geometry": {
         "type": "Point",
@@ -75,7 +79,8 @@
       "properties": {
         "name": "Breezy Point",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Breezy_Point,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -91,7 +96,8 @@
       "properties": {
         "name": "Neponsit",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Neponsit,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -107,7 +113,8 @@
       "properties": {
         "name": "East Elmhurst",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/East_Elmhurst,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -123,7 +130,8 @@
       "properties": {
         "name": "West Farms",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/West_Farms,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +147,8 @@
       "properties": {
         "name": "Cambria Heights",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cambria_Heights,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -155,7 +164,8 @@
       "properties": {
         "name": "Fresh Meadows",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fresh_Meadows,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -171,7 +181,8 @@
       "properties": {
         "name": "Maspeth",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Maspeth,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -203,7 +214,8 @@
       "properties": {
         "name": "Bay Terrace",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bay_Terrace,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -219,7 +231,8 @@
       "properties": {
         "name": "Far Rockaway",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Far_Rockaway"
       },
       "geometry": {
         "type": "Point",
@@ -235,7 +248,8 @@
       "properties": {
         "name": "Hollis",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hollis,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -251,7 +265,8 @@
       "properties": {
         "name": "Jamaica",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamaica,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -267,7 +282,8 @@
       "properties": {
         "name": "South Ozone Park",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/South_Ozone_Park"
       },
       "geometry": {
         "type": "Point",
@@ -283,7 +299,8 @@
       "properties": {
         "name": "Ellis Island",
         "borough": "manhattan",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ellis_Island"
       },
       "geometry": {
         "type": "Point",
@@ -299,7 +316,8 @@
       "properties": {
         "name": "Bayside",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bayside,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -315,7 +333,8 @@
       "properties": {
         "name": "La Guardia Airport",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/LaGuardia_Airport"
       },
       "geometry": {
         "type": "Point",
@@ -331,7 +350,8 @@
       "properties": {
         "name": "Woodhaven",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Woodhaven,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -347,7 +367,8 @@
       "properties": {
         "name": "Arverne",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arverne,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -363,7 +384,8 @@
       "properties": {
         "name": "Broad Channel",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Broad_Channel,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -379,7 +401,8 @@
       "properties": {
         "name": "Flushing",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Flushing,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -411,7 +434,8 @@
       "properties": {
         "name": "Ozone Park",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ozone_Park"
       },
       "geometry": {
         "type": "Point",
@@ -427,7 +451,8 @@
       "properties": {
         "name": "Fort Tilden",
         "borough": "queens",
-        "color": 2
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Tilden"
       },
       "geometry": {
         "type": "Point",
@@ -459,7 +484,8 @@
       "properties": {
         "name": "Briarwood",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Briarwood,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -475,7 +501,8 @@
       "properties": {
         "name": "College Point",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/College_Point"
       },
       "geometry": {
         "type": "Point",
@@ -491,7 +518,8 @@
       "properties": {
         "name": "Corona",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Corona,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -507,7 +535,8 @@
       "properties": {
         "name": "Pomonok",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pomonok,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +552,8 @@
       "properties": {
         "name": "Jamaica Estates",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamaica_Estates,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -539,7 +569,8 @@
       "properties": {
         "name": "Rockaway Park",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rockaway_Park"
       },
       "geometry": {
         "type": "Point",
@@ -555,7 +586,8 @@
       "properties": {
         "name": "Roxbury",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Roxbury,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -571,7 +603,8 @@
       "properties": {
         "name": "Rockaway Beach",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rockaway_Beach,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -587,7 +620,8 @@
       "properties": {
         "name": "Glen Oaks",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Glen_Oaks,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -603,7 +637,8 @@
       "properties": {
         "name": "Arrochar",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arrochar,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -619,7 +654,8 @@
       "properties": {
         "name": "Kew Gardens Hills",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kew_Gardens,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -635,7 +671,8 @@
       "properties": {
         "name": "Bensonhurst",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bensonhurst,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -651,7 +688,8 @@
       "properties": {
         "name": "Bath Beach",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bath_Beach,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -667,7 +705,8 @@
       "properties": {
         "name": "Bay Ridge",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bay_Ridge,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -683,7 +722,8 @@
       "properties": {
         "name": "Clason Point",
         "borough": "bronx",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clason_Point,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -699,7 +739,8 @@
       "properties": {
         "name": "Clifton",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clifton,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -715,7 +756,8 @@
       "properties": {
         "name": "East Flatbush",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/East_Flatbush%2C_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -731,7 +773,8 @@
       "properties": {
         "name": "Bergen Beach",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bergen_Beach,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -747,7 +790,8 @@
       "properties": {
         "name": "Borough Park",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Borough_Park,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -763,7 +807,8 @@
       "properties": {
         "name": "Brighton Beach",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brighton_Beach"
       },
       "geometry": {
         "type": "Point",
@@ -779,7 +824,8 @@
       "properties": {
         "name": "Brownsville",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brownsville,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -795,7 +841,8 @@
       "properties": {
         "name": "Canarsie",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Canarsie,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -811,7 +858,8 @@
       "properties": {
         "name": "East New York",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/East_New_York"
       },
       "geometry": {
         "type": "Point",
@@ -827,7 +875,8 @@
       "properties": {
         "name": "Elm Park",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Elm_Park,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -843,7 +892,8 @@
       "properties": {
         "name": "Dyker Heights",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dyker_Heights,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -859,7 +909,8 @@
       "properties": {
         "name": "Fresh Kills",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fresh_Kills"
       },
       "geometry": {
         "type": "Point",
@@ -875,7 +926,8 @@
       "properties": {
         "name": "Huguenot",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Huguenot,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -891,7 +943,8 @@
       "properties": {
         "name": "Coney Island",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Coney_Island"
       },
       "geometry": {
         "type": "Point",
@@ -907,7 +960,8 @@
       "properties": {
         "name": "Flatbush",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Flatbush"
       },
       "geometry": {
         "type": "Point",
@@ -923,7 +977,8 @@
       "properties": {
         "name": "Manhattan Beach",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manhattan_Beach,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -939,7 +994,8 @@
       "properties": {
         "name": "Mariner's Harbor",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mariners_Harbor,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -955,7 +1011,8 @@
       "properties": {
         "name": "New Brighton",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/New_Brighton,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1003,7 +1060,8 @@
       "properties": {
         "name": "Park Slope",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Park_Slope"
       },
       "geometry": {
         "type": "Point",
@@ -1019,7 +1077,8 @@
       "properties": {
         "name": "Port Ivory",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Port_Ivory,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1035,7 +1094,8 @@
       "properties": {
         "name": "Port Richmond",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Port_Richmond,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1051,7 +1111,8 @@
       "properties": {
         "name": "Sunnyside",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sunnyside,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1067,7 +1128,8 @@
       "properties": {
         "name": "Van Nest",
         "borough": "bronx",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Van_Nest,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -1083,7 +1145,8 @@
       "properties": {
         "name": "Washington Heights",
         "borough": "manhattan",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Washington_Heights,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -1099,7 +1162,8 @@
       "properties": {
         "name": "Willowbrook",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Willowbrook,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1115,7 +1179,8 @@
       "properties": {
         "name": "Woodrow",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Woodrow,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1131,7 +1196,8 @@
       "properties": {
         "name": "Woodside",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Woodside,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -1147,7 +1213,8 @@
       "properties": {
         "name": "Fort Wadsworth",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Wadsworth"
       },
       "geometry": {
         "type": "Point",
@@ -1163,7 +1230,8 @@
       "properties": {
         "name": "Grant City",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grant_City,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1179,7 +1247,8 @@
       "properties": {
         "name": "Bulls Head",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bulls_Head,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1195,7 +1264,8 @@
       "properties": {
         "name": "Bushwick",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bushwick,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1211,7 +1281,8 @@
       "properties": {
         "name": "Chinatown",
         "borough": "manhattan",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chinatown,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -1227,7 +1298,8 @@
       "properties": {
         "name": "Dongan Hills",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dongan_Hills,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1243,7 +1315,8 @@
       "properties": {
         "name": "East Tremont",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/East_Tremont,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -1259,7 +1332,8 @@
       "properties": {
         "name": "Graniteville",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Graniteville,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1275,7 +1349,8 @@
       "properties": {
         "name": "Greenwich Village",
         "borough": "manhattan",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Greenwich_Village"
       },
       "geometry": {
         "type": "Point",
@@ -1291,7 +1366,8 @@
       "properties": {
         "name": "Grymes Hill",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grymes_Hill,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1307,7 +1383,8 @@
       "properties": {
         "name": "Great Kills",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Kills,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1323,7 +1400,8 @@
       "properties": {
         "name": "Greenridge",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Greenridge,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1339,7 +1417,8 @@
       "properties": {
         "name": "Inwood",
         "borough": "manhattan",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Inwood,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -1355,7 +1434,8 @@
       "properties": {
         "name": "Midland Beach",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Midland_Beach,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1371,7 +1451,8 @@
       "properties": {
         "name": "Harlem",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Harlem"
       },
       "geometry": {
         "type": "Point",
@@ -1387,7 +1468,8 @@
       "properties": {
         "name": "Middle Village",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Middle_Village,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -1419,7 +1501,8 @@
       "properties": {
         "name": "Pleasant Plains",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pleasant_Plains,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1435,7 +1518,8 @@
       "properties": {
         "name": "Rosebank",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rosebank,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1451,7 +1535,8 @@
       "properties": {
         "name": "New Dorp",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/New_Dorp,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1483,7 +1568,8 @@
       "properties": {
         "name": "Oakwood",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oakwood,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1499,7 +1585,8 @@
       "properties": {
         "name": "Port Morris",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Port_Morris,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -1515,7 +1602,8 @@
       "properties": {
         "name": "New Springville",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/New_Springville,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1531,7 +1619,8 @@
       "properties": {
         "name": "Rossville",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rossville,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1547,7 +1636,8 @@
       "properties": {
         "name": "Red Hook",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Red_Hook,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1563,7 +1653,8 @@
       "properties": {
         "name": "Shore Acres",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Shore_Acres,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1579,7 +1670,8 @@
       "properties": {
         "name": "South Beach",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/South_Beach,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1595,7 +1687,8 @@
       "properties": {
         "name": "Stapleton",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Stapleton,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1611,7 +1704,8 @@
       "properties": {
         "name": "Tompkinsville",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tompkinsville,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1627,7 +1721,8 @@
       "properties": {
         "name": "Williamsburg",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Williamsburg,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1643,7 +1738,8 @@
       "properties": {
         "name": "Auburndale",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Auburndale,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -1659,7 +1755,8 @@
       "properties": {
         "name": "Bay Terrace",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bay_Terrace,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -1675,7 +1772,8 @@
       "properties": {
         "name": "Clinton Hill",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clinton_Hill,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1691,7 +1789,8 @@
       "properties": {
         "name": "Cobble Hill",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cobble_Hill,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1707,7 +1806,8 @@
       "properties": {
         "name": "Concourse",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Concourse,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -1723,7 +1823,8 @@
       "properties": {
         "name": "Greenpoint",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Greenpoint,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1739,7 +1840,8 @@
       "properties": {
         "name": "Hamilton Heights",
         "borough": "manhattan",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hamilton_Heights,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -1755,7 +1857,8 @@
       "properties": {
         "name": "Marble Hill",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marble_Hill,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -1771,7 +1874,8 @@
       "properties": {
         "name": "Marine Park",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Marine_Park_(neighborhood),_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1787,7 +1891,8 @@
       "properties": {
         "name": "North Riverdale",
         "borough": "bronx",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/North_Riverdale,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -1803,7 +1908,8 @@
       "properties": {
         "name": "Prospect Park South",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prospect_Park_South"
       },
       "geometry": {
         "type": "Point",
@@ -1819,7 +1925,8 @@
       "properties": {
         "name": "Randall Manor",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Randall_Manor,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1835,7 +1942,8 @@
       "properties": {
         "name": "Todt Hill",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Todt_Hill"
       },
       "geometry": {
         "type": "Point",
@@ -1867,7 +1975,8 @@
       "properties": {
         "name": "Carnegie Hill",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carnegie_Hill"
       },
       "geometry": {
         "type": "Point",
@@ -1883,7 +1992,8 @@
       "properties": {
         "name": "Castle Hill",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Castle_Hill,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -1899,7 +2009,8 @@
       "properties": {
         "name": "Co-op City",
         "borough": "bronx",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Co-op_City,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -1915,7 +2026,8 @@
       "properties": {
         "name": "East Harlem",
         "borough": "manhattan",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/East_Harlem"
       },
       "geometry": {
         "type": "Point",
@@ -1931,7 +2043,8 @@
       "properties": {
         "name": "Financial District",
         "borough": "manhattan",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Financial_District,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -1947,7 +2060,8 @@
       "properties": {
         "name": "Gerritsen Beach",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gerritsen_Beach,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1963,7 +2077,8 @@
       "properties": {
         "name": "Gowanus",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gowanus,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -1979,7 +2094,8 @@
       "properties": {
         "name": "Heartland Village",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Heartland_Village,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -1995,7 +2111,8 @@
       "properties": {
         "name": "Midtown",
         "borough": "manhattan",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Midtown_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -2011,7 +2128,8 @@
       "properties": {
         "name": "Ocean Parkway",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ocean_Parkway_(Brooklyn)"
       },
       "geometry": {
         "type": "Point",
@@ -2027,7 +2145,8 @@
       "properties": {
         "name": "Prince's Bay",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prince%27s_Bay,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -2043,7 +2162,8 @@
       "properties": {
         "name": "SoHo",
         "borough": "manhattan",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/SoHo,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -2075,7 +2195,8 @@
       "properties": {
         "name": "Tribeca",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tribeca"
       },
       "geometry": {
         "type": "Point",
@@ -2091,7 +2212,8 @@
       "properties": {
         "name": "Turtle Bay",
         "borough": "manhattan",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Turtle_Bay,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -2107,7 +2229,8 @@
       "properties": {
         "name": "Vinegar Hill",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vinegar_Hill,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2123,7 +2246,8 @@
       "properties": {
         "name": "West Village",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/West_Village"
       },
       "geometry": {
         "type": "Point",
@@ -2139,7 +2263,8 @@
       "properties": {
         "name": "Annadale",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Annadale,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -2155,7 +2280,8 @@
       "properties": {
         "name": "Battery Park City",
         "borough": "manhattan",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Battery_Park_City"
       },
       "geometry": {
         "type": "Point",
@@ -2171,7 +2297,8 @@
       "properties": {
         "name": "Wingate",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wingate,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2187,7 +2314,8 @@
       "properties": {
         "name": "Astoria",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Astoria,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -2203,7 +2331,8 @@
       "properties": {
         "name": "Bedford Stuyvesant",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bedford%E2%80%93Stuyvesant,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2231,11 +2360,12 @@
     },
     {
       "type": "Feature",
-      "id": "downtown-brooklyn",
+      "id": "downtown-brooklyn-brooklyn",
       "properties": {
         "name": "Downtown Brooklyn",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Downtown_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2251,7 +2381,8 @@
       "properties": {
         "name": "DUMBO",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dumbo,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2267,7 +2398,8 @@
       "properties": {
         "name": "Garment District",
         "borough": "manhattan",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Garment_District,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -2283,7 +2415,8 @@
       "properties": {
         "name": "Homecrest",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Homecrest,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2315,7 +2448,8 @@
       "properties": {
         "name": "Little Italy",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Little_Italy,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -2331,7 +2465,8 @@
       "properties": {
         "name": "Lower East Side",
         "borough": "manhattan",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lower_East_Side"
       },
       "geometry": {
         "type": "Point",
@@ -2347,7 +2482,8 @@
       "properties": {
         "name": "Morningside Heights",
         "borough": "manhattan",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Morningside_Heights"
       },
       "geometry": {
         "type": "Point",
@@ -2363,7 +2499,8 @@
       "properties": {
         "name": "Pelham Bay",
         "borough": "bronx",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pelham_Bay_(neighborhood),_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2379,7 +2516,8 @@
       "properties": {
         "name": "Pelham Gardens",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pelham_Gardens,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2395,7 +2533,8 @@
       "properties": {
         "name": "Rikers Island",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rikers_Island"
       },
       "geometry": {
         "type": "Point",
@@ -2411,7 +2550,8 @@
       "properties": {
         "name": "Upper East Side",
         "borough": "manhattan",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Upper_East_Side"
       },
       "geometry": {
         "type": "Point",
@@ -2427,7 +2567,8 @@
       "properties": {
         "name": "Upper West Side",
         "borough": "manhattan",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Upper_West_Side"
       },
       "geometry": {
         "type": "Point",
@@ -2443,7 +2584,8 @@
       "properties": {
         "name": "Boerum Hill",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Boerum_Hill"
       },
       "geometry": {
         "type": "Point",
@@ -2459,7 +2601,8 @@
       "properties": {
         "name": "Central Park",
         "borough": "manhattan",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Central_Park"
       },
       "geometry": {
         "type": "Point",
@@ -2475,7 +2618,8 @@
       "properties": {
         "name": "Queens Village",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Queens_Village,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -2507,7 +2651,8 @@
       "properties": {
         "name": "Rosedale",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rosedale,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -2523,7 +2668,8 @@
       "properties": {
         "name": "Whitestone",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Whitestone,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -2539,7 +2685,8 @@
       "properties": {
         "name": "Hunts Point",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hunts_Point,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2555,7 +2702,8 @@
       "properties": {
         "name": "High Bridge",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Highbridge,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2571,7 +2719,8 @@
       "properties": {
         "name": "Throggs Neck",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Throggs_Neck"
       },
       "geometry": {
         "type": "Point",
@@ -2587,7 +2736,8 @@
       "properties": {
         "name": "South Bronx",
         "borough": "bronx",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/South_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2603,7 +2753,8 @@
       "properties": {
         "name": "Riverdale",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Riverdale,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2619,7 +2770,8 @@
       "properties": {
         "name": "Eastchester",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eastchester,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2635,7 +2787,8 @@
       "properties": {
         "name": "Country Club",
         "borough": "bronx",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Country_Club,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2651,7 +2804,8 @@
       "properties": {
         "name": "Governors Island",
         "borough": "manhattan",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Governors_Island"
       },
       "geometry": {
         "type": "Point",
@@ -2667,7 +2821,8 @@
       "properties": {
         "name": "Forest Hills",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Forest_Hills,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -2683,7 +2838,8 @@
       "properties": {
         "name": "Murray Hill",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Murray_Hill,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -2699,7 +2855,8 @@
       "properties": {
         "name": "Kew Gardens",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kew_Gardens,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -2715,7 +2872,8 @@
       "properties": {
         "name": "Fort Greene",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fort_Greene,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2731,7 +2889,8 @@
       "properties": {
         "name": "Jackson Heights",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jackson_Heights"
       },
       "geometry": {
         "type": "Point",
@@ -2747,7 +2906,8 @@
       "properties": {
         "name": "Laurelton",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Laurelton,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -2763,7 +2923,8 @@
       "properties": {
         "name": "Brooklyn Heights",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Heights"
       },
       "geometry": {
         "type": "Point",
@@ -2779,7 +2940,8 @@
       "properties": {
         "name": "Sheepshead Bay",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sheepshead_Bay,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2795,7 +2957,8 @@
       "properties": {
         "name": "Fresh Kills Park",
         "borough": "staten-island",
-        "color": 0
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Freshkills_Park"
       },
       "geometry": {
         "type": "Point",
@@ -2811,7 +2974,8 @@
       "properties": {
         "name": "Grasmere - Concord",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grasmere,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -2827,7 +2991,8 @@
       "properties": {
         "name": "Flatiron District",
         "borough": "manhattan",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Flatiron_District"
       },
       "geometry": {
         "type": "Point",
@@ -2843,7 +3008,8 @@
       "properties": {
         "name": "Van Cortlandt Park",
         "borough": "bronx",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Van_Cortlandt_Park"
       },
       "geometry": {
         "type": "Point",
@@ -2859,7 +3025,8 @@
       "properties": {
         "name": "Gravesend",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gravesend,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2875,7 +3042,8 @@
       "properties": {
         "name": "Blissville",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Long_Island_City#Blissville"
       },
       "geometry": {
         "type": "Point",
@@ -2907,7 +3075,8 @@
       "properties": {
         "name": "Carroll Gardens",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carroll_Gardens,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -2923,7 +3092,8 @@
       "properties": {
         "name": "East Village",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/East_Village,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -2939,7 +3109,8 @@
       "properties": {
         "name": "Fieldston",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fieldston,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -2971,7 +3142,8 @@
       "properties": {
         "name": "Hart Island",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hart_Island"
       },
       "geometry": {
         "type": "Point",
@@ -2987,7 +3159,8 @@
       "properties": {
         "name": "Holliswood",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Holliswood,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3003,7 +3176,8 @@
       "properties": {
         "name": "Jamaica Hills",
         "borough": "queens",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamaica_Hills,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3019,7 +3193,8 @@
       "properties": {
         "name": "Richmond Hill",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Richmond_Hill,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3035,7 +3210,8 @@
       "properties": {
         "name": "Lighthouse Hill",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lighthouse_Hill,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3051,7 +3227,8 @@
       "properties": {
         "name": "Manhattanville",
         "borough": "manhattan",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Manhattanville,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -3067,7 +3244,8 @@
       "properties": {
         "name": "Midwood",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Midwood,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -3083,7 +3261,8 @@
       "properties": {
         "name": "Mill Basin",
         "borough": "brooklyn",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mill_Basin,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -3099,7 +3278,8 @@
       "properties": {
         "name": "Glendale",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Glendale,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3115,7 +3295,8 @@
       "properties": {
         "name": "Navy Yard",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brooklyn_Navy_Yard"
       },
       "geometry": {
         "type": "Point",
@@ -3131,7 +3312,8 @@
       "properties": {
         "name": "NoHo",
         "borough": "manhattan",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/NoHo,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -3147,7 +3329,8 @@
       "properties": {
         "name": "Ocean Hill",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ocean_Hill,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -3163,7 +3346,8 @@
       "properties": {
         "name": "Old Town",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Old_Town,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3179,7 +3363,8 @@
       "properties": {
         "name": "Sunset Park",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sunset_Park%2C_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -3195,7 +3380,8 @@
       "properties": {
         "name": "Tudor City",
         "borough": "manhattan",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tudor_City"
       },
       "geometry": {
         "type": "Point",
@@ -3211,7 +3397,8 @@
       "properties": {
         "name": "Flatlands",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Flatlands,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -3227,7 +3414,8 @@
       "properties": {
         "name": "Springfield Gardens",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Springfield_Gardens,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3243,7 +3431,8 @@
       "properties": {
         "name": "St. Albans",
         "borough": "queens",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Albans,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3259,7 +3448,8 @@
       "properties": {
         "name": "Morris Park",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Morris_Park,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3275,7 +3465,8 @@
       "properties": {
         "name": "University Heights",
         "borough": "bronx",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/University_Heights,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3291,7 +3482,8 @@
       "properties": {
         "name": "Sunnyside",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sunnyside,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3307,7 +3499,8 @@
       "properties": {
         "name": "Tottenville",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tottenville,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3323,7 +3516,8 @@
       "properties": {
         "name": "Westerleigh",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Westerleigh,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3339,7 +3533,8 @@
       "properties": {
         "name": "Chelsea",
         "borough": "manhattan",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chelsea,_Manhattan"
       },
       "geometry": {
         "type": "Point",
@@ -3371,7 +3566,8 @@
       "properties": {
         "name": "Mott Haven",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mott_Haven,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3387,7 +3583,8 @@
       "properties": {
         "name": "Soundview",
         "borough": "bronx",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Soundview,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3403,7 +3600,8 @@
       "properties": {
         "name": "Woodlawn",
         "borough": "bronx",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Woodlawn_Heights,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3419,7 +3617,8 @@
       "properties": {
         "name": "City Island",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/City_Island,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3435,7 +3634,8 @@
       "properties": {
         "name": "Kingsbridge",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kingsbridge,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3451,7 +3651,8 @@
       "properties": {
         "name": "Bedford Park",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bedford_Park,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3467,7 +3668,8 @@
       "properties": {
         "name": "Fordham",
         "borough": "bronx",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fordham,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3483,7 +3685,8 @@
       "properties": {
         "name": "Tremont",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tremont,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3499,7 +3702,8 @@
       "properties": {
         "name": "Williamsbridge",
         "borough": "bronx",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Williamsbridge,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3515,7 +3719,8 @@
       "properties": {
         "name": "Baychester",
         "borough": "bronx",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Baychester,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3531,7 +3736,8 @@
       "properties": {
         "name": "Rochdale",
         "borough": "queens",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rochdale_Village,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3563,7 +3769,8 @@
       "properties": {
         "name": "Randals-Wards Island",
         "borough": "manhattan",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Randalls_and_Wards_Islands"
       },
       "geometry": {
         "type": "Point",
@@ -3579,7 +3786,8 @@
       "properties": {
         "name": "Prospect Park",
         "borough": "brooklyn",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prospect_Park_(Brooklyn)"
       },
       "geometry": {
         "type": "Point",
@@ -3595,7 +3803,8 @@
       "properties": {
         "name": "Melrose",
         "borough": "bronx",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Melrose,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3611,7 +3820,8 @@
       "properties": {
         "name": "Longwood",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Longwood,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3627,7 +3837,8 @@
       "properties": {
         "name": "Pelham Bay Park",
         "borough": "bronx",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pelham_Bay_Park"
       },
       "geometry": {
         "type": "Point",
@@ -3643,7 +3854,8 @@
       "properties": {
         "name": "Norwood",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Norwood,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3659,7 +3871,8 @@
       "properties": {
         "name": "Bellerose",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bellerose,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3675,7 +3888,8 @@
       "properties": {
         "name": "Emerson Hill",
         "borough": "staten-island",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Emerson_Hill,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3691,7 +3905,8 @@
       "properties": {
         "name": "La Tourette Park",
         "borough": "staten-island",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/La_Tourette_Golf_Course"
       },
       "geometry": {
         "type": "Point",
@@ -3707,7 +3922,8 @@
       "properties": {
         "name": "West Jamaica Bay Islands",
         "borough": "brooklyn",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamaica_Bay_Wildlife_Refuge"
       },
       "geometry": {
         "type": "Point",
@@ -3803,7 +4019,8 @@
       "properties": {
         "name": "Windsor Terrace",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Windsor_Terrace,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -3819,7 +4036,8 @@
       "properties": {
         "name": "Arden Heights",
         "borough": "staten-island",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arden_Heights,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3835,7 +4053,8 @@
       "properties": {
         "name": "Charleston",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Charleston,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3851,7 +4070,8 @@
       "properties": {
         "name": "Douglaston-Little Neck",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Douglaston%E2%80%93Little_Neck,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3867,7 +4087,8 @@
       "properties": {
         "name": "Eltingville",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eltingville,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3883,7 +4104,8 @@
       "properties": {
         "name": "Gramercy",
         "borough": "manhattan",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gramercy_Park"
       },
       "geometry": {
         "type": "Point",
@@ -3915,7 +4137,8 @@
       "properties": {
         "name": "Richmond Town",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Richmondtown,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -3931,7 +4154,8 @@
       "properties": {
         "name": "Ridgewood",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ridgewood,_Queens"
       },
       "geometry": {
         "type": "Point",
@@ -3963,7 +4187,8 @@
       "properties": {
         "name": "Parkchester",
         "borough": "bronx",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Parkchester,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3979,7 +4204,8 @@
       "properties": {
         "name": "Morris Heights",
         "borough": "bronx",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Morris_Heights,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -3995,7 +4221,8 @@
       "properties": {
         "name": "Spuyten Duyvil",
         "borough": "bronx",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Spuyten_Duyvil,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -4011,7 +4238,8 @@
       "properties": {
         "name": "Wakefield",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wakefield,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -4027,7 +4255,8 @@
       "properties": {
         "name": "John F. Kennedy International Airport",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/John_F._Kennedy_International_Airport"
       },
       "geometry": {
         "type": "Point",
@@ -4043,7 +4272,8 @@
       "properties": {
         "name": "Meiers Corners",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Meiers_Corners,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -4059,7 +4289,8 @@
       "properties": {
         "name": "Bloomfield",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bloomfield,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -4075,7 +4306,8 @@
       "properties": {
         "name": "Liberty Island",
         "borough": "manhattan",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Liberty_Island"
       },
       "geometry": {
         "type": "Point",
@@ -4091,7 +4323,8 @@
       "properties": {
         "name": "Mill Rock Park",
         "borough": "manhattan",
-        "color": 0
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mill_Rock"
       },
       "geometry": {
         "type": "Point",
@@ -4107,7 +4340,8 @@
       "properties": {
         "name": "Richmond Valley",
         "borough": "staten-island",
-        "color": 3
+        "color": 3,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Richmond_Valley,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -4123,7 +4357,8 @@
       "properties": {
         "name": "Silver Lake",
         "borough": "staten-island",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Silver_Lake,_Staten_Island"
       },
       "geometry": {
         "type": "Point",
@@ -4139,7 +4374,8 @@
       "properties": {
         "name": "Stuyvesant Town",
         "borough": "manhattan",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Stuyvesant_Town%E2%80%93Peter_Cooper_Village"
       },
       "geometry": {
         "type": "Point",
@@ -4155,7 +4391,8 @@
       "properties": {
         "name": "Columbus Circle",
         "borough": "manhattan",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Columbus_Circle"
       },
       "geometry": {
         "type": "Point",
@@ -4171,7 +4408,8 @@
       "properties": {
         "name": "Belmont",
         "borough": "bronx",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Belmont,_Bronx"
       },
       "geometry": {
         "type": "Point",
@@ -4187,7 +4425,8 @@
       "properties": {
         "name": "Bronx Park",
         "borough": "bronx",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bronx_Park"
       },
       "geometry": {
         "type": "Point",
@@ -4203,7 +4442,8 @@
       "properties": {
         "name": "Kensington",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kensington,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -4219,7 +4459,8 @@
       "properties": {
         "name": "Crown Heights",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Crown_Heights"
       },
       "geometry": {
         "type": "Point",
@@ -4235,7 +4476,8 @@
       "properties": {
         "name": "Columbia Street Waterfront District",
         "borough": "brooklyn",
-        "color": 0
+        "color": 0,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Columbia_Street_Waterfront_District"
       },
       "geometry": {
         "type": "Point",
@@ -4251,7 +4493,8 @@
       "properties": {
         "name": "Prospect Heights",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prospect_Heights,_Brooklyn"
       },
       "geometry": {
         "type": "Point",
@@ -4267,7 +4510,8 @@
       "properties": {
         "name": "Prospect Lefferts Gardens",
         "borough": "brooklyn",
-        "color": 1
+        "color": 1,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prospect_Lefferts_Gardens"
       },
       "geometry": {
         "type": "Point",
@@ -4283,7 +4527,8 @@
       "properties": {
         "name": "East Jamaica Bay Islands",
         "borough": "queens",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jamaica_Bay_Wildlife_Refuge"
       },
       "geometry": {
         "type": "Point",
@@ -4299,7 +4544,8 @@
       "properties": {
         "name": "Flushing Meadows Corona Park",
         "borough": "queens",
-        "color": 4
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Flushing_Meadows%E2%80%93Corona_Park"
       },
       "geometry": {
         "type": "Point",
@@ -4331,7 +4577,8 @@
       "properties": {
         "name": "Jacob Riis Park",
         "borough": "queens",
-        "color": 3
+        "color": 4,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jacob_Riis_Park"
       },
       "geometry": {
         "type": "Point",
@@ -4347,7 +4594,8 @@
       "properties": {
         "name": "Floyd Bennett Field",
         "borough": "brooklyn",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Floyd_Bennett_Field"
       },
       "geometry": {
         "type": "Point",
@@ -4363,7 +4611,8 @@
       "properties": {
         "name": "Elmhurst",
         "borough": "queens",
-        "color": 2
+        "color": 2,
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Elmhurst,_Queens"
       },
       "geometry": {
         "type": "Point",
