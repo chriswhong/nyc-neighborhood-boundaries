@@ -12,8 +12,8 @@
             "id": "basemap",
             "url": "mapbox://styles/mapbox/standard",
             "config": {
-                "theme": "monochrome",
-                "lightPreset": "day"
+                "theme": "faded",
+                "showPlaceLabels": false
             }
         }
     ],
