@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "test:watch": "vitest",
-    "generate-centroids": "node scripts/generate-centroids.js"
+    "test:watch": "vitest"
   },
   "keywords": [
     "nyc",

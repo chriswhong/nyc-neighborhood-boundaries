@@ -55,7 +55,6 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
                 expect(feature.type, `Feature ${index + 1} should have type "Feature"`).toBe('Feature')
                 expect(feature.geometry, `Feature ${index + 1} should have geometry`).toBeDefined()
                 expect(feature.properties, `Feature ${index + 1} should have properties`).toBeDefined()
-                expect(feature.id, `Feature ${index + 1} should have an id`).toBeDefined()
             })
         })
     })
@@ -107,14 +106,13 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
     })
 
     describe('Feature ID Validation', () => {
-        test('all features should have kebab-case IDs matching name-borough pattern', () => {
+        test('all features should have kebab-case slugs matching name-borough pattern', () => {
             geojson.features.forEach((feature, index) => {
-                expect(feature.id, `Feature ${index + 1} should have an id`).toBeDefined()
                 expect(feature.properties.name, `Feature ${index + 1} should have a name`).toBeDefined()
                 expect(feature.properties.borough, `Feature ${index + 1} should have a borough`).toBeDefined()
-                
-                const expectedId = toKebabCase(`${feature.properties.name}-${feature.properties.borough}`)
-                expect(feature.id, `Feature "${feature.properties.name}" in "${feature.properties.borough}" should have id "${expectedId}"`).toBe(expectedId)
+
+                const expectedSlug = toKebabCase(`${feature.properties.name}-${feature.properties.borough}`)
+                expect(feature.properties.slug, `Feature "${feature.properties.name}" in "${feature.properties.borough}" should have slug "${expectedSlug}"`).toBe(expectedSlug)
             })
         })
 
@@ -139,10 +137,10 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
             })
         })
 
-        test('all feature IDs should be unique', () => {
-            const ids = geojson.features.map(f => f.id)
-            const uniqueIds = new Set(ids)
-            expect(uniqueIds.size, 'All feature IDs should be unique').toBe(ids.length)
+        test('all feature slugs should be unique', () => {
+            const slugs = geojson.features.map(f => f.properties.slug)
+            const uniqueSlugs = new Set(slugs)
+            expect(uniqueSlugs.size, 'All feature slugs should be unique').toBe(slugs.length)
         })
     })
 
@@ -167,7 +165,7 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
             geojson.features.forEach((feature, index) => {
                 const properties = feature.properties
                 const propertyNames = Object.keys(properties)
-                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color', 'wikipedia_url'].includes(prop))
+                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color', 'wikipedia_url', 'slug'].includes(prop))
                 
                 expect(unexpectedProps, `Feature ${index + 1} should not have unexpected properties: ${unexpectedProps.join(', ')}`).toHaveLength(0)
             })
