@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## v4
+- remove feature `id`, move to `slug` property
+
 ## v3
 - add an optional `wikipedia_url` property
 

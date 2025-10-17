@@ -20,11 +20,13 @@
     "sources": {
         "neighborhoods": {
             "type": "geojson",
-            "data": "{{neighborhoods_geojson_url}}"
+            "data": "{{neighborhoods_geojson_url}}",
+            "promoteId": "slug"
         },
         "centroids": {
             "type": "geojson",
-            "data": "{{centroids_geojson_url}}"
+            "data": "{{centroids_geojson_url}}",
+            "promoteId": "slug"
         }
     },
     "sprite": "mapbox://sprites/chriswhongmapbox/cmex1c2ou003i01se0k2gcq51/b8fjw435hx85pp7j172f016pl",
@@ -96,9 +98,33 @@
                         "zoom"
                     ],
                     8,
-                    0.7,
+                    [
+                        "case",
+                        [
+                            "boolean",
+                            [
+                                "feature-state",
+                                "active"
+                            ],
+                            false
+                        ],
+                        1,
+                        0.7
+                    ],
                     14,
-                    0.5
+                    [
+                        "case",
+                        [
+                            "boolean",
+                            [
+                                "feature-state",
+                                "active"
+                            ],
+                            false
+                        ],
+                        0.8,
+                        0.5
+                    ]
                 ]
             },
             "slot": "bottom"
@@ -118,11 +144,81 @@
                         "zoom"
                     ],
                     9,
-                    0.1,
+                    [
+                        "case",
+                        [
+                            "any",
+                            [
+                                "boolean",
+                                [
+                                    "feature-state",
+                                    "hover"
+                                ],
+                                false
+                            ],
+                            [
+                                "boolean",
+                                [
+                                    "feature-state",
+                                    "selected"
+                                ],
+                                false
+                            ]
+                        ],
+                        0.5,
+                        0.2
+                    ],
                     14,
-                    3
-                ]
+                    [
+                        "case",
+                        [
+                            "any",
+                            [
+                                "boolean",
+                                [
+                                    "feature-state",
+                                    "hover"
+                                ],
+                                false
+                            ],
+                            [
+                                "boolean",
+                                [
+                                    "feature-state",
+                                    "selected"
+                                ],
+                                false
+                            ]
+                        ],
+                        7,
+                        3
+                    ]
+                ],
+                "line-occlusion-opacity": 1
             }
+        },
+        {
+            "id": "neighborhoods-stroke-selected",
+            "type": "line",
+            "source": "neighborhoods",
+            "paint": {
+                "line-color": "#a61440",
+                "line-width": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    9,
+                    0.6,
+                    14,
+                    9
+                ],
+                "line-dasharray": [2, 1]
+            },
+            "filter": false
         },
         {
             "id": "neighborhoods-border-labels",
