@@ -17,11 +17,11 @@ function applyProperties() {
         const boundaries = JSON.parse(readFileSync(boundariesFile, 'utf8'))
         const centroids = JSON.parse(readFileSync(centroidsFile, 'utf8'))
         
-        // Create a map of ID -> {name, color} from boundaries
+        // Create a map of slug -> {name, color} from boundaries
         const propertyMap = new Map()
         boundaries.features.forEach(feature => {
-            if (feature.id && feature.properties) {
-                propertyMap.set(feature.id, {
+            if (feature.properties?.slug) {
+                propertyMap.set(feature.properties.slug, {
                     name: feature.properties.name,
                     color: feature.properties.color
                 })
@@ -33,9 +33,10 @@ function applyProperties() {
         let unmatched = 0
         
         centroids.features.forEach(feature => {
-            if (feature.id && propertyMap.has(feature.id)) {
-                const props = propertyMap.get(feature.id)
+            if (feature.properties?.slug && propertyMap.has(feature.properties.slug)) {
+                const props = propertyMap.get(feature.properties.slug)
                 feature.properties = {
+                    slug: feature.properties.slug,
                     name: props.name,
                     color: props.color
                 }
