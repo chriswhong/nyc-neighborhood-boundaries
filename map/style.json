@@ -226,7 +226,7 @@
                     1
                 ]
             },
-            "filter": false
+            "filter": ["==", ["id"], ""]
         },
         {
             "id": "neighborhoods-border-labels",
