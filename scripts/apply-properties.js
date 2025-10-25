@@ -48,8 +48,39 @@ function applyProperties() {
             }
         })
         
-        // Write the updated centroids file with pretty formatting
-        writeFileSync(centroidsFile, JSON.stringify(centroids, null, 2), 'utf8')
+        // Write the updated centroids file with each feature on one line
+        let output = '{\n';
+        output += `  "type": "${centroids.type}",\n`;
+        
+        // Add any other top-level properties
+        Object.keys(centroids).forEach(key => {
+            if (key !== 'type' && key !== 'features') {
+                output += `  "${key}": ${JSON.stringify(centroids[key])},\n`;
+            }
+        });
+        
+        output += '  "features": [\n';
+        
+        centroids.features.forEach((feature, index) => {
+            // Reorder feature to put properties before geometry
+            const reorderedFeature = {
+                type: feature.type,
+                properties: feature.properties,
+                geometry: feature.geometry,
+                ...Object.keys(feature)
+                    .filter(key => key !== 'type' && key !== 'properties' && key !== 'geometry')
+                    .reduce((acc, key) => ({ ...acc, [key]: feature[key] }), {})
+            };
+            
+            const featureStr = JSON.stringify(reorderedFeature);
+            const comma = index < centroids.features.length - 1 ? ',' : '';
+            output += `    ${featureStr}${comma}\n`;
+        });
+        
+        output += '  ]\n';
+        output += '}\n';
+        
+        writeFileSync(centroidsFile, output, 'utf8')
         
         console.log(`✅ Properties applied successfully: ${centroidsFile}`)
         console.log(`📊 Matched features: ${matched}`)
