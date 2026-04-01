@@ -1,0 +1,1 @@
+Sheepshead Bay is a seaside neighborhood in southern Brooklyn centered on a sheltered inlet where fishing boats, yachts, and party boats have docked for generations. Its waterfront esplanade is lined with seafood restaurants, and the surrounding blocks reflect a diverse mix of Eastern European, Russian, and Middle Eastern communities.

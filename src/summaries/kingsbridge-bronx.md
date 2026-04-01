@@ -1,0 +1,1 @@
+Kingsbridge is a residential neighborhood in the northwestern Bronx, named for the historic bridge that once connected the island of Manhattan to the Bronx mainland across Spuyten Duyvil Creek. Today it is a dense, diverse community anchored by Kingsbridge Road and close to Van Cortlandt Park and Riverdale.

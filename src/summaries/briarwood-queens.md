@@ -1,0 +1,1 @@
+Briarwood is a quiet, residential neighborhood in central Queens bordered by Jamaica and Forest Hills, known for its mix of single-family homes, co-ops, and apartment buildings. It sits along the Van Wyck Expressway and is home to Kew Gardens Hills on its fringe, offering easy subway access to Manhattan via the E and F lines.

@@ -1,0 +1,1 @@
+Battery Park City is a planned residential and commercial community built on landfill at the southwestern tip of Manhattan, with sweeping views of New York Harbor, the Statue of Liberty, and New Jersey. Its esplanade, parks, and quiet tree-lined streets give it a distinctly calm, suburban feel rare for lower Manhattan.

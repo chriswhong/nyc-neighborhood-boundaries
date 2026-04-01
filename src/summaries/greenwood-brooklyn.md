@@ -1,0 +1,1 @@
+Greenwood is a Brooklyn neighborhood bordering the iconic 478-acre Green-Wood Cemetery, from which it takes its name, nestled between Park Slope, Sunset Park, and Gowanus. The area blends long-established Italian and Polish working-class residents with newer arrivals drawn by its relatively affordable rents and proximity to one of the city's most beautiful green spaces.

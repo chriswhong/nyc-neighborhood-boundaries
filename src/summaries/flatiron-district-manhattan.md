@@ -1,0 +1,1 @@
+The Flatiron District is a lively midtown neighborhood named for the iconic triangular Flatiron Building at the intersection of Broadway and Fifth Avenue at 23rd Street. It is a hub for technology and media companies, surrounded by a mix of trendy restaurants, boutique shops, and Madison Square Park.

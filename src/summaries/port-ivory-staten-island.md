@@ -1,0 +1,1 @@
+Port Ivory is a small, largely industrial neighborhood on Staten Island's northwestern tip along the Kill Van Kull, historically dominated by the massive Procter and Gamble soap manufacturing plant that gave the area its name. Today it remains a sparsely populated, post-industrial enclave with limited residential development.

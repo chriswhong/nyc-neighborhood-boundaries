@@ -1,0 +1,1 @@
+Grant City is a residential neighborhood on the eastern shore of Staten Island, known for its convenient access to the waterfront and proximity to Miller Field, a former military airfield that is now part of Gateway National Recreation Area. The neighborhood has a relaxed suburban character with a mix of attached and detached homes.

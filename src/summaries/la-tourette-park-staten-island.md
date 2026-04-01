@@ -1,0 +1,1 @@
+La Tourette Park is a sprawling green space in the heart of Staten Island, encompassing over 730 acres of woodland, wetlands, and open meadows that form a major portion of the Staten Island Greenbelt. It is home to a public golf course and miles of hiking trails, providing a vast natural retreat at the center of the borough.

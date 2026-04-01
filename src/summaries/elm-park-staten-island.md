@@ -1,0 +1,1 @@
+Elm Park is a small, working-class neighborhood on Staten Island's northwestern shore along the Kill Van Kull, historically tied to the maritime and industrial activity of the waterfront. Today it is a quiet residential enclave with modest row houses and single-family homes.

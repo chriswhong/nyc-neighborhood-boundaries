@@ -1,0 +1,1 @@
+Middle Village is a stable, predominantly Italian American residential neighborhood in central Queens, anchored by the historic Lutheran All Faiths Cemetery which defines much of its landscape. Featuring rows of well-kept private homes and a quiet, almost suburban atmosphere, it remains one of Queens' most insular and community-oriented neighborhoods.

@@ -1,0 +1,1 @@
+Rosedale is a residential neighborhood at the far southeastern edge of Queens, bordering Nassau County, with a peaceful suburban feel and largely single-family homes. It has a predominantly African American and Caribbean American population and sits near the Gateway National Recreation Area wetlands along the Jamaica Bay shoreline.

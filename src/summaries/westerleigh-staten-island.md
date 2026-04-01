@@ -1,0 +1,1 @@
+Westerleigh is a quiet, residential neighborhood in central Staten Island historically founded as a temperance community in the late 19th century, giving it an unusually planned and civic-minded origin. Today it is a stable, middle-class enclave with well-kept homes and tree-shaded streets, retaining its peaceful identity far from the bustle of the North Shore.

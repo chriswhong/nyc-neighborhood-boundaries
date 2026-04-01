@@ -1,0 +1,1 @@
+Bergen Beach is a small, secluded residential enclave in southeastern Brooklyn, bordered by Mill Basin and Jamaica Bay, giving it a peninsula-like feel that sets it apart from the surrounding urban grid. Its quiet, suburban character and predominance of single-family homes make it one of Brooklyn's least-densely built neighborhoods.

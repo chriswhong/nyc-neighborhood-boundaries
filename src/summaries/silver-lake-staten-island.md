@@ -1,0 +1,1 @@
+Silver Lake is a residential neighborhood in northeastern Staten Island centered around Silver Lake Park, a 191-acre green space that was once home to a reservoir serving New York City's water supply. The park's forested paths and golf course give the neighborhood a tranquil, wooded character just minutes from the Staten Island Ferry terminal.

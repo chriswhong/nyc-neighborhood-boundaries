@@ -1,0 +1,1 @@
+Butler Manor is a small, upscale residential enclave on Staten Island's South Shore near Tottenville, featuring large custom-built homes in a secluded wooded setting adjacent to Conference House Park. Named for Elmer Butler, a shipping magnate who built an estate on the site in 1908, it is one of the borough's quieter and more affluent communities.

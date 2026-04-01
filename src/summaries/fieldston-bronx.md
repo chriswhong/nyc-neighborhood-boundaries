@@ -1,0 +1,1 @@
+Fieldston is one of New York City's most exclusive and unusual neighborhoods, a private planned community in the northwestern Bronx with winding, unpaved roads and large Tudor and Colonial Revival homes set on generous lots. As part of the Riverdale area, it resembles a wealthy suburban enclave more than a typical New York City neighborhood.

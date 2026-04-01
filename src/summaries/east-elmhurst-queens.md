@@ -1,0 +1,1 @@
+East Elmhurst is a residential neighborhood in northern Queens hugging the western edge of LaGuardia Airport, with a diverse mix of Latino, African-American, and immigrant families. Despite the constant hum of aircraft overhead, it is a stable, working-class community with a proud local history and easy access to the Grand Central Parkway.

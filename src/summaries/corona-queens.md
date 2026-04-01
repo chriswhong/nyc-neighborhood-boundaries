@@ -1,0 +1,1 @@
+Corona is a densely populated, predominantly Latino neighborhood in north-central Queens, famous for its vibrant street life, excellent Mexican and Central American food, and the beloved Lemon Ice King of Corona. It borders Flushing Meadows Corona Park and has a rich cultural history that includes jazz legend Louis Armstrong, who lived here for decades.

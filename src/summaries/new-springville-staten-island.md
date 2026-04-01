@@ -1,0 +1,1 @@
+New Springville is a suburban neighborhood in the heart of Staten Island, best known as the home of the Staten Island Mall, the borough's dominant retail destination. Surrounded by residential streets and commercial strips, it reflects the car-dependent, suburban character that defines much of mid-island living.

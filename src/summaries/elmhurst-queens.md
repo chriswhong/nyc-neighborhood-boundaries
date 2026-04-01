@@ -1,0 +1,1 @@
+Elmhurst is one of the most ethnically diverse neighborhoods on earth, a teeming commercial and residential hub in central Queens where dozens of languages are spoken within a few blocks. It is a go-to destination for authentic Asian cuisine, with Chinese, Thai, Filipino, and Indonesian restaurants lining its busy streets around the Queens Center mall.

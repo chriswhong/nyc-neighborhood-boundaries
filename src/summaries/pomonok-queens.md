@@ -1,0 +1,1 @@
+Pomonok is a residential neighborhood in central Queens anchored by the Pomonok Houses, a large New York City Housing Authority development built in the 1950s. Situated near Kissena Park and Flushing, the area has a diverse population and is known for its green spaces and proximity to Queens College.

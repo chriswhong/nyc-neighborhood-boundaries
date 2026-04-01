@@ -1,0 +1,1 @@
+Wakefield is the northernmost neighborhood in the Bronx, sharing a border with Mount Vernon, New York, and defined by its working-class residential character and strong West Indian and African American community. Its main commercial strip along White Plains Road offers a lively mix of Caribbean bakeries, barbershops, and local retailers.

@@ -1,0 +1,1 @@
+Woodside is a vibrant, transit-connected neighborhood in northwestern Queens with a rich immigrant tapestry that includes large Irish, Filipino, Korean, and Mexican communities. Served by the 7 train and the LIRR, it offers a lively commercial scene along Roosevelt Avenue and 61st Street, with attached homes and apartment buildings lining the residential side streets.

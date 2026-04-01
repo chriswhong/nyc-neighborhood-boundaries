@@ -1,0 +1,1 @@
+Woodrow is a rural-feeling neighborhood in southwestern Staten Island, characterized by low-density housing, open land, and a relaxed pace that feels far removed from the urban density of most of New York City. It borders the Arthur Kill wetlands and sits near the Greenbelt's southern edge, making it one of the most pastoral corners of the five boroughs.

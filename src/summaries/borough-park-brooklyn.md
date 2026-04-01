@@ -1,0 +1,1 @@
+Borough Park is a densely populated neighborhood in central Brooklyn known as one of the largest Orthodox Jewish communities in the United States. Its commercial heart along 13th Avenue is lined with kosher shops, synagogues, and yeshivas that give the neighborhood a distinctly traditional character.

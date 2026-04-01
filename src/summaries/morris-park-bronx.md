@@ -1,0 +1,1 @@
+Morris Park is a stable, middle-class neighborhood in the eastern Bronx with a historically strong Italian-American community and a lively commercial strip along Morris Park Avenue. It is close to Jacobi Medical Center and serves as a quieter, residential counterpart to nearby Pelham Parkway.

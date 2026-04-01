@@ -1,0 +1,1 @@
+John F. Kennedy International Airport is one of the busiest airports in the United States, occupying a vast swath of land in southeastern Queens along Jamaica Bay. Serving as New York City's primary international gateway, JFK handles tens of millions of passengers annually and is a major economic engine for the region.

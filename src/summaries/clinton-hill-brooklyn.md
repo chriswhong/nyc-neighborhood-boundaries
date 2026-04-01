@@ -1,0 +1,1 @@
+Clinton Hill is a stately Brooklyn neighborhood defined by its grand 19th-century mansions, handsome brownstones, and tree-lined streets that reflect the ambitions of the robber baron era. Today it is a culturally rich and diverse community anchored by Pratt Institute, whose campus adds a creative, academic dimension to the neighborhood's historic elegance.

@@ -1,0 +1,1 @@
+Midtown Manhattan is the commercial and cultural heart of New York City, home to iconic landmarks including the Empire State Building, Rockefeller Center, Times Square, and Grand Central Terminal. It is one of the densest concentrations of office space and tourism in the world, drawing millions of visitors and workers to its bustling avenues every day.

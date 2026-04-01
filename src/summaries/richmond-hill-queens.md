@@ -1,0 +1,1 @@
+Richmond Hill is a diverse, working-class neighborhood in southwestern Queens with a sizable Guyanese and Indo-Caribbean community, one of the largest such concentrations in the United States. Its commercial heart along Liberty Avenue buzzes with Caribbean restaurants, grocery stores, and cultural institutions, set against a backdrop of Victorian-era row houses.

@@ -1,0 +1,1 @@
+Soundview is a working-class neighborhood in the southeastern Bronx, anchored by the largely residential streets around Soundview Avenue and home to a predominantly African American and Latino population. The neighborhood includes Soundview Park, which stretches along the Bronx River and offers waterfront greenspace to residents.

@@ -1,0 +1,1 @@
+Prospect Park is Brooklyn's premier green space, a 585-acre masterpiece designed by Frederick Law Olmsted and Calvert Vaux that features a large lake, meadows, forests, a bandshell, and a zoo. It serves as the heart and gathering place for a wide swath of Brooklyn's communities year-round.

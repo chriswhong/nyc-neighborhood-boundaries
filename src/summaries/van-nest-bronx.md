@@ -1,0 +1,1 @@
+Van Nest is a small, tight-knit residential neighborhood in the central Bronx, bounded by the Bronx River Parkway and known for its mix of Italian American heritage and a growing Latino population. The area features predominantly low-rise homes and a quiet, neighborhood feel anchored by local shops along Morris Park Avenue.

@@ -1,0 +1,1 @@
+Shore Acres is a small, upscale residential neighborhood on Staten Island's northeastern tip, perched above the Narrows with grand views of the water and the Verrazano-Narrows Bridge. It is characterized by large, well-maintained homes and a secluded feel, making it one of the more exclusive enclaves on the North Shore.

@@ -1,0 +1,1 @@
+The West Jamaica Bay Islands are a collection of mostly uninhabited marshy islands and mudflats in the western portion of Jamaica Bay, managed as part of the Gateway National Recreation Area. They serve primarily as important habitat for migratory shorebirds and nesting waterbirds rather than as a human community.

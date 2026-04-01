@@ -1,0 +1,1 @@
+New Dorp is a central Staten Island neighborhood known as a busy commercial hub, with a bustling main corridor along New Dorp Lane lined with shops, restaurants, and services. Its convenient location near the Staten Island Expressway and proximity to the beach at New Dorp Beach make it a popular and accessible residential area.

@@ -1,0 +1,1 @@
+Stuyvesant Town is a large planned residential complex on the east side of Manhattan between 14th and 23rd Streets, built in the late 1940s as middle-class housing and still home to tens of thousands of residents. Its distinctive red-brick towers set within landscaped grounds create an insular, community-oriented atmosphere that stands apart from the surrounding grid of the city.

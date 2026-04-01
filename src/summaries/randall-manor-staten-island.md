@@ -1,0 +1,1 @@
+Randall Manor is a small, residential neighborhood on Staten Island's North Shore between West New Brighton and Snug Harbor, known for its modest homes and quiet streets. It sits close to the scenic waterfront and cultural amenities of Snug Harbor Cultural Center, giving residents easy access to one of the borough's premier green spaces.

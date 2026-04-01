@@ -1,0 +1,1 @@
+Eltingville is a suburban neighborhood on Staten Island's southern shore, featuring well-kept single-family homes and a strong community character anchored by local schools and parks. It borders the Greenbelt natural area and offers residents a secluded, outer-borough feel far from the urban core.

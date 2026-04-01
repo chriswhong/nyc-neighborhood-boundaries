@@ -1,0 +1,1 @@
+City Island is a small, charming peninsula jutting into Long Island Sound in the northeastern Bronx, accessible by a single bridge and feeling worlds apart from the rest of New York City. Known for its maritime heritage, seafood restaurants, and boat yards, it has the relaxed atmosphere of a New England fishing village.

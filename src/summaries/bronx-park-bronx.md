@@ -1,0 +1,1 @@
+Bronx Park is the vast green heart of the central Bronx, home to two of New York City's crown jewels: the Bronx Zoo, one of the world's largest metropolitan zoos, and the New York Botanical Garden. The park's open meadows, forests, and the winding Bronx River make it a major natural refuge within the urban borough.

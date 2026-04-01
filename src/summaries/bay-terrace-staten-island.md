@@ -1,0 +1,1 @@
+Bay Terrace is a small, predominantly residential neighborhood on Staten Island's eastern shore, offering waterfront views of Lower New York Bay. The area is characterized by modest single-family homes and a close-knit community feel.

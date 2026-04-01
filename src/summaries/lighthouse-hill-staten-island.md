@@ -1,0 +1,1 @@
+Lighthouse Hill is a small, affluent neighborhood in central Staten Island, set on elevated terrain near the Staten Island Greenbelt and named for the Richmond County Lighthouse that once guided ships through the Kill Van Kull. The neighborhood is also home to the Jacques Marchais Museum of Tibetan Art, one of New York's more unexpected cultural landmarks.

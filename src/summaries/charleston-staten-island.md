@@ -1,0 +1,1 @@
+Charleston is a largely residential neighborhood in the southwestern corner of Staten Island, one of the borough's fastest-growing areas with extensive new suburban development in recent decades. It sits near the Arthur Kill waterway that separates Staten Island from New Jersey.

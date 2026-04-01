@@ -1,0 +1,1 @@
+Spuyten Duyvil is a small, secluded neighborhood at the southwestern tip of the Bronx, wedged between the Hudson River and the Harlem River Ship Canal directly across from Manhattan's Inwood. It has a quiet, almost village-like character with steep, wooded terrain, modest apartment buildings, and sweeping river views.

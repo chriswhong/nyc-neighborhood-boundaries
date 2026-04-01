@@ -1,0 +1,1 @@
+Cobble Hill is a small, highly sought-after neighborhood in northwest Brooklyn, prized for its well-preserved Federal and Italianate rowhouses and a charming village-like atmosphere. Its central location between Brooklyn Heights and Carroll Gardens, along with quiet streets and a small commercial strip on Court Street, make it one of the borough's most livable enclaves.

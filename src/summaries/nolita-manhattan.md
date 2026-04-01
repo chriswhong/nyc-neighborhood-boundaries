@@ -1,0 +1,1 @@
+Nolita, short for North of Little Italy, is a charming and fashionable neighborhood just east of SoHo known for its boutique shopping, trendy cafes, and Italian-American heritage. Its narrow streets lined with old tenements and small storefronts give it an intimate, village-like feel that contrasts with the larger commercial energy of the surrounding downtown neighborhoods.

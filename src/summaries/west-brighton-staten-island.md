@@ -1,0 +1,1 @@
+West Brighton is a diverse North Shore Staten Island neighborhood with deep roots going back to Dutch and English colonists, later shaped by waves of Irish, Italian, African American, and Hispanic communities. Centered on Forest Avenue's commercial strip, the neighborhood has seen declining crime and increasing investment since the late 1990s.

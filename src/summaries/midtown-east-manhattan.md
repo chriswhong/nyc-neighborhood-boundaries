@@ -1,0 +1,1 @@
+Midtown East is the calmer, more refined counterpart to Midtown's western side, stretching from Fifth Avenue to the East River between 42nd and 59th Streets. It is home to Grand Central Terminal, the Chrysler Building, the United Nations headquarters, and some of Manhattan's most prestigious office towers, hotels, and corporate headquarters.

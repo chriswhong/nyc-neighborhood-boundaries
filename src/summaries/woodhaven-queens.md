@@ -1,0 +1,1 @@
+Woodhaven is a working-class neighborhood in southwestern Queens with a long history as one of the borough's original streetcar suburbs, known for its intact Victorian and early 20th-century housing stock. It borders Forest Park, a large glacial ridge woodland that provides residents with hiking trails and green space, and has a diverse, multi-ethnic population today.

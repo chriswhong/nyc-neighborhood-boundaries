@@ -1,0 +1,1 @@
+Whitestone is an affluent, waterfront neighborhood in the northeastern corner of Queens, overlooking the Long Island Sound and anchored by the graceful Whitestone Bridge. It is one of Queens' most desirable residential enclaves, known for large private homes, well-tended yards, and a quiet, suburban ambiance far removed from the density of the inner borough.

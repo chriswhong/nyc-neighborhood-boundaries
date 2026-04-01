@@ -1,0 +1,1 @@
+Baychester is a quiet residential neighborhood in the northeastern Bronx, bordered by Eastchester Bay and the New England Thruway. It offers a suburban feel with single-family homes and is close to Co-op City and the Pelham Bay area.

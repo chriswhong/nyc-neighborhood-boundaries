@@ -1,0 +1,1 @@
+Glen Oaks is a serene, suburban-style neighborhood in the far northeastern corner of Queens, bordering Nassau County and defined by rows of semi-detached brick homes built after World War II. It is one of the quietest and most residential corners of the borough, with tree-lined streets, a strong civic identity, and a pace of life that feels more Long Island than New York City.

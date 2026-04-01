@@ -1,0 +1,1 @@
+Wingate is a small residential neighborhood in central Brooklyn between East Flatbush and Flatbush, home to a predominantly Black community with roots in the Caribbean, particularly from Haiti and Jamaica. Its streets are lined with modest attached homes and two-family houses, and it is served by the large Wingate Park athletic complex.

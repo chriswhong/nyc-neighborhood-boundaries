@@ -1,0 +1,1 @@
+Mariner's Harbor is a working-class neighborhood on Staten Island's northwestern shore along the Kill Van Kull, with deep roots in the borough's maritime and industrial heritage. Today it is a diverse residential community with ongoing investment in affordable housing and local revitalization efforts.

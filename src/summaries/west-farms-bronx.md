@@ -1,0 +1,1 @@
+West Farms is a small, densely packed neighborhood in the south-central Bronx, centered around the West Farms Square transit hub where several subway lines converge. Once a 19th-century village along the Bronx River, it is now a largely residential area with a predominantly Latino population and close proximity to the Bronx Zoo and New York Botanical Garden.

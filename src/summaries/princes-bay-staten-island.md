@@ -1,0 +1,1 @@
+Prince's Bay is a quiet, semi-rural neighborhood on Staten Island's southern shore, overlooking the bay of the same name and offering some of the most open and scenic landscape in the borough. With large lots, wetlands, and a peaceful atmosphere, it feels removed from the density of the rest of New York City.
