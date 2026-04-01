@@ -25,7 +25,7 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
     let fileContent
 
     beforeAll(() => {
-        const filePath = join(__dirname, '../data/nyc-neighborhood-boundaries.geojson')
+        const filePath = join(__dirname, '../src/data/nyc-neighborhood-boundaries.geojson')
         
         try {
             fileContent = readFileSync(filePath, 'utf8')
