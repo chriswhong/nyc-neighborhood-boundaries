@@ -1,0 +1,1 @@
+Fordham is a bustling, commercial neighborhood in the central Bronx built around Fordham University and the busy Fordham Road shopping corridor, one of the borough's main retail destinations. It is a lively, predominantly Latino community with a dense mix of apartment buildings, shops, and transit connections.

@@ -1,0 +1,1 @@
+Gerritsen Beach is a small, close-knit residential enclave tucked into the southern edge of Brooklyn along a tidal inlet of Jamaica Bay. Often described as one of the city's most isolated neighborhoods, its bungalow-style homes, dead-end streets, and tight community bonds give it the feel of a small beach town within the city limits.

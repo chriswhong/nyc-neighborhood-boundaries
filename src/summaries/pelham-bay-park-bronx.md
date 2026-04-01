@@ -1,0 +1,1 @@
+Pelham Bay Park is the largest park in New York City, spanning over 2,700 acres in the northeastern Bronx along the shore of Long Island Sound. It encompasses forests, wetlands, two golf courses, Orchard Beach, and the historic Bartow-Pell Mansion, offering a remarkable range of recreational and natural experiences.

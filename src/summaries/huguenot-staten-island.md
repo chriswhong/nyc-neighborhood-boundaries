@@ -1,0 +1,1 @@
+Huguenot is a residential neighborhood on Staten Island's southern shore, named after the French Protestant settlers who arrived in the area in the 17th century. It has a quiet, suburban character with low-density housing and is situated near the Seguine Avenue waterfront along Raritan Bay.

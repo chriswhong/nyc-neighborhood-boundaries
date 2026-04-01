@@ -1,0 +1,1 @@
+Riverdale is one of the most affluent neighborhoods in the Bronx, perched on wooded hills overlooking the Hudson River near the northern tip of Manhattan. It features grand estates, mid-rise cooperatives, and a strong Jewish community, with a distinctly suburban character rare in New York City.

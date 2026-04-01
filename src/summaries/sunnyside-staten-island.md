@@ -1,0 +1,1 @@
+Sunnyside is a hillside residential neighborhood in central Staten Island, offering a quiet, suburban atmosphere with views toward the island's interior. It borders the Staten Island Greenbelt and sits near major roadways, giving it a well-connected yet peaceful character typical of mid-island communities.

@@ -1,0 +1,1 @@
+The Columbia Street Waterfront District is a small, low-key neighborhood in northwest Brooklyn wedged between Carroll Gardens and the Upper New York Bay. Its narrow streets, former industrial buildings, and relaxed pace give it a distinct identity separate from its better-known neighbors, with a growing cluster of restaurants and bars drawing visitors to the area.

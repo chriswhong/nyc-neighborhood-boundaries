@@ -1,0 +1,1 @@
+Murray Hill is a quiet residential neighborhood in northeastern Queens within the broader Flushing area, known for its significant Korean-American community and mix of single-family homes and apartment buildings. It sits within walking distance of downtown Flushing's vibrant commercial district while maintaining a more subdued, suburban residential character.

@@ -1,0 +1,1 @@
+Oakwood is a quiet, residential neighborhood on Staten Island's eastern side, characterized by single-family homes and tree-lined streets with a distinctly suburban feel. It borders Oakwood Beach and sits near the Hylan Boulevard corridor, offering residents easy access to the island's southeastern shoreline.

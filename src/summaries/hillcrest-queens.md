@@ -1,0 +1,1 @@
+Hillcrest is a residential neighborhood in central Queens bordering Fresh Meadows, Jamaica Hills, and the St. John's University campus, known for its tree-lined streets of attached and semi-detached homes. The neighborhood has a growing South Asian community and a quiet, suburban character anchored by Cunningham Park to its east.

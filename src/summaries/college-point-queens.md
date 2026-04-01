@@ -1,0 +1,1 @@
+College Point is a peninsula neighborhood in northern Queens jutting into Flushing Bay, with a history rooted in manufacturing and a present defined by a mix of working-class homes, warehouses, and big-box retail. Despite its relative isolation from the rest of Queens, it maintains a close community identity and offers sweeping views of the Long Island Sound.

@@ -1,0 +1,1 @@
+Castleton Corners is an upscale mid-island Staten Island neighborhood centered on the historic intersection of Victory Boulevard and Manor Road, long known as "Four Corners" and once an important commercial hub. The name honors Thomas Dongan, colonial governor of New York, whose ancestral home was in Cassiltowne, County Kildare, Ireland.

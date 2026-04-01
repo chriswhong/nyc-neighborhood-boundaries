@@ -1,0 +1,1 @@
+NoHo, short for North of Houston, is a small but stylish downtown neighborhood tucked between Greenwich Village and SoHo, characterized by its cast-iron architecture, cobblestone streets, and high-end boutiques. Once a manufacturing district, it has evolved into one of Manhattan's most sought-after residential and retail enclaves, with a creative, design-forward atmosphere.

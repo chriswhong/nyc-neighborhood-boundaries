@@ -1,0 +1,1 @@
+Civic Center is a compact district in lower Manhattan anchored by New York City Hall, the surrounding municipal buildings, and the state and federal courthouses that line its streets. It serves as the administrative heart of city government, sandwiched between the Financial District to the south and Tribeca and Chinatown to the north.

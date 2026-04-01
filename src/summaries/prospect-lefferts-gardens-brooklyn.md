@@ -1,0 +1,1 @@
+Prospect Lefferts Gardens is a historic neighborhood on the southeastern edge of Prospect Park, known for its exceptional concentration of Flemish Revival and neo-Tudor rowhouses built in the early twentieth century. It has a rich Caribbean cultural heritage and a close-knit community that takes pride in preserving its architectural character.

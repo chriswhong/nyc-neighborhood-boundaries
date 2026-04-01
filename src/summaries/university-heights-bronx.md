@@ -1,0 +1,1 @@
+University Heights is a hillside neighborhood in the west-central Bronx, named for the several colleges and universities that have historically called the area home, including New York University's former Bronx campus. Today it is a densely residential, predominantly Latino community with strong commercial corridors along University Avenue and Jerome Avenue.

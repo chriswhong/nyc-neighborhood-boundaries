@@ -1,0 +1,1 @@
+New Dorp Beach is a small beachfront neighborhood on Staten Island's southeastern shore between Midland Beach and Oakwood Beach, with roots as one of the first European settlements on the island, dating to 1671. A Victorian-era resort that transitioned into a quiet residential community, the neighborhood was among the hardest hit on Staten Island by Hurricane Sandy in 2012.

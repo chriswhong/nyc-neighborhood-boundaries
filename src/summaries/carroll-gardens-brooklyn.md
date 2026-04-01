@@ -1,0 +1,1 @@
+Carroll Gardens is a charming neighborhood in northwest Brooklyn named for its unusually deep front yards, which give the brownstone-lined blocks a lush, garden-filled quality rare in the city. Once a stronghold of Italian American life, it has become one of Brooklyn's most desirable addresses, blending old-school bakeries and social clubs with upscale restaurants and boutiques.

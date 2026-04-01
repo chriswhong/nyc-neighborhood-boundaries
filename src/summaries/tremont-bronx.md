@@ -1,0 +1,1 @@
+Tremont is a densely populated neighborhood in the central Bronx, centered along Third Avenue and home to a large and established Puerto Rican and Dominican community. It sits between Crotona Park and Claremont Village, offering residents green space amid a lively mix of bodegas, restaurants, and local businesses.

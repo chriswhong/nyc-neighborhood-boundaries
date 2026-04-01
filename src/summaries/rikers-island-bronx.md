@@ -1,0 +1,1 @@
+Rikers Island is a 413-acre island in the East River, accessible only by a single bridge from Queens, and home to New York City's main jail complex. It has been the center of ongoing debate and reform efforts, with the city committed to closing the facility and replacing it with smaller borough-based jails.

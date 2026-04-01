@@ -1,0 +1,1 @@
+Belmont is the Bronx's Little Italy, a tightly-knit neighborhood centered on Arthur Avenue and its famous indoor market, long regarded as one of New York's best destinations for authentic Italian food and specialty goods. Nestled beside the Bronx Zoo and New York Botanical Garden, it retains a strong old-world character.

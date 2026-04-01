@@ -1,0 +1,1 @@
+Ocean Hill is a small neighborhood in north-central Brooklyn, bordered by Brownsville to the south and Bushwick to the north, with a predominantly Black residential community. It gained national attention in the late 1960s during a landmark teachers' strike over community control of local schools.

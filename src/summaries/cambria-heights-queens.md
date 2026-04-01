@@ -1,0 +1,1 @@
+Cambria Heights is a predominantly African-American residential neighborhood in southeastern Queens, characterized by well-kept single-family homes and a strong sense of community pride. Bordering Nassau County, it has a suburban feel and is known as a stable, middle-class enclave with deep roots in the borough's Black professional history.

@@ -1,0 +1,1 @@
+Neponsit is one of the most exclusive and secluded neighborhoods in all of New York City, a small oceanfront enclave on the Rockaway Peninsula in Queens. With large private homes, a members-only beach club, and tree-shaded streets just steps from the Atlantic Ocean, it has the feel of a private resort community within city limits.

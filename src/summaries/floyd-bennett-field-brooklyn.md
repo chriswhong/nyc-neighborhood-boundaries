@@ -1,0 +1,1 @@
+Floyd Bennett Field is New York City's first municipal airport, opened in 1931, and now a unit of Gateway National Recreation Area managed by the National Park Service. Its vast, largely undeveloped grounds on Jamaica Bay offer hiking, camping, and birdwatching, and serve as an evocative reminder of the golden age of aviation.

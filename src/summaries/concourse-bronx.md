@@ -1,0 +1,1 @@
+The Concourse neighborhood is anchored by the Grand Concourse, a grand boulevard modeled after the Champs-Elysees and lined with stunning Art Deco apartment buildings from the 1920s and 30s. Home to Yankee Stadium and the Bronx Museum of the Arts, this central Bronx neighborhood is one of the borough's most historically significant.

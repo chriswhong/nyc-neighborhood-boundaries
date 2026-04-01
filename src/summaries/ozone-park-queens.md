@@ -1,0 +1,1 @@
+Ozone Park is a dense, working-class neighborhood in southwestern Queens with a rich Italian American history and a growing South Asian and Caribbean population. Located near Aqueduct Racetrack and JFK Airport, it features compact row houses, a lively commercial strip along Liberty Avenue, and strong neighborhood identity.

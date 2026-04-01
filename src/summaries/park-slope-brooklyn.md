@@ -1,0 +1,1 @@
+Park Slope is one of Brooklyn's most coveted neighborhoods, known for its stunning rows of Victorian and Romanesque Revival brownstones that slope gently down from Prospect Park to the Gowanus Canal. It has a strong community identity, a lively stretch of restaurants and shops along Fifth and Seventh Avenues, and is perennially popular with families.

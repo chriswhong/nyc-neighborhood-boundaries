@@ -1,0 +1,1 @@
+Pelham Gardens is a stable, working-class residential neighborhood in the northeastern Bronx, characterized by attached and semi-detached homes on relatively quiet streets. Developed largely in the mid-20th century, it sits between the New England Thruway and Pelham Parkway and has a strong community of long-term residents.

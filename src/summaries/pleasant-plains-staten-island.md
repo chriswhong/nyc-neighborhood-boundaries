@@ -1,0 +1,1 @@
+Pleasant Plains is a rural-feeling neighborhood tucked into Staten Island's southern tip, bordered by the Arthur Kill and known for its low-density development, open land, and proximity to the Clay Pit Ponds State Park Preserve. It retains one of the most pastoral characters of any neighborhood in New York City.

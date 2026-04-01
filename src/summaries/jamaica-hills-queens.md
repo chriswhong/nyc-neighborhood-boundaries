@@ -1,0 +1,1 @@
+Jamaica Hills is a residential neighborhood in central Queens, situated along the elevated terrain near the Jamaica border and adjacent to the Queens-Nassau corridor. The area is known for its mix of modest single-family homes and a diverse, immigrant-rich community, with proximity to major transit hubs along Hillside Avenue.

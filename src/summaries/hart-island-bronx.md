@@ -1,0 +1,1 @@
+Hart Island is a narrow, uninhabited island in Long Island Sound off the northeastern Bronx, serving since 1869 as New York City's public burial ground and the largest publicly funded cemetery in the United States. Long closed to the public, the island has recently become more accessible to families of those buried there.

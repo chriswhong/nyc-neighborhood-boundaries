@@ -1,0 +1,1 @@
+The West Village is a charming, intimate corner of Greenwich Village known for its winding cobblestone streets, Federal and Greek Revival townhouses, and thriving restaurant and bar scene. It has long been a center of LGBTQ+ history and culture, and today ranks among Manhattan's most desirable and picturesque neighborhoods.

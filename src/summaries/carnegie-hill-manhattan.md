@@ -1,0 +1,1 @@
+Carnegie Hill is an affluent, quiet residential neighborhood on the Upper East Side, roughly bounded by 86th and 98th Streets along Fifth and Lexington Avenues, named for the Carnegie Mansion that anchors its southern end (now the Cooper Hewitt museum). Its genteel, low-key character and proximity to Central Park and Museum Mile make it one of Manhattan's most refined enclaves.

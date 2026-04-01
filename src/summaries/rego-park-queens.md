@@ -1,0 +1,1 @@
+Rego Park is a densely populated, transit-rich neighborhood in central Queens known for its large Jewish and Russian-speaking immigrant community and a thriving retail corridor anchored by the Queens Center Mall. Its name derives from the Real Good Construction Company that built the area's characteristic brick apartment buildings in the 1930s.

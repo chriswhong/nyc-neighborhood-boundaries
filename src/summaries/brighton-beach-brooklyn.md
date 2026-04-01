@@ -1,0 +1,1 @@
+Brighton Beach sits along the southern shore of Brooklyn, just east of Coney Island, and is famously home to a large Russian-speaking immigrant community that has earned it the nickname "Little Odessa." Its beachside boardwalk, Russian restaurants, and Eastern European food shops give it a flavor unlike anywhere else in the city.

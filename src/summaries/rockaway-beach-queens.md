@@ -1,0 +1,1 @@
+Rockaway Beach is a vibrant oceanfront neighborhood on the Rockaway Peninsula in Queens, famous for its wide Atlantic Ocean beach that draws surfers and sunbathers from across the city each summer. The neighborhood has a lively, seasonal energy with beachside bars and bungalows, and has seen significant community rebuilding since Hurricane Sandy in 2012.

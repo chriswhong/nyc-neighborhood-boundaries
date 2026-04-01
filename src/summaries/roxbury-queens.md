@@ -1,0 +1,1 @@
+Roxbury is a small, quiet beachfront community on the Rockaway Peninsula in Queens, situated between Rockaway Beach and the Belle Harbor neighborhood. Like much of the Rockaways, it is defined by its proximity to the Atlantic Ocean and has a tight-knit, year-round residential character alongside seasonal beach activity.

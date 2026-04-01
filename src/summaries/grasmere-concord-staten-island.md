@@ -1,0 +1,1 @@
+Grasmere and Concord are adjacent neighborhoods on the northeastern side of Staten Island, offering a mix of residential blocks and commercial strips set on gently rolling terrain. The area has a diverse population and is well connected to the rest of the borough via the Staten Island Expressway and local bus routes.

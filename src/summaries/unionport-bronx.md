@@ -1,0 +1,1 @@
+Unionport is a small sub-neighborhood tucked within Castle Hill in the southeastern Bronx, situated north of Lafayette Avenue between Westchester Creek and White Plains Road. A working-class residential community, it developed in the early 20th century as immigrants moved outward from Lower Manhattan seeking more space.

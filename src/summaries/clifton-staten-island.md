@@ -1,0 +1,1 @@
+Clifton is a diverse, densely settled neighborhood on Staten Island's northeastern waterfront, one of the first communities encountered after crossing from the St. George Ferry Terminal. It has a strong Sri Lankan and South Asian immigrant community and is known for its vibrant restaurant scene along Victory Boulevard.

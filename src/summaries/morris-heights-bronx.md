@@ -1,0 +1,1 @@
+Morris Heights is a densely populated neighborhood in the western Bronx perched on a ridge above the Harlem River, offering striking views of the Manhattan skyline from its elevated streets. It is a predominantly Latino and working-class community with a mix of apartment buildings and access to the Cross Bronx Expressway.

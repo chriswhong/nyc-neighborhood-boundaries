@@ -1,0 +1,1 @@
+Flushing is the bustling commercial and cultural heart of Asian New York, with one of the largest Chinatowns in the country anchored around Main Street and the 7 train terminus. The neighborhood offers an extraordinary range of regional Chinese cuisine alongside Korean, Taiwanese, and South Asian restaurants, and its dense street life rivals anything in Manhattan.

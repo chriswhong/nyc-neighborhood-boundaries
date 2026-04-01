@@ -1,0 +1,1 @@
+Laurelton is a quiet, predominantly African American residential neighborhood in the southeastern corner of Queens, known for its well-maintained single-family homes and a strong sense of community pride. Developed largely in the mid-20th century, it borders Springfield Gardens and Rosedale and has a distinctly suburban feel.

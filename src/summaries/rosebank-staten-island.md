@@ -1,0 +1,1 @@
+Rosebank is a diverse, waterfront neighborhood on Staten Island's northeastern shore, situated along the Narrows just south of Tompkinsville and offering sweeping views of Brooklyn and the Verrazano-Narrows Bridge. It is the birthplace of painter Arthur Dove and home to the Garibaldi-Meucci Museum, reflecting both artistic and Italian-American heritage.

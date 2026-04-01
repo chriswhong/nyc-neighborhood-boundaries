@@ -1,0 +1,1 @@
+Vinegar Hill is one of Brooklyn's smallest and most hidden neighborhoods, a tiny enclave of Federal and Greek Revival row houses tucked between DUMBO and the Navy Yard that has the feel of a nineteenth-century village. Its cobblestone streets and preserved historic homes make it one of the most atmospheric corners of the borough.

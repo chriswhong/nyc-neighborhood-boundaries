@@ -1,0 +1,1 @@
+Arrochar is a quiet residential neighborhood on the northeastern shore of Staten Island, situated between Fort Wadsworth and South Beach along the Lower New York Bay. It is known for its peaceful streets, proximity to the beach, and easy access to the Verrazzano-Narrows Bridge.

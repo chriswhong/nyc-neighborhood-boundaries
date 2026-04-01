@@ -1,0 +1,1 @@
+Sunnyside is a diverse, close-knit neighborhood in western Queens with excellent transit access to Midtown Manhattan via the 7 train and the LIRR. It is known for the landmarked Sunnyside Gardens, a planned residential development from the 1920s featuring communal green spaces, and for its mix of Irish, Romanian, Korean, and Latin American communities.

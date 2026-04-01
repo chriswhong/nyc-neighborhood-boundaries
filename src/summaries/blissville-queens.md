@@ -1,0 +1,1 @@
+Blissville is a small, largely industrial neighborhood tucked between Long Island City and Maspeth, bisected by the elevated Honeywell Street rail line and bounded by Calvary Cemetery. It has historically been one of Queens' least residential areas, defined by warehouses and manufacturing uses.

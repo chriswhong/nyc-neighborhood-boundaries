@@ -1,0 +1,1 @@
+South Beach is a beachfront neighborhood on Staten Island's eastern shore, anchored by the Franklin D. Roosevelt Boardwalk and Beach, one of the longest free public boardwalks in the United States. Once a popular resort destination in the early 20th century, it retains a casual, seaside character with a mix of residential streets and summer activity along the waterfront.

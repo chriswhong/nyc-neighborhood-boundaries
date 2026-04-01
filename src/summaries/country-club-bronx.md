@@ -1,0 +1,1 @@
+Country Club is an affluent, low-density neighborhood in the northeastern Bronx named for the former Westchester Country Club that once occupied the area. It sits along the Eastchester Bay waterfront and is characterized by detached single-family homes and a quiet, suburban character rare in New York City.

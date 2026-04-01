@@ -1,0 +1,1 @@
+Mill Basin is a waterfront neighborhood in southeastern Brooklyn built around a series of canals and inlets off Jamaica Bay, giving many homes private boat docks. It has a distinctly suburban feel with large single-family houses and is one of the more affluent communities in the borough.

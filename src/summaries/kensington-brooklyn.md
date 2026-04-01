@@ -1,0 +1,1 @@
+Kensington is a quiet, working-class residential neighborhood in central Brooklyn, bordered by Prospect Park to the north and Flatbush to the east. It has long been home to a diverse mix of immigrant communities and is known for its affordable brownstones and tree-lined streets.

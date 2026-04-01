@@ -1,0 +1,1 @@
+Meiers Corners is a busy mid-island neighborhood in central Staten Island, centered on the intersection of Forest and Richmond Avenues and serving as a commercial hub for surrounding communities. It has a dense mix of retail, services, and residential streets that give it a lively, everyday neighborhood character.

@@ -1,0 +1,1 @@
+Throggs Neck is a peninsula neighborhood in the southeastern Bronx, jutting into the confluence of the East River and Long Island Sound near the Throggs Neck Bridge. It has a close-knit, predominantly Italian American and Irish American community, with a mix of private homes, marinas, and waterfront parks.

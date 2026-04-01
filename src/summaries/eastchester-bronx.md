@@ -1,0 +1,1 @@
+Eastchester is a peaceful residential neighborhood in the far northeastern Bronx, bordering Westchester County and offering a distinctly suburban quality with detached homes and tree-lined streets. It sits near the Hutchinson River Parkway and Pelham Bay Park, giving residents easy access to green space.

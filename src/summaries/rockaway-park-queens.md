@@ -1,0 +1,1 @@
+Rockaway Park is a residential beachfront neighborhood on the western end of the Rockaway Peninsula, offering a quieter, more suburban alternative to the busier Rockaway Beach strip nearby. It features single-family bungalows, close-knit blocks, and easy access to both the ocean and Jamaica Bay, with a year-round community that has weathered decades of coastal challenges.

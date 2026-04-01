@@ -1,0 +1,1 @@
+East New York is a large neighborhood in the easternmost part of Brooklyn, a predominantly Black and Latino community with deep historical roots and a resilient local identity. Long underinvested, the neighborhood is the subject of a major city rezoning plan aimed at bringing affordable housing and economic development while the community works to shape its own future.

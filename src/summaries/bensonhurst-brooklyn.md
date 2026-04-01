@@ -1,0 +1,1 @@
+Bensonhurst is a large residential neighborhood in southwestern Brooklyn, long known as a hub of Italian American life in New York City, with 18th Avenue serving as its traditional main street of bakeries, butchers, and social clubs. In recent decades it has transformed into one of the city's most vibrant Chinese communities while retaining pockets of its Italian heritage.

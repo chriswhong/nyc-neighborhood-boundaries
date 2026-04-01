@@ -1,0 +1,1 @@
+Fort Wadsworth is a historic military installation at the northeastern tip of Staten Island, strategically positioned at the Narrows where the Verrazzano-Narrows Bridge now spans. Now operated as part of Gateway National Recreation Area, it offers stunning views of the harbor and preserves centuries of coastal defense history.

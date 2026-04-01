@@ -1,0 +1,1 @@
+Midland Beach is a residential waterfront neighborhood on Staten Island's eastern shore, stretching along Lower New York Bay between South Beach and New Dorp Beach. Known for its boardwalk, seasonal amusements, and the Franklin D. Roosevelt Boardwalk, it has a strong working-class character and a large Latino community.

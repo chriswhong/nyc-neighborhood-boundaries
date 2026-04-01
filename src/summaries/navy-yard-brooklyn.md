@@ -1,0 +1,1 @@
+The Brooklyn Navy Yard is a 300-acre industrial campus on the East River waterfront, a former U.S. naval shipyard that has been reimagined as a hub for manufacturing, technology, and creative businesses. It is not a residential neighborhood but rather a dense cluster of workshops, studios, and production facilities that represents a new model of urban industry.

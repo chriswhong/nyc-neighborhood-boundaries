@@ -1,0 +1,1 @@
+Manhattan's Chinatown is one of the oldest and most densely populated Chinese communities in the Western Hemisphere, centered around Canal and Mott Streets in lower Manhattan. Its bustling streets are packed with dim sum restaurants, seafood markets, herbal shops, and street vendors, preserving a vivid immigrant culture that has anchored the neighborhood for over a century.

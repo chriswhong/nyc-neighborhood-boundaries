@@ -1,0 +1,1 @@
+Springfield Gardens is a residential neighborhood in southeastern Queens known for its single-family homes and a predominantly African American and Caribbean American community. The neighborhood borders JFK Airport and offers a quieter, more suburban character compared to much of Queens, with Idlewild Park nearby providing green space along the waterfront.

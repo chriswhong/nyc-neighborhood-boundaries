@@ -1,0 +1,1 @@
+Midwood is a stable, family-oriented neighborhood in central Brooklyn with a large Orthodox Jewish community as well as significant South Asian and Middle Eastern populations. Its wide avenues are lined with kosher restaurants, halal shops, and well-maintained brick homes on quiet residential blocks.

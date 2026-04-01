@@ -1,0 +1,1 @@
+Chelsea is a vibrant West Side neighborhood between 14th and 34th Streets, known for its thriving art gallery scene concentrated along 10th and 11th Avenues, the High Line elevated park, and a lively mix of restaurants, nightlife, and the Chelsea Market food hall. It has long been a hub of LGBTQ+ community life in New York City.

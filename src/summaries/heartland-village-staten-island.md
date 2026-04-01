@@ -1,0 +1,1 @@
+Heartland Village is a mid-island residential and commercial neighborhood centered on a busy stretch of Richmond Avenue, lined with shopping centers, supermarkets, and chain retailers that serve much of central Staten Island. Behind the commercial strip lie quiet suburban streets of single-family homes.

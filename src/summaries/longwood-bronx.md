@@ -1,0 +1,1 @@
+Longwood is a working-class neighborhood in the South Bronx with a predominantly Latino population, sitting between Hunts Point and Morrisania along Southern Boulevard. Like much of the South Bronx, it experienced severe disinvestment in the 1970s and 80s and has been gradually rebuilding through community development efforts.

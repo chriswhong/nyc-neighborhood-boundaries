@@ -1,0 +1,1 @@
+Co-op City is one of the largest cooperative housing developments in the world, a self-contained community of massive residential towers and townhouses rising from the northeastern Bronx. Home to more than 40,000 residents, it has its own shopping centers, schools, and community facilities, functioning almost as a city within the city.

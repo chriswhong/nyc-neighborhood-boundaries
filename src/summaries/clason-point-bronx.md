@@ -1,0 +1,1 @@
+Clason Point is a quiet, residential peninsula in the southeastern Bronx surrounded by the East River and Pugsley Creek. It features a small waterfront park and a close-knit community of families living in low-rise homes and apartments.

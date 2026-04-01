@@ -1,0 +1,1 @@
+Fort Hamilton is a United States Army installation occupying the southwestern tip of Brooklyn at the narrows where the Verrazano-Narrows Bridge meets the shore. As an active military base with restricted civilian access, it maintains a distinct presence at the gateway between New York Harbor and the Atlantic, with a small museum open to the public.

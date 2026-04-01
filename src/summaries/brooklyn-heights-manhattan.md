@@ -1,0 +1,1 @@
+Brooklyn Heights is a historic, tree-lined neighborhood perched on a bluff above the East River in northwestern Brooklyn, renowned for its well-preserved 19th-century brownstones and the Brooklyn Heights Promenade with its iconic views of lower Manhattan and the Brooklyn Bridge. It is one of New York City's most sought-after and architecturally rich residential enclaves.
