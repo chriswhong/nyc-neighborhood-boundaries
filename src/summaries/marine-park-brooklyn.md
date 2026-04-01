@@ -1,0 +1,1 @@
+Marine Park is a sprawling residential neighborhood in southeastern Brooklyn, anchored by the largest park in the borough — a vast salt marsh and nature preserve along Jamaica Bay. The surrounding streets are lined with single-family homes and give the area a distinctly suburban character.

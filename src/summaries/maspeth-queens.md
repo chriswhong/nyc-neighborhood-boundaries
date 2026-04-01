@@ -1,0 +1,1 @@
+Maspeth is a working-class neighborhood in northwestern Queens with deep roots as an industrial and warehousing corridor, bordered by Ridgewood, Middle Village, and Long Island City. Despite its significant commercial infrastructure, it also has tightly knit residential blocks and a strong Polish and Italian American community heritage.

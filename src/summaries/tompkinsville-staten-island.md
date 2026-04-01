@@ -1,0 +1,1 @@
+Tompkinsville is one of the first neighborhoods visitors encounter after arriving by Staten Island Ferry, a dense, diverse community on the northeastern shore with strong Sri Lankan and South Asian immigrant communities. Its main commercial strips buzz with ethnic restaurants and shops, giving it an energetic, multicultural character unlike anywhere else on the island.

@@ -1,0 +1,1 @@
+Bath Beach is a quiet residential neighborhood in southwestern Brooklyn, tucked between Bensonhurst and the Shore Parkway along Gravesend Bay. Originally a Victorian-era seaside resort, it transitioned into a stable community of row houses and small apartment buildings, with a historically Italian American character that has gradually become more Chinese and Russian.

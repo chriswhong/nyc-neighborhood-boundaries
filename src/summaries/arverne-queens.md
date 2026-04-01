@@ -1,0 +1,1 @@
+Arverne is a beachfront neighborhood on the Rockaway Peninsula that was largely vacant for decades before a major redevelopment brought new mixed-income housing in the 2000s. It sits between the Atlantic Ocean and Jamaica Bay, offering a rare combination of urban living and seaside environment.

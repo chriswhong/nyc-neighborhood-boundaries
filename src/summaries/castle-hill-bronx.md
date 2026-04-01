@@ -1,0 +1,1 @@
+Castle Hill is a working-class residential neighborhood in the southeastern Bronx, with a largely Latino population and rows of brick apartment buildings and small homes. It borders Castle Hill Avenue and sits near the Pugsley Creek waterfront.

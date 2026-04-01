@@ -1,0 +1,1 @@
+Oakland Gardens is a leafy, suburban neighborhood in northeastern Queens bordering Bayside and Fresh Meadows, characterized by detached single-family homes on quiet, tree-lined streets. The neighborhood has a notable Orthodox Jewish community and easy access to Cunningham Park, one of Queens' largest green spaces.

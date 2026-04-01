@@ -1,0 +1,1 @@
+Park Hill is a densely populated neighborhood on Staten Island's northeastern shore, known as one of the borough's most diverse communities with a significant West African and Caribbean immigrant population. The area is centered around the Park Hill Apartments, a large residential complex overlooking Upper New York Bay.

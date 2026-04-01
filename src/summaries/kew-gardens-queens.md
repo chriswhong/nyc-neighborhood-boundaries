@@ -1,0 +1,1 @@
+Kew Gardens is a leafy, quiet neighborhood in central Queens known for its Tudor-style homes, tree-lined streets, and a strong sense of suburban tranquility within the city. It sits at the intersection of the Van Wyck and Jackie Robinson parkways and is home to the Queens County Courthouse, giving it a civic as well as residential character.

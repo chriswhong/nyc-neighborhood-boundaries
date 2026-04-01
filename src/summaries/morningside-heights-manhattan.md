@@ -1,0 +1,1 @@
+Morningside Heights is an academic enclave on the Upper West Side defined by the presence of Columbia University, Barnard College, and the Cathedral of Saint John the Divine. The neighborhood has a lively, youthful energy shaped by its student population, with Riverside Park and Morningside Park offering green respites on either side of the hill.

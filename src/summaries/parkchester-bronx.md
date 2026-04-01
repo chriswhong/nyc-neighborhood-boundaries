@@ -1,0 +1,1 @@
+Parkchester is a planned residential community in the central Bronx, built in the 1940s as a massive private housing development featuring distinctive brick apartment towers set around pedestrian plazas and green spaces. Today it is a densely populated, transit-rich neighborhood with a vibrant South Asian and Caribbean community.

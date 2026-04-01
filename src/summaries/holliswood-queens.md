@@ -1,0 +1,1 @@
+Holliswood is a small, exclusive residential enclave tucked between Hollis and Jamaica in southeastern Queens, known for its large, detached single-family homes on generously sized lots shaded by mature trees. It is one of the more affluent pockets of the borough, with a quiet, almost suburban character that sets it apart from the denser neighborhoods surrounding it.

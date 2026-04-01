@@ -1,0 +1,1 @@
+Bloomfield is a mid-island Staten Island neighborhood that blends light industrial uses with residential streets, situated near the New Jersey border and major roadways. It is home to a mix of warehouses, small businesses, and suburban housing developments.

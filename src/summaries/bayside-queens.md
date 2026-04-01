@@ -1,0 +1,1 @@
+Bayside is an established, middle-class neighborhood on the northern Queens waterfront, known for its suburban character, good schools, and Little Neck Bay marina. Its Main Street corridor and LIRR station make it a well-connected community popular with families.

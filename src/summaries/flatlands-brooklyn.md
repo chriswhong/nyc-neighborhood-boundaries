@@ -1,0 +1,1 @@
+Flatlands is a quiet, largely residential neighborhood in southeastern Brooklyn, one of the oldest European-settled areas in the borough, with origins as a 17th-century Dutch farming community. Today it is a stable, middle-class neighborhood of single- and two-family homes, strip malls, and parkland along the shores of Jamaica Bay.

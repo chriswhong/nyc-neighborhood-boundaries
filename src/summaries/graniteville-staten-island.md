@@ -1,0 +1,1 @@
+Graniteville is a quiet inland neighborhood in central Staten Island, historically named for the granite quarrying that once took place in the area. Today it is a modest residential community of single-family homes situated near major cross-island roadways.

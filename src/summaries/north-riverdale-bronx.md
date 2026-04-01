@@ -1,0 +1,1 @@
+North Riverdale is the northernmost neighborhood in New York City, tucked into the upper tip of the Bronx along the Hudson River and bordering Westchester County. It is an affluent, low-density enclave with large single-family homes, verdant streets, and proximity to Wave Hill, a stunning public garden and cultural center overlooking the Hudson.

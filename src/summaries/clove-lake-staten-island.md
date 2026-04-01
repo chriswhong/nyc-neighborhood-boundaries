@@ -1,0 +1,1 @@
+Clove Lake is a neighborhood in central Staten Island centered on the serene Clove Lakes Park, a chain of three interconnected lakes surrounded by woodland that includes the borough's largest living tree — a 119-foot tulip. The surrounding residential streets offer peaceful, park-adjacent living at the geographic heart of the borough.

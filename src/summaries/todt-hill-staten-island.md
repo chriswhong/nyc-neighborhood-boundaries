@@ -1,0 +1,1 @@
+Todt Hill is one of the most affluent neighborhoods in all of New York City, occupying the highest natural point on the Eastern Seaboard south of Maine — a 409-foot summit in the center of Staten Island. Its winding roads are lined with grand estates and mansions, and its exclusivity and elevation have long made it a symbol of prestige on the island.

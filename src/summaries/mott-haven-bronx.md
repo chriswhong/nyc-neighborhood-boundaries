@@ -1,0 +1,1 @@
+Mott Haven is the southernmost neighborhood of the Bronx, separated from Harlem by the Harlem River and known as the entry point to the South Bronx. Once an industrial hub and later a symbol of urban blight, it has transformed into one of New York's most rapidly changing neighborhoods, attracting artists and new development while maintaining its deep Latino roots.

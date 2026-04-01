@@ -1,0 +1,1 @@
+Utopia is a small, peaceful residential neighborhood in north-central Queens, bordered by Fresh Meadows, Hillcrest, and Jamaica Hills, known for its streets of modest one- and two-family homes. The evocative name dates to a 19th-century utopian community experiment attempted on the site before it was developed into the neighborhood it is today.

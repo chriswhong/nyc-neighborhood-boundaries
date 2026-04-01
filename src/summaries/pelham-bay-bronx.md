@@ -1,0 +1,1 @@
+Pelham Bay is a residential neighborhood in the northeastern Bronx, situated near the entrance to Pelham Bay Park and the shores of the Eastchester Bay. It offers a suburban feel with single- and two-family homes, and serves as a gateway to the largest park in New York City.

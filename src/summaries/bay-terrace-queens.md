@@ -1,0 +1,1 @@
+Bay Terrace is an affluent, planned residential community in northeastern Queens overlooking Little Neck Bay and Long Island Sound. It features cooperative apartment complexes and single-family homes in a park-like setting near the Throgs Neck Bridge.

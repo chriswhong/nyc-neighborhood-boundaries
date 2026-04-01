@@ -1,0 +1,1 @@
+Kew Gardens Hills is a predominantly Jewish and South Asian residential neighborhood in central Queens, bordered by the Flushing Meadows-Corona Park area and Jamaica. The neighborhood features a mix of attached brick homes, apartment buildings, and a vibrant commercial strip along Main Street and Union Turnpike.

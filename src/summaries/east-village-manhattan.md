@@ -1,0 +1,1 @@
+The East Village is a dense, eclectic neighborhood on Manhattan's Lower East Side that became a counterculture epicenter in the 1960s through the 1980s, home to punk music, the arts, and immigrant communities from Ukrainian to Puerto Rican. Today it retains a bohemian energy with an abundance of bars, indie restaurants, vintage shops, and Tompkins Square Park at its heart.

@@ -1,0 +1,1 @@
+Flatbush is a sprawling, diverse neighborhood in central Brooklyn known for its handsome Victorian and Craftsman homes, particularly in the Ditmas Park section with its tree-lined streets. It is a vibrant, multicultural community with a strong Caribbean presence and a lively commercial strip along Flatbush Avenue.

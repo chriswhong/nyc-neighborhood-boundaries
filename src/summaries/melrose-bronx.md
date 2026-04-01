@@ -1,0 +1,1 @@
+Melrose is one of the South Bronx's most historic neighborhoods, situated just north of the Third Avenue Bridge and east of the Grand Concourse. Once devastated by arson and abandonment in the 1970s, Melrose has been substantially rebuilt and is now home to a dense, largely Latino community with improved housing stock.

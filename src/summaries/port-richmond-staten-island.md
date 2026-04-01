@@ -1,0 +1,1 @@
+Port Richmond is a vibrant, working-class neighborhood on Staten Island's North Shore, historically one of the island's main commercial centers and now home to a thriving Mexican and Latino immigrant community. Its main drag, Port Richmond Avenue, is lined with taquerias, bodegas, and small businesses that give the neighborhood a lively, multicultural energy.

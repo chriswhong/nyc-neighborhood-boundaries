@@ -1,0 +1,1 @@
+Floral Park is a quiet, middle-class neighborhood at the far eastern edge of Queens along the Nassau County border, dominated by Cape Cod-style houses built after World War II for returning veterans. Served by the Long Island Rail Road, it has a distinctly suburban feel and an unusually high concentration of military veterans compared to citywide averages.

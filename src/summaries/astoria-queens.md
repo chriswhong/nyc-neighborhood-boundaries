@@ -1,0 +1,1 @@
+Astoria is one of Queens' most vibrant and diverse neighborhoods, long known for its large Greek community and now home to a rich mix of Middle Eastern, South Asian, and Latin American cultures. Its waterfront parks, lively restaurant scene, and easy Manhattan access make it one of the borough's most popular places to live.

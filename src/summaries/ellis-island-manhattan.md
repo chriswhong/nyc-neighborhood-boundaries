@@ -1,0 +1,1 @@
+Ellis Island is a small island in New York Harbor that served as the nation's busiest immigration station from 1892 to 1954, processing over 12 million immigrants arriving to the United States. Now a national monument and museum, it is a powerful symbol of American immigration history and a major tourist destination accessible by ferry from lower Manhattan and New Jersey.

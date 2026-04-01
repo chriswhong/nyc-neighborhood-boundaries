@@ -1,0 +1,1 @@
+Grymes Hill is an elevated, upscale neighborhood in central Staten Island, perched on a ridge that offers panoramic views of the harbor, New Jersey, and Manhattan. It is home to Wagner College and is known for its stately homes set along winding, tree-lined streets.

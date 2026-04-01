@@ -1,0 +1,1 @@
+Manhattanville is a West Harlem neighborhood centered on the former Manhattanville campus, now being transformed by Columbia University's major expansion. Nestled between Morningside Heights and Hamilton Heights, it has a long history as an industrial and transit hub along the Hudson River.

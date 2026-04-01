@@ -1,0 +1,1 @@
+Queens Village is a large, predominantly residential neighborhood in eastern Queens with a history stretching back to colonial times, when it was known as Little Plains. Today it is a diverse, middle-class community of single-family homes and small apartment buildings, well connected to Manhattan via the Long Island Rail Road.

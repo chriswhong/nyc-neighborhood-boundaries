@@ -1,0 +1,1 @@
+Belle Harbor is an upscale, tight-knit beachfront community on the Rockaway Peninsula, characterized by single-family homes and a strong Irish-American identity. The neighborhood was significantly impacted by both the 2001 American Airlines Flight 587 crash and Hurricane Sandy in 2012.

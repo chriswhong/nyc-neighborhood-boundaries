@@ -1,0 +1,1 @@
+St. Albans is a historic African American neighborhood in southeastern Queens with a proud legacy as home to jazz legends including Count Basie, Ella Fitzgerald, and Lena Horne, who settled here during the mid-20th century. Today it remains a predominantly Black middle-class community of well-maintained one- and two-family homes with a strong sense of cultural heritage.

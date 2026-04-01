@@ -1,0 +1,1 @@
+Bellerose is a quiet residential neighborhood on the eastern edge of Queens along the Nassau County border, known for its well-maintained Tudor and colonial-style homes. It has a strong South Asian community and a small-town commercial strip along Jamaica Avenue.

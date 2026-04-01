@@ -1,0 +1,1 @@
+New Brighton sits on Staten Island's northeastern waterfront, directly across the Kill Van Kull from Bayonne, New Jersey, and is one of the island's oldest and most historically significant neighborhoods. It features a mix of Victorian-era architecture, public housing, and a diverse population, and is home to Snug Harbor Cultural Center and Botanical Garden.

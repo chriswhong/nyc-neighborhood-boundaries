@@ -1,0 +1,1 @@
+Richmond Valley is one of Staten Island's southernmost neighborhoods, a low-density area bordering the Arthur Kill with a largely rural character defined by open land and scattered residential development. It sits adjacent to the Staten Island Greenbelt's southern reaches and the Charleston neighborhood, contributing to the quiet, outer-borough feel of the island's southern end.

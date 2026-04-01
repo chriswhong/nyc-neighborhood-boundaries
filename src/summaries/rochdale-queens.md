@@ -1,0 +1,1 @@
+Rochdale Village is a large cooperative housing development in southeastern Queens, built in the 1960s as one of the largest housing cooperatives in the country. The complex houses thousands of residents in mid-rise towers set around a shopping center and green spaces, and has long served as a middle-class anchor for the Jamaica area.

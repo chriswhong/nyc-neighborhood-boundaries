@@ -1,0 +1,1 @@
+Georgetown is a small, secluded residential enclave in Brooklyn's southeastern waterfront area near Bergen Beach and Marine Park, bordering Jamaica Bay. One of Brooklyn's most isolated pockets, it is characterized by modest single-family homes, limited transit access, and a quiet, self-contained character.

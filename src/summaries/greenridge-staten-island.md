@@ -1,0 +1,1 @@
+Greenridge is a quiet, suburban neighborhood in the southwestern part of Staten Island, developed primarily with single-family and semi-attached homes built from the late 20th century onward. It sits near the Greenbelt and offers residents a low-density, park-adjacent lifestyle.

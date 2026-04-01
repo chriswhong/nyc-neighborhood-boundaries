@@ -1,0 +1,1 @@
+Bedford Park is a densely populated residential neighborhood in the central Bronx, anchored by the New York Botanical Garden and Fordham University to its east. Its grand boulevards and mix of pre-war apartment buildings give it a classic urban character.

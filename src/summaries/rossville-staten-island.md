@@ -1,0 +1,1 @@
+Rossville is a sparsely populated neighborhood on Staten Island's western shore along the Arthur Kill, known for the eerie Rossville Wrecking Yard (also called the Arthur Kill Ship Graveyard), where dozens of decommissioned vessels slowly rust in the tidal marsh. The area is predominantly residential and industrial, retaining a secluded, edge-of-the-city atmosphere.

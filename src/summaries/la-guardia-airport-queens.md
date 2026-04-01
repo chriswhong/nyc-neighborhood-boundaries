@@ -1,0 +1,1 @@
+LaGuardia Airport is a major domestic airport located on the northern shore of Queens along Flushing Bay, serving as the closest major airport to Midtown Manhattan. Extensively renovated in recent years, it handles millions of passengers annually and is a critical hub for regional air travel in the New York metropolitan area.

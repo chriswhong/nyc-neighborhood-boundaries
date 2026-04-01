@@ -1,0 +1,1 @@
+Port Morris is an industrial waterfront neighborhood at the southern tip of the Bronx, where the Harlem and East Rivers meet. Long defined by its warehouses and manufacturing yards, it has seen growing interest from artists and creative businesses attracted by its large loft spaces and sweeping views of the Manhattan skyline.

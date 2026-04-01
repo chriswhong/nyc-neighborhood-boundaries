@@ -1,0 +1,1 @@
+Stapleton is a historically significant neighborhood on Staten Island's North Shore, once home to a major U.S. Navy homeport and now undergoing a wave of revitalization with new waterfront development, restaurants, and arts spaces. Its mix of Victorian row houses, a diverse population, and growing creative scene make it one of the most dynamic communities on the island.

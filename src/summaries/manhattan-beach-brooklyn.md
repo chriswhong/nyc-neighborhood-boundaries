@@ -1,0 +1,1 @@
+Manhattan Beach is an affluent, secluded enclave on the southern tip of Brooklyn, sitting on a peninsula between Sheepshead Bay and the Atlantic Ocean. It is known for its handsome single-family homes, a quiet oceanfront park, and a suburban feel that feels worlds away from the rest of the city.

@@ -1,0 +1,1 @@
+Fresh Kills was once home to one of the largest landfills in the world, which served as New York City's primary waste disposal site for much of the 20th century before closing in 2001. The area along the western shore of Staten Island is now being transformed into a vast public park, reclaiming the land for open space and ecological restoration.

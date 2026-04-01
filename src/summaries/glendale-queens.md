@@ -1,0 +1,1 @@
+Glendale is a tightly knit, working-class neighborhood in central Queens with a traditionally German and Italian heritage that is still reflected in its old-school diners, bakeries, and local institutions. Bordered by the vast expanse of the Lutheran All Faiths Cemetery, it is a quiet and largely residential community with a distinctly old-New York character.

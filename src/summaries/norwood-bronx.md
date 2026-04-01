@@ -1,0 +1,1 @@
+Norwood is a quiet residential neighborhood in the northern Bronx, bordered by the Mosholu Parkway and home to a diverse mix of families drawn by its tree-lined streets and relative affordability. The neighborhood anchors around Gun Hill Road and is known for its strong Dominican and Irish community roots.

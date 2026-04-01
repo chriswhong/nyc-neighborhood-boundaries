@@ -1,0 +1,1 @@
+Freshkills Park is an ambitious ongoing project to convert the former Fresh Kills landfill on Staten Island's western shore into one of the largest parks in New York City, eventually spanning over 2,200 acres. The park is being developed in phases and will feature wetlands, trails, sports fields, and public art set against a dramatically reclaimed landscape.

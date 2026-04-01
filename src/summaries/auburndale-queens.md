@@ -1,0 +1,1 @@
+Auburndale is a quiet, tree-lined residential neighborhood in north-central Queens with a mix of single-family homes and apartments. It borders Flushing and Fresh Meadows, offering a suburban feel with easy access to the Long Island Rail Road.

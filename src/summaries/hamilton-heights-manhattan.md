@@ -1,0 +1,1 @@
+Hamilton Heights is an upper Manhattan neighborhood in West Harlem, roughly between 135th and 155th Streets, named for Alexander Hamilton whose Grange estate still stands there. It is known for its impressive collection of Romanesque Revival row houses, its vibrant Latino and African American communities, and its hillside elevation above the Hudson River.

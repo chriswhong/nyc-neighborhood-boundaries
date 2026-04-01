@@ -1,0 +1,1 @@
+Great Kills is a well-established residential neighborhood on Staten Island's southeastern shore, anchored by a small commercial main street and the Great Kills Harbor, a popular boating and recreational area within Gateway National Recreation Area. The neighborhood has a classic outer-borough feel with tree-lined streets and a strong sense of community.

@@ -1,0 +1,1 @@
+Bulls Head is a central Staten Island neighborhood known as a commercial hub, anchored by large shopping centers and auto dealerships along Richmond Avenue. Surrounding the retail corridor are quiet suburban streets of single-family homes.

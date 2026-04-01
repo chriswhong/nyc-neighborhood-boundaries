@@ -1,0 +1,1 @@
+Malba is one of Queens' most exclusive and secluded enclaves, a small waterfront community in northeastern Queens overlooking the Whitestone Bridge and Long Island Sound. Its unusual name derives from the initials of its five founding families, and it remains one of the few areas in Queens dominated by large private estates on spacious lots.

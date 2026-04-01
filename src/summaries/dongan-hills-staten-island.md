@@ -1,0 +1,1 @@
+Dongan Hills is a leafy, middle-class neighborhood on Staten Island's eastern side, named after the colonial-era governor Thomas Dongan who once owned land here. The neighborhood features a mix of single-family homes and small apartment buildings, with good access to the Staten Island Expressway and the waterfront.

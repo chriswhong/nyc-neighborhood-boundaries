@@ -1,0 +1,1 @@
+Old Town is a small neighborhood in eastern Staten Island situated between Dongan Hills and Concord, featuring a mix of older homes and modest residential streets. Its name reflects its status as one of the earlier settled areas of the island, lending it a quiet, established character.

@@ -1,0 +1,1 @@
+Prospect Heights is a vibrant neighborhood just north of Prospect Park, anchored at its eastern edge by the Brooklyn Museum, the Brooklyn Botanic Garden, and the Grand Army Plaza arch. Its Washington Avenue corridor is lined with acclaimed restaurants and bars, and its elegant brownstone blocks attract a diverse mix of long-time residents and newcomers.

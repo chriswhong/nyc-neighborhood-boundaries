@@ -1,0 +1,1 @@
+High Bridge is a hilly neighborhood in the western Bronx named for the landmark High Bridge, the oldest surviving bridge in New York City, which spans the Harlem River and connects the Bronx to upper Manhattan. The neighborhood features dense residential blocks, sweeping river views, and a strong Dominican community.

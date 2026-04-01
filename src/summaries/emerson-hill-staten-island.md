@@ -1,0 +1,1 @@
+Emerson Hill is an affluent, hilly neighborhood in central Staten Island known for its large homes, wooded lots, and sweeping views of the harbor and surrounding borough. It is one of the island's more secluded residential enclaves, prized for its privacy and elevated terrain.

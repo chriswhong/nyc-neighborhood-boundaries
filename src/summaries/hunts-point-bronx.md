@@ -1,0 +1,1 @@
+Hunts Point is a peninsula in the southern Bronx best known as the home of the massive Hunts Point Food Distribution Center, one of the largest food distribution markets in the world. The neighborhood, long marked by industrial land use and economic hardship, has seen significant community-driven revitalization efforts in recent decades.

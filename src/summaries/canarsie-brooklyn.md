@@ -1,0 +1,1 @@
+Canarsie is a residential neighborhood tucked into the southeastern corner of Brooklyn along Jamaica Bay, known for its quiet, suburban feel and tight-knit community. Its waterfront park and marina offer a peaceful escape, and the neighborhood has long been home to a diverse mix of Caribbean American and Italian American families.

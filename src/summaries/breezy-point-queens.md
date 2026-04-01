@@ -1,0 +1,1 @@
+Breezy Point is a tight-knit, gated oceanfront community at the western tip of the Rockaway Peninsula in Queens, known for its rows of modest bungalows and strong Irish-American heritage. It offers miles of uncrowded Atlantic beach and a fiercely local character unlike almost anywhere else in New York City.

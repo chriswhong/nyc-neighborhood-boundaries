@@ -1,0 +1,1 @@
+Broad Channel is a small, insular island community situated in the middle of Jamaica Bay, accessible by a single road and the A train, giving it the feel of a remote fishing village within city limits. Most residents are multigenerational families who embrace the neighborhood's waterfront lifestyle and its proximity to the Gateway National Recreation Area.

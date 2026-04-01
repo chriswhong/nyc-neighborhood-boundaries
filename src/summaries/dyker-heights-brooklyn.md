@@ -1,0 +1,1 @@
+Dyker Heights is a quiet, predominantly Italian American residential neighborhood in southwestern Brooklyn known for its well-kept single-family homes and manicured lawns. It is famous city-wide for its extravagant Christmas light displays, which draw tens of thousands of visitors each December to gawk at the elaborately decorated houses.

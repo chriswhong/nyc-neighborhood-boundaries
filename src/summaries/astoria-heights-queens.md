@@ -1,0 +1,1 @@
+Astoria Heights is a small residential sub-neighborhood within Astoria in northwestern Queens, perched on elevated terrain above the broader community near the Grand Central Parkway. It shares Astoria's diverse, lively character while offering a quieter, more secluded residential setting away from the main commercial strips.

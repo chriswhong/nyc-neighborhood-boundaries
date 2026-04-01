@@ -1,0 +1,1 @@
+South Ozone Park is a dense, multicultural neighborhood in southwestern Queens, home to one of New York City's largest Guyanese communities as well as significant Trinidadian and other Caribbean populations. Located just north of JFK Airport, it features a lively Liberty Avenue commercial corridor and modest attached homes on compact residential streets.

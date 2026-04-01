@@ -1,0 +1,1 @@
+Red Hook is a peninsula on the southwestern waterfront of Brooklyn, isolated from the rest of the borough by the BQE and accessible only by bus or ferry, which has helped preserve its industrial, rough-hewn character. Its converted warehouses, working docks, and waterfront views of the Statue of Liberty and Manhattan give it a uniquely gritty and creative atmosphere.

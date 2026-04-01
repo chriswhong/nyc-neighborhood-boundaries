@@ -1,0 +1,1 @@
+East Tremont is a densely populated neighborhood in the central Bronx with a largely Latino community, centered on East Tremont Avenue's commercial corridor. It sits between the Cross Bronx Expressway and Bronx Park, a highway whose construction in the 1950s dramatically reshaped the neighborhood.
