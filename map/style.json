@@ -28,6 +28,16 @@
             "data": "{{centroids_geojson_url}}",
             "promoteId": "slug"
         },
+        "neighborhoods-sub": {
+            "type": "geojson",
+            "data": "../dist/nyc-neighborhood-boundaries-sub.geojson",
+            "promoteId": "slug"
+        },
+        "centroids-sub": {
+            "type": "geojson",
+            "data": "../dist/nyc-neighborhood-boundaries-centroids-sub.geojson",
+            "promoteId": "slug"
+        },
         "nyc-subway-routes": {
             "type": "geojson",
             "data": "https://raw.githubusercontent.com/chriswhong/mapboxgl-nyc-subway/refs/heads/master/data/nyc-subway-routes.geojson",
@@ -401,6 +411,120 @@
                     "#66c2a5",
                     "#ccc"
                 ],
+                "text-halo-width": 1,
+                "text-halo-blur": 1
+            }
+        },
+        {
+            "id": "neighborhoods-sub-fill",
+            "type": "fill",
+            "source": "neighborhoods-sub",
+            "paint": {
+                "fill-color": "#888888",
+                "fill-opacity": 0.2
+            },
+            "slot": "top"
+        },
+        {
+            "id": "neighborhoods-sub-stroke",
+            "type": "line",
+            "source": "neighborhoods-sub",
+            "paint": {
+                "line-color": "#333333",
+                "line-opacity": 0.6,
+                "line-width": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    9,
+                    1,
+                    14,
+                    4
+                ],
+                "line-dasharray": [2, 2],
+                "line-occlusion-opacity": 1
+            }
+        },
+        {
+            "id": "neighborhoods-sub-border-labels",
+            "type": "symbol",
+            "source": "neighborhoods-sub",
+            "minzoom": 14,
+            "maxzoom": 22,
+            "layout": {
+                "symbol-placement": "line",
+                "text-field": [
+                    "upcase",
+                    [
+                        "get",
+                        "name"
+                    ]
+                ],
+                "text-font": [
+                    "DIN Pro Italic"
+                ],
+                "text-size": 12,
+                "text-letter-spacing": 0.15,
+                "text-rotation-alignment": "map",
+                "text-pitch-alignment": "viewport",
+                "text-max-angle": 30,
+                "text-offset": [
+                    0,
+                    1.5
+                ],
+                "symbol-spacing": 350,
+                "text-repeat-distance": 250
+            },
+            "paint": {
+                "text-color": "#555555",
+                "text-halo-color": "rgba(255, 255, 255, 0.9)",
+                "text-halo-width": 1.5,
+                "text-halo-blur": 1
+            }
+        },
+        {
+            "id": "neighborhoods-sub-labels",
+            "type": "symbol",
+            "source": "centroids-sub",
+            "minzoom": 12,
+            "maxzoom": 18,
+            "layout": {
+                "text-line-height": 1.1,
+                "text-size": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    12,
+                    8,
+                    14,
+                    12,
+                    18,
+                    24
+                ],
+                "text-field": [
+                    "upcase",
+                    [
+                        "get",
+                        "name"
+                    ]
+                ],
+                "text-font": [
+                    "DIN Pro Italic"
+                ],
+                "text-anchor": "center",
+                "text-max-width": 7
+            },
+            "paint": {
+                "text-color": "#555555",
+                "text-halo-color": "rgba(255, 255, 255, 0.8)",
                 "text-halo-width": 1,
                 "text-halo-blur": 1
             }

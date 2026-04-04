@@ -8,19 +8,26 @@ Adds a centroid point for a specific neighborhood by slug identifier.
 
 **Usage:**
 ```bash
-node scripts/add-centroid.js <neighborhood-slug>
+node scripts/add-centroid.js <neighborhood-slug> [--sub]
 ```
 
-**Example:**
+**Examples:**
 ```bash
+# Add centroid for main neighborhood
 node scripts/add-centroid.js fort-george-manhattan
+
+# Add centroid for sub-neighborhood
+node scripts/add-centroid.js meatpacking-district-manhattan --sub
 ```
 
 This script:
 - Finds the boundary feature with the given slug
 - Calculates its centroid using Turf.js
-- Adds the centroid to the centroids GeoJSON file
+- Adds the centroid to the appropriate centroids GeoJSON file (main or sub)
 - Updates the feature count metadata
+
+**Options:**
+- `--sub` - Add centroid to sub-neighborhoods file instead of main neighborhoods file
 
 **Note:** If you need to update properties after adding, run `apply-properties.js`.
 

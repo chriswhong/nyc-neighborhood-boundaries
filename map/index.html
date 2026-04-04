@@ -77,23 +77,23 @@
                 map.touchZoomRotate.disableRotation();
             });
 
-            map.on('zoom', () => {
-                const zoom = map.getZoom();
+            // map.on('zoom', () => {
+            //     const zoom = map.getZoom();
 
-                // Calculate pitch based on zoom level
-                // Pitch starts at 0 at zoom 8 and below, reaches 45 degrees at zoom 16 and above
-                let pitch;
-                if (zoom <= 8) {
-                    pitch = 0;
-                } else if (zoom >= 16) {
-                    pitch = 45;
-                } else {
-                    // Linear interpolation between zoom 8-16
-                    pitch = ((zoom - 8) / (16 - 8)) * 45;
-                }
+            //     // Calculate pitch based on zoom level
+            //     // Pitch starts at 0 at zoom 8 and below, reaches 45 degrees at zoom 16 and above
+            //     let pitch;
+            //     if (zoom <= 8) {
+            //         pitch = 0;
+            //     } else if (zoom >= 16) {
+            //         pitch = 45;
+            //     } else {
+            //         // Linear interpolation between zoom 8-16
+            //         pitch = ((zoom - 8) / (16 - 8)) * 45;
+            //     }
 
-                map.setPitch(pitch);
-            });
+            //     map.setPitch(pitch);
+            // });
         })().catch(err => {
             // Minimal error handling for debug
             // eslint-disable-next-line no-console

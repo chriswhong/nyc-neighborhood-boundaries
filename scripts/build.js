@@ -7,11 +7,21 @@ const __dirname = dirname(__filename)
 
 const boundariesFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries.geojson')
 const centroidsFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries-centroids.geojson')
+const boundariesSubFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries-sub.geojson')
+const centroidsSubFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries-centroids-sub.geojson')
 const summariesDir = join(__dirname, '../src/summaries')
 const distDir = join(__dirname, '../dist')
 
 const boundaries = JSON.parse(readFileSync(boundariesFile, 'utf8'))
 const centroids = JSON.parse(readFileSync(centroidsFile, 'utf8'))
+
+// Check if sub-neighborhood files exist
+const hasSub = existsSync(boundariesSubFile) && existsSync(centroidsSubFile)
+let boundariesSub, centroidsSub
+if (hasSub) {
+  boundariesSub = JSON.parse(readFileSync(boundariesSubFile, 'utf8'))
+  centroidsSub = JSON.parse(readFileSync(centroidsSubFile, 'utf8'))
+}
 
 // Check every feature has a summary file before writing anything
 const missing = []
@@ -77,3 +87,30 @@ console.log(`Built ${boundaries.features.length} features → ${boundariesOut}`)
 
 writeGeoJSON(centroidsOut, centroids)
 console.log(`Built ${centroids.features.length} features → ${centroidsOut}`)
+
+// Build sub-neighborhood files if they exist
+if (hasSub) {
+  // Build a properties map for sub-neighborhoods (no summaries required)
+  const propsMapSub = new Map()
+  boundariesSub.features.forEach(feature => {
+    const { slug } = feature.properties
+    propsMapSub.set(slug, { ...feature.properties })
+  })
+
+  // Attach full properties to centroid features
+  centroidsSub.features.forEach(feature => {
+    const { slug } = feature.properties
+    if (propsMapSub.has(slug)) {
+      feature.properties = propsMapSub.get(slug)
+    }
+  })
+
+  const boundariesSubOut = join(distDir, 'nyc-neighborhood-boundaries-sub.geojson')
+  const centroidsSubOut = join(distDir, 'nyc-neighborhood-boundaries-centroids-sub.geojson')
+
+  writeGeoJSON(boundariesSubOut, boundariesSub)
+  console.log(`Built ${boundariesSub.features.length} sub-neighborhood features → ${boundariesSubOut}`)
+
+  writeGeoJSON(centroidsSubOut, centroidsSub)
+  console.log(`Built ${centroidsSub.features.length} sub-neighborhood centroids → ${centroidsSubOut}`)
+}
