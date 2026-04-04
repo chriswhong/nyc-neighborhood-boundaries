@@ -106,6 +106,21 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
     })
 
     describe('Feature ID Validation', () => {
+        test('all features must have a slug property', () => {
+            const missingSlug = []
+            geojson.features.forEach((feature, index) => {
+                if (!feature.properties?.slug) {
+                    missingSlug.push({
+                        index: index + 1,
+                        name: feature.properties?.name || 'unknown',
+                        borough: feature.properties?.borough || 'unknown'
+                    })
+                }
+            })
+            
+            expect(missingSlug, `Features missing slug: ${JSON.stringify(missingSlug, null, 2)}`).toHaveLength(0)
+        })
+
         test('all features should have kebab-case slugs matching name-borough pattern', () => {
             geojson.features.forEach((feature, index) => {
                 expect(feature.properties.name, `Feature ${index + 1} should have a name`).toBeDefined()
@@ -140,6 +155,22 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
         test('all feature slugs should be unique', () => {
             const slugs = geojson.features.map(f => f.properties.slug)
             const uniqueSlugs = new Set(slugs)
+            
+            if (uniqueSlugs.size !== slugs.length) {
+                // Find duplicates
+                const slugCounts = {}
+                slugs.forEach(slug => {
+                    slugCounts[slug] = (slugCounts[slug] || 0) + 1
+                })
+                
+                const duplicates = Object.entries(slugCounts)
+                    .filter(([slug, count]) => count > 1)
+                    .map(([slug, count]) => `  - "${slug}" appears ${count} times`)
+                    .join('\n')
+                
+                expect(uniqueSlugs.size, `All feature slugs should be unique.\n\nDuplicate slugs found:\n${duplicates}`).toBe(slugs.length)
+            }
+            
             expect(uniqueSlugs.size, 'All feature slugs should be unique').toBe(slugs.length)
         })
     })
@@ -237,6 +268,133 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
                 expect(feature.geometry.type, `Feature ${index + 1} should have geometry type`).toBeDefined()
                 expect(feature.geometry.coordinates, `Feature ${index + 1} should have coordinates`).toBeDefined()
             })
+        })
+    })
+
+    describe('Centroids Validation', () => {
+        let centroidsGeojson
+
+        beforeAll(() => {
+            const centroidsPath = join(__dirname, '../src/data/nyc-neighborhood-boundaries-centroids.geojson')
+            
+            try {
+                const centroidsContent = readFileSync(centroidsPath, 'utf8')
+                centroidsGeojson = JSON.parse(centroidsContent)
+            } catch (error) {
+                throw new Error(`Failed to load centroids GeoJSON: ${error.message}`)
+            }
+        })
+
+        test('every boundary feature should have a corresponding centroid', () => {
+            const boundarySlugs = new Set(geojson.features.map(f => f.properties.slug))
+            const centroidSlugs = new Set(
+                centroidsGeojson.features
+                    .filter(f => f.properties?.slug)
+                    .map(f => f.properties.slug)
+            )
+
+            const missing = []
+            boundarySlugs.forEach(slug => {
+                if (!centroidSlugs.has(slug)) {
+                    missing.push(slug)
+                }
+            })
+
+            if (missing.length > 0) {
+                const commands = missing.map(slug => `node scripts/add-centroid.js ${slug}`).join('\n')
+                expect(missing, `Missing centroids for: ${missing.join(', ')}\n\nRun these commands to generate them:\n${commands}`).toHaveLength(0)
+            }
+
+            expect(missing).toHaveLength(0)
+        })
+
+        test('every centroid should have a corresponding boundary', () => {
+            const boundarySlugs = new Set(geojson.features.map(f => f.properties.slug))
+            const centroidSlugs = centroidsGeojson.features
+                .filter(f => f.properties?.slug)
+                .map(f => f.properties.slug)
+
+            const orphaned = []
+            centroidSlugs.forEach(slug => {
+                if (!boundarySlugs.has(slug)) {
+                    orphaned.push(slug)
+                }
+            })
+
+            expect(orphaned, `Orphaned centroids without boundaries: ${orphaned.join(', ')}`).toHaveLength(0)
+        })
+
+        test('all centroids should have valid properties', () => {
+            const centroidsWithProps = centroidsGeojson.features.filter(f => f.properties?.slug)
+            const centroidsWithoutSlug = []
+            
+            centroidsGeojson.features.forEach((feature, index) => {
+                if (!feature.properties?.slug) {
+                    centroidsWithoutSlug.push({
+                        index: index + 1,
+                        coordinates: feature.geometry?.coordinates,
+                        properties: feature.properties
+                    })
+                }
+            })
+            
+            if (centroidsWithoutSlug.length > 0) {
+                const details = centroidsWithoutSlug.map(c => 
+                    `  [${c.index}] coords: [${c.coordinates?.[0]?.toFixed(6)}, ${c.coordinates?.[1]?.toFixed(6)}], props: ${JSON.stringify(c.properties)}`
+                ).join('\n')
+                expect(centroidsWithProps.length, `All centroids should have slug property.\n\n${centroidsWithoutSlug.length} centroids missing slug:\n${details}`).toBe(centroidsGeojson.features.length)
+            }
+            
+            expect(centroidsWithProps.length, 'All centroids should have slug property').toBe(centroidsGeojson.features.length)
+
+            centroidsWithProps.forEach((feature, index) => {
+                expect(feature.properties.slug, `Centroid ${index + 1} should have slug`).toBeDefined()
+                expect(feature.properties.name, `Centroid ${index + 1} should have name`).toBeDefined()
+                expect(feature.properties.color, `Centroid ${index + 1} should have color`).toBeDefined()
+                expect(feature.geometry.type, `Centroid ${index + 1} should be a Point`).toBe('Point')
+            })
+        })
+
+        test('centroids and boundaries should have same feature count', () => {
+            const boundarySlugs = geojson.features.filter(f => f.properties?.slug)
+            const centroidSlugs = centroidsGeojson.features.filter(f => f.properties?.slug)
+            
+            if (centroidSlugs.length !== boundarySlugs.length) {
+                // Find which ones are missing
+                const boundarySlugSet = new Set(geojson.features.filter(f => f.properties?.slug).map(f => f.properties.slug))
+                const centroidSlugSet = new Set(centroidsGeojson.features.filter(f => f.properties?.slug).map(f => f.properties.slug))
+                
+                const missingCentroids = []
+                boundarySlugSet.forEach(slug => {
+                    if (!centroidSlugSet.has(slug)) {
+                        missingCentroids.push(slug)
+                    }
+                })
+                
+                const orphanedCentroids = []
+                centroidSlugSet.forEach(slug => {
+                    if (!boundarySlugSet.has(slug)) {
+                        orphanedCentroids.push(slug)
+                    }
+                })
+                
+                let errorMsg = `Centroids count should match boundaries count.\n`
+                errorMsg += `Boundaries: ${boundarySlugs.length}, Centroids: ${centroidSlugs.length}\n\n`
+                
+                if (missingCentroids.length > 0) {
+                    const commands = missingCentroids.map(slug => `node scripts/add-centroid.js ${slug}`).join('\n')
+                    errorMsg += `Missing ${missingCentroids.length} centroids:\n${missingCentroids.map(s => `  - ${s}`).join('\n')}\n\n`
+                    errorMsg += `Run these commands to generate them:\n${commands}\n`
+                }
+                
+                if (orphanedCentroids.length > 0) {
+                    errorMsg += `\nOrphaned ${orphanedCentroids.length} centroids (no matching boundary):\n${orphanedCentroids.map(s => `  - ${s}`).join('\n')}\n`
+                }
+                
+                expect(centroidSlugs.length, errorMsg).toBe(boundarySlugs.length)
+            }
+            
+            expect(centroidSlugs.length, 'Centroids count should match boundaries count').toBe(boundarySlugs.length)
         })
     })
 })

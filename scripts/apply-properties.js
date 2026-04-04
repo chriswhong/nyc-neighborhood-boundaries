@@ -8,8 +8,8 @@ const __dirname = dirname(__filename)
 
 function applyProperties() {
     try {
-        const boundariesFile = join(__dirname, '../data/nyc-neighborhood-boundaries.geojson')
-        const centroidsFile = join(__dirname, '../data/nyc-neighborhood-boundaries-centroids.geojson')
+        const boundariesFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries.geojson')
+        const centroidsFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries-centroids.geojson')
         
         console.log(`Reading boundaries: ${boundariesFile}`)
         console.log(`Reading centroids: ${centroidsFile}`)
