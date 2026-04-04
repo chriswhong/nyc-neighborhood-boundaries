@@ -8,8 +8,8 @@ const __dirname = path.dirname(__filename);
 const dataDir = path.join(__dirname, '../data');
 
 const files = [
-  '../data/nyc-neighborhood-boundaries.geojson',
-  '../data/nyc-neighborhood-boundaries-centroids.geojson'
+  '../src/data/nyc-neighborhood-boundaries.geojson',
+  '../src/data/nyc-neighborhood-boundaries-centroids.geojson'
 ];
 
 function formatGeoJSON(filePath) {
