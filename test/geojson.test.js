@@ -1,5 +1,5 @@
 import { describe, test, expect, beforeAll } from 'vitest'
-import { readFileSync, existsSync } from 'fs'
+import { readFileSync, existsSync, readdirSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 
@@ -66,6 +66,19 @@ describe('Sub-Neighborhoods GeoJSON Validation', () => {
         } catch (error) {
             throw new Error(`Failed to load sub-neighborhoods GeoJSON: ${error.message}`)
         }
+    })
+
+    test('no orphaned summary files (every .md must have a matching neighborhood)', () => {
+        const summariesDir = join(__dirname, '../src/summaries')
+        const allSlugs = new Set([
+            ...mainGeojson.features.map(f => f.properties.slug),
+            ...subGeojson.features.map(f => f.properties.slug)
+        ])
+        const orphaned = readdirSync(summariesDir)
+            .filter(f => f.endsWith('.md'))
+            .map(f => f.replace(/\.md$/, ''))
+            .filter(slug => !allSlugs.has(slug))
+        expect(orphaned, `Orphaned summary files with no matching neighborhood:\n${orphaned.map(s => `  src/summaries/${s}.md`).join('\n')}`).toHaveLength(0)
     })
 
     test('all sub-neighborhoods must have a summary markdown file', () => {
