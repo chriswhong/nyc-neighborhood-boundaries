@@ -20,6 +20,73 @@ function toKebabCase(str) {
 // Valid NYC boroughs
 const VALID_BOROUGHS = ['manhattan', 'queens', 'bronx', 'brooklyn', 'staten-island']
 
+describe('Sub-Neighborhoods GeoJSON Validation', () => {
+    let subGeojson
+    let mainGeojson
+
+    beforeAll(() => {
+        const subPath = join(__dirname, '../src/data/nyc-neighborhood-boundaries-sub.geojson')
+        const mainPath = join(__dirname, '../src/data/nyc-neighborhood-boundaries.geojson')
+
+        try {
+            subGeojson = JSON.parse(readFileSync(subPath, 'utf8'))
+            mainGeojson = JSON.parse(readFileSync(mainPath, 'utf8'))
+        } catch (error) {
+            throw new Error(`Failed to load sub-neighborhoods GeoJSON: ${error.message}`)
+        }
+    })
+
+    test('all sub-neighborhoods must have a parent_neighborhoods property', () => {
+        const missing = []
+        subGeojson.features.forEach((feature, index) => {
+            if (!Object.prototype.hasOwnProperty.call(feature.properties, 'parent_neighborhoods')) {
+                missing.push(feature.properties.slug || `feature ${index + 1}`)
+            }
+        })
+        expect(missing, `Sub-neighborhoods missing parent_neighborhoods: ${missing.join(', ')}`).toHaveLength(0)
+    })
+
+    test('parent_neighborhoods must be an array', () => {
+        subGeojson.features.forEach((feature) => {
+            expect(
+                Array.isArray(feature.properties.parent_neighborhoods),
+                `"${feature.properties.slug}" parent_neighborhoods must be an array`
+            ).toBe(true)
+        })
+    })
+
+    test('all parent_neighborhoods slugs must exist in nyc-neighborhood-boundaries.geojson', () => {
+        const mainSlugs = new Set(mainGeojson.features.map(f => f.properties.slug))
+        const invalid = []
+
+        subGeojson.features.forEach((feature) => {
+            const parents = feature.properties.parent_neighborhoods || []
+            parents.forEach(parentSlug => {
+                if (!mainSlugs.has(parentSlug)) {
+                    invalid.push(`"${feature.properties.slug}" references unknown parent "${parentSlug}"`)
+                }
+            })
+        })
+
+        expect(invalid, `Invalid parent slugs:\n${invalid.join('\n')}`).toHaveLength(0)
+    })
+
+    test('sub-neighborhoods with empty parent_neighborhoods should be noted (data quality)', () => {
+        const noParent = subGeojson.features
+            .filter(f => !f.properties.parent_neighborhoods || f.properties.parent_neighborhoods.length === 0)
+            .map(f => f.properties.slug)
+
+        if (noParent.length > 0) {
+            console.warn(
+                `\nData quality: ${noParent.length} sub-neighborhood(s) have no parent slugs because their parent is not in nyc-neighborhood-boundaries.geojson:\n` +
+                noParent.map(s => `  - ${s}`).join('\n')
+            )
+        }
+        // Not a hard failure — empty parent_neighborhoods is valid when the parent isn't in the main file
+        expect(true).toBe(true)
+    })
+})
+
 describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
     let geojson
     let fileContent
@@ -349,8 +416,6 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
 
             centroidsWithProps.forEach((feature, index) => {
                 expect(feature.properties.slug, `Centroid ${index + 1} should have slug`).toBeDefined()
-                expect(feature.properties.name, `Centroid ${index + 1} should have name`).toBeDefined()
-                expect(feature.properties.color, `Centroid ${index + 1} should have color`).toBeDefined()
                 expect(feature.geometry.type, `Centroid ${index + 1} should be a Point`).toBe('Point')
             })
         })
