@@ -1,5 +1,5 @@
 import { describe, test, expect, beforeAll } from 'vitest'
-import { readFileSync } from 'fs'
+import { readFileSync, existsSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 
@@ -66,6 +66,14 @@ describe('Sub-Neighborhoods GeoJSON Validation', () => {
         } catch (error) {
             throw new Error(`Failed to load sub-neighborhoods GeoJSON: ${error.message}`)
         }
+    })
+
+    test('all sub-neighborhoods must have a summary markdown file', () => {
+        const summariesDir = join(__dirname, '../src/summaries')
+        const missing = subGeojson.features
+            .filter(f => !existsSync(join(summariesDir, `${f.properties.slug}.md`)))
+            .map(f => f.properties.slug)
+        expect(missing, `Missing summary files:\n${missing.map(s => `  src/summaries/${s}.md`).join('\n')}`).toHaveLength(0)
     })
 
     test('sub-neighborhoods should not have a color property (derived from parent at build)', () => {
@@ -370,6 +378,14 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
             Object.entries(boroughGroups).forEach(([borough, names]) => {
                 expect(names.size, `All neighborhood names in ${borough} should be unique`).toBe(geojson.features.filter(f => f.properties.borough === borough).length)
             })
+        })
+
+        test('all neighborhoods must have a summary markdown file', () => {
+            const summariesDir = join(__dirname, '../src/summaries')
+            const missing = geojson.features
+                .filter(f => !existsSync(join(summariesDir, `${f.properties.slug}.md`)))
+                .map(f => f.properties.slug)
+            expect(missing, `Missing summary files:\n${missing.map(s => `  src/summaries/${s}.md`).join('\n')}`).toHaveLength(0)
         })
 
         test('all coordinates should have at most 6 decimal places', () => {
