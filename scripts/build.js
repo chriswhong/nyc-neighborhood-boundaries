@@ -51,11 +51,12 @@ boundaries.features.forEach(feature => {
   feature.properties = propsMap.get(feature.properties.slug)
 })
 
-// Attach full properties to centroid features
+// Attach name and color to centroid features from boundaries
 centroids.features.forEach(feature => {
   const { slug } = feature.properties
   if (propsMap.has(slug)) {
-    feature.properties = propsMap.get(slug)
+    const { name, color } = propsMap.get(slug)
+    feature.properties = { slug, name, color }
   }
 })
 
@@ -97,11 +98,12 @@ if (hasSub) {
     propsMapSub.set(slug, { ...feature.properties })
   })
 
-  // Attach full properties to centroid features
+  // Attach name and color to sub centroid features from boundaries
   centroidsSub.features.forEach(feature => {
     const { slug } = feature.properties
     if (propsMapSub.has(slug)) {
-      feature.properties = propsMapSub.get(slug)
+      const { name, color } = propsMapSub.get(slug)
+      feature.properties = { slug, name, color }
     }
   })
 
