@@ -20,6 +20,38 @@ function toKebabCase(str) {
 // Valid NYC boroughs
 const VALID_BOROUGHS = ['manhattan', 'queens', 'bronx', 'brooklyn', 'staten-island']
 
+// Check that all coordinates in a feature collection have at most maxDecimals decimal places
+function checkCoordinatePrecision(features, maxDecimals = 6) {
+    const violations = []
+
+    function decimalPlaces(num) {
+        const str = num.toString()
+        const dot = str.indexOf('.')
+        return dot === -1 ? 0 : str.length - dot - 1
+    }
+
+    function checkCoords(coords, slug) {
+        if (typeof coords[0] === 'number') {
+            coords.forEach(val => {
+                if (decimalPlaces(val) > maxDecimals) {
+                    violations.push(`"${slug}": ${val}`)
+                }
+            })
+        } else {
+            coords.forEach(c => checkCoords(c, slug))
+        }
+    }
+
+    features.forEach(feature => {
+        const slug = feature.properties?.slug || 'unknown'
+        if (feature.geometry?.coordinates) {
+            checkCoords(feature.geometry.coordinates, slug)
+        }
+    })
+
+    return violations
+}
+
 describe('Sub-Neighborhoods GeoJSON Validation', () => {
     let subGeojson
     let mainGeojson
@@ -34,6 +66,21 @@ describe('Sub-Neighborhoods GeoJSON Validation', () => {
         } catch (error) {
             throw new Error(`Failed to load sub-neighborhoods GeoJSON: ${error.message}`)
         }
+    })
+
+    test('sub-neighborhoods should not have a color property (derived from parent at build)', () => {
+        const withColor = subGeojson.features
+            .filter(f => Object.prototype.hasOwnProperty.call(f.properties, 'color'))
+            .map(f => f.properties.slug)
+        expect(withColor, `Sub-neighborhoods must not have color in source: ${withColor.join(', ')}`).toHaveLength(0)
+    })
+
+    test('sub-neighborhoods should not have unexpected properties', () => {
+        const allowed = ['name', 'borough', 'slug', 'wikipedia_url', 'parent_neighborhoods']
+        subGeojson.features.forEach((feature) => {
+            const unexpected = Object.keys(feature.properties).filter(p => !allowed.includes(p))
+            expect(unexpected, `"${feature.properties.slug}" has unexpected properties: ${unexpected.join(', ')}`).toHaveLength(0)
+        })
     })
 
     test('all sub-neighborhoods must have a parent_neighborhoods property', () => {
@@ -71,19 +118,16 @@ describe('Sub-Neighborhoods GeoJSON Validation', () => {
         expect(invalid, `Invalid parent slugs:\n${invalid.join('\n')}`).toHaveLength(0)
     })
 
-    test('sub-neighborhoods with empty parent_neighborhoods should be noted (data quality)', () => {
+    test('all coordinates should have at most 6 decimal places', () => {
+        const violations = checkCoordinatePrecision(subGeojson.features)
+        expect(violations, `Coordinates with too many decimal places:\n${violations.join('\n')}`).toHaveLength(0)
+    })
+
+    test('all sub-neighborhoods must have at least one parent', () => {
         const noParent = subGeojson.features
             .filter(f => !f.properties.parent_neighborhoods || f.properties.parent_neighborhoods.length === 0)
             .map(f => f.properties.slug)
-
-        if (noParent.length > 0) {
-            console.warn(
-                `\nData quality: ${noParent.length} sub-neighborhood(s) have no parent slugs because their parent is not in nyc-neighborhood-boundaries.geojson:\n` +
-                noParent.map(s => `  - ${s}`).join('\n')
-            )
-        }
-        // Not a hard failure — empty parent_neighborhoods is valid when the parent isn't in the main file
-        expect(true).toBe(true)
+        expect(noParent, `Sub-neighborhoods with empty parent_neighborhoods: ${noParent.join(', ')}`).toHaveLength(0)
     })
 })
 
@@ -328,6 +372,11 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
             })
         })
 
+        test('all coordinates should have at most 6 decimal places', () => {
+            const violations = checkCoordinatePrecision(geojson.features)
+            expect(violations, `Coordinates with too many decimal places:\n${violations.join('\n')}`).toHaveLength(0)
+        })
+
         test('should not have any null or undefined geometries', () => {
             geojson.features.forEach((feature, index) => {
                 expect(feature.geometry, `Feature ${index + 1} should have geometry`).not.toBeNull()
@@ -335,6 +384,60 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
                 expect(feature.geometry.type, `Feature ${index + 1} should have geometry type`).toBeDefined()
                 expect(feature.geometry.coordinates, `Feature ${index + 1} should have coordinates`).toBeDefined()
             })
+        })
+    })
+
+    describe('Sub-Neighborhood Centroids Validation', () => {
+        let centroidsSubGeojson
+        let boundariesSubGeojson
+
+        beforeAll(() => {
+            const centroidsSubPath = join(__dirname, '../src/data/nyc-neighborhood-boundaries-centroids-sub.geojson')
+            const boundariesSubPath = join(__dirname, '../src/data/nyc-neighborhood-boundaries-sub.geojson')
+
+            try {
+                centroidsSubGeojson = JSON.parse(readFileSync(centroidsSubPath, 'utf8'))
+                boundariesSubGeojson = JSON.parse(readFileSync(boundariesSubPath, 'utf8'))
+            } catch (error) {
+                throw new Error(`Failed to load sub-neighborhood centroids GeoJSON: ${error.message}`)
+            }
+        })
+
+        test('every sub boundary should have a corresponding centroid', () => {
+            const boundarySlugs = new Set(boundariesSubGeojson.features.map(f => f.properties.slug))
+            const centroidSlugs = new Set(centroidsSubGeojson.features.filter(f => f.properties?.slug).map(f => f.properties.slug))
+
+            const missing = []
+            boundarySlugs.forEach(slug => {
+                if (!centroidSlugs.has(slug)) missing.push(slug)
+            })
+
+            if (missing.length > 0) {
+                const commands = missing.map(slug => `node scripts/add-centroid.js ${slug} --sub`).join('\n')
+                expect(missing, `Missing sub centroids for: ${missing.join(', ')}\n\nRun these commands to generate them:\n${commands}`).toHaveLength(0)
+            }
+            expect(missing).toHaveLength(0)
+        })
+
+        test('every sub centroid should have a corresponding boundary', () => {
+            const boundarySlugs = new Set(boundariesSubGeojson.features.map(f => f.properties.slug))
+            const orphaned = centroidsSubGeojson.features
+                .filter(f => f.properties?.slug && !boundarySlugs.has(f.properties.slug))
+                .map(f => f.properties.slug)
+
+            expect(orphaned, `Orphaned sub centroids without boundaries: ${orphaned.join(', ')}`).toHaveLength(0)
+        })
+
+        test('all sub centroids should have a slug and be Points', () => {
+            centroidsSubGeojson.features.forEach((feature, index) => {
+                expect(feature.properties?.slug, `Sub centroid ${index + 1} should have slug`).toBeDefined()
+                expect(feature.geometry.type, `Sub centroid ${index + 1} should be a Point`).toBe('Point')
+            })
+        })
+
+        test('all sub centroid coordinates should have at most 6 decimal places', () => {
+            const violations = checkCoordinatePrecision(centroidsSubGeojson.features)
+            expect(violations, `Coordinates with too many decimal places:\n${violations.join('\n')}`).toHaveLength(0)
         })
     })
 
@@ -418,6 +521,11 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
                 expect(feature.properties.slug, `Centroid ${index + 1} should have slug`).toBeDefined()
                 expect(feature.geometry.type, `Centroid ${index + 1} should be a Point`).toBe('Point')
             })
+        })
+
+        test('all centroid coordinates should have at most 6 decimal places', () => {
+            const violations = checkCoordinatePrecision(centroidsGeojson.features)
+            expect(violations, `Coordinates with too many decimal places:\n${violations.join('\n')}`).toHaveLength(0)
         })
 
         test('centroids and boundaries should have same feature count', () => {
