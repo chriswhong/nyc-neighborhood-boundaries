@@ -65,7 +65,9 @@ boundariesSub.features.forEach(feature => {
   const color = firstParentSlug && propsMap.has(firstParentSlug)
     ? propsMap.get(firstParentSlug).color
     : 0
-  propsMapSub.set(slug, { ...feature.properties, kind: 'sub-neighborhood', color, parent_neighborhoods: parents })
+  const summaryPath = join(summariesDir, `${slug}.md`)
+  const summary = existsSync(summaryPath) ? readFileSync(summaryPath, 'utf8').trim() : ''
+  propsMapSub.set(slug, { ...feature.properties, kind: 'sub-neighborhood', color, parent_neighborhoods: parents, summary })
 })
 
 // Attach enriched properties to boundary features
