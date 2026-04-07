@@ -9,8 +9,17 @@ const dataDir = path.join(__dirname, '../data');
 
 const files = [
   '../src/data/nyc-neighborhood-boundaries.geojson',
-  '../src/data/nyc-neighborhood-boundaries-centroids.geojson'
+  '../src/data/nyc-neighborhood-boundaries-centroids.geojson',
+  '../src/data/nyc-neighborhood-boundaries-sub.geojson',
+  '../src/data/nyc-neighborhood-boundaries-centroids-sub.geojson'
 ];
+
+function trimCoords(coords) {
+  if (typeof coords[0] === 'number') {
+    return coords.map(n => parseFloat(n.toFixed(6)));
+  }
+  return coords.map(trimCoords);
+}
 
 function formatGeoJSON(filePath) {
   console.log(`Formatting ${path.basename(filePath)}...`);
@@ -18,6 +27,15 @@ function formatGeoJSON(filePath) {
   // Read the file
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   
+  // Trim coordinate precision to 6 decimal places
+  data.features.forEach(feature => {
+    if (!feature.geometry || !feature.geometry.coordinates) {
+      console.error(`Feature with null/missing geometry: ${JSON.stringify(feature.properties)}`);
+      process.exit(1);
+    }
+    feature.geometry.coordinates = trimCoords(feature.geometry.coordinates);
+  });
+
   // Sort features by borough, then by name
   const sortedFeatures = data.features.sort((a, b) => {
     const boroughA = a.properties.borough || '';
