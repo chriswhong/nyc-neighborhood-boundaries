@@ -1,0 +1,1 @@
+Stuyvesant Heights is a historic sub-neighborhood within Bedford-Stuyvesant, Brooklyn, known for its beautiful brownstones and tree-lined streets. The area was designated a historic district in 1971, preserving its distinctive 19th and early 20th-century architecture.

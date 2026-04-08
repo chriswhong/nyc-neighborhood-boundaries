@@ -1,0 +1,1 @@
+Beverley Square West is the western counterpart of the Beverley Squares in Flatbush, Brooklyn. This residential area features charming early 20th-century homes and maintains a strong sense of community among its longstanding residents.

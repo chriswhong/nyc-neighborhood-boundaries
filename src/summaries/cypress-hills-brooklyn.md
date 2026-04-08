@@ -1,0 +1,1 @@
+Cypress Hills straddles the Brooklyn-Queens border in East New York. The neighborhood is home to the historic Cypress Hills Cemetery and features a diverse residential community with convenient access to both boroughs.

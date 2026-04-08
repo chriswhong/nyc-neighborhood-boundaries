@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "metadata": {"version":4,"features_count":271},
+  "metadata": {"version":4,"features_count":266},
   "features": [
     {"type":"Feature","properties":{"slug":"annadale-staten-island"},"geometry":{"type":"Point","coordinates":[-74.173832,40.533962]}},
     {"type":"Feature","properties":{"slug":"arden-heights-staten-island"},"geometry":{"type":"Point","coordinates":[-74.190937,40.550745]}},
@@ -10,7 +10,7 @@
     {"type":"Feature","properties":{"slug":"auburndale-queens"},"geometry":{"type":"Point","coordinates":[-73.792378,40.750409]}},
     {"type":"Feature","properties":{"slug":"bath-beach-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.998605,40.595663]}},
     {"type":"Feature","properties":{"slug":"battery-park-city-manhattan"},"geometry":{"type":"Point","coordinates":[-74.016539,40.712235]}},
-    {"type":"Feature","properties":{"slug":"bay-ridge-brooklyn"},"geometry":{"type":"Point","coordinates":[-74.038614,40.628927]}},
+    {"type":"Feature","properties":{"slug":"bay-ridge-brooklyn"},"geometry":{"type":"Point","coordinates":[-74.030459,40.627206]}},
     {"type":"Feature","properties":{"slug":"bay-terrace-staten-island"},"geometry":{"type":"Point","coordinates":[-74.136252,40.555807]}},
     {"type":"Feature","properties":{"slug":"bay-terrace-queens"},"geometry":{"type":"Point","coordinates":[-73.779019,40.78597]}},
     {"type":"Feature","properties":{"slug":"baychester-bronx"},"geometry":{"type":"Point","coordinates":[-73.840237,40.872321]}},
@@ -56,7 +56,7 @@
     {"type":"Feature","properties":{"slug":"college-point-queens"},"geometry":{"type":"Point","coordinates":[-73.842471,40.781851]}},
     {"type":"Feature","properties":{"slug":"columbia-street-waterfront-district-brooklyn"},"geometry":{"type":"Point","coordinates":[-74.00363,40.687343]}},
     {"type":"Feature","properties":{"slug":"concourse-bronx"},"geometry":{"type":"Point","coordinates":[-73.918823,40.83158]}},
-    {"type":"Feature","properties":{"slug":"coney-island-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.989782,40.576598]}},
+    {"type":"Feature","properties":{"slug":"coney-island-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.973574,40.577599]}},
     {"type":"Feature","properties":{"slug":"corona-queens"},"geometry":{"type":"Point","coordinates":[-73.860655,40.746933]}},
     {"type":"Feature","properties":{"slug":"country-club-bronx"},"geometry":{"type":"Point","coordinates":[-73.819234,40.842345]}},
     {"type":"Feature","properties":{"slug":"crown-heights-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.943746,40.671409]}},
@@ -81,7 +81,7 @@
     {"type":"Feature","properties":{"slug":"far-rockaway-queens"},"geometry":{"type":"Point","coordinates":[-73.764564,40.600793]}},
     {"type":"Feature","properties":{"slug":"fieldston-bronx"},"geometry":{"type":"Point","coordinates":[-73.902455,40.89564]}},
     {"type":"Feature","properties":{"slug":"financial-district-manhattan"},"geometry":{"type":"Point","coordinates":[-74.009015,40.706072]}},
-    {"type":"Feature","properties":{"slug":"flatbush-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.95257,40.64303]}},
+    {"type":"Feature","properties":{"slug":"flatbush-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.956912,40.642657]}},
     {"type":"Feature","properties":{"slug":"flatiron-district-manhattan"},"geometry":{"type":"Point","coordinates":[-73.988894,40.742477]}},
     {"type":"Feature","properties":{"slug":"flatlands-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.927362,40.626464]}},
     {"type":"Feature","properties":{"slug":"floral-park-queens"},"geometry":{"type":"Point","coordinates":[-73.707807,40.740524]}},
@@ -257,7 +257,7 @@
     {"type":"Feature","properties":{"slug":"westerleigh-staten-island"},"geometry":{"type":"Point","coordinates":[-74.136134,40.620064]}},
     {"type":"Feature","properties":{"slug":"whitestone-queens"},"geometry":{"type":"Point","coordinates":[-73.809393,40.786221]}},
     {"type":"Feature","properties":{"slug":"williamsbridge-bronx"},"geometry":{"type":"Point","coordinates":[-73.858261,40.876642]}},
-    {"type":"Feature","properties":{"slug":"williamsburg-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.947969,40.711431]}},
+    {"type":"Feature","properties":{"slug":"williamsburg-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.952497,40.713846]}},
     {"type":"Feature","properties":{"slug":"willowbrook-staten-island"},"geometry":{"type":"Point","coordinates":[-74.148839,40.603246]}},
     {"type":"Feature","properties":{"slug":"windsor-terrace-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.977294,40.6537]}},
     {"type":"Feature","properties":{"slug":"woodhaven-queens"},"geometry":{"type":"Point","coordinates":[-73.857402,40.691276]}},
@@ -265,6 +265,8 @@
     {"type":"Feature","properties":{"slug":"woodrow-staten-island"},"geometry":{"type":"Point","coordinates":[-74.215605,40.537334]}},
     {"type":"Feature","properties":{"slug":"woodside-queens"},"geometry":{"type":"Point","coordinates":[-73.905444,40.74741]}},
     {"type":"Feature","properties":{"slug":"upper-east-side-manhattan"},"geometry":{"type":"Point","coordinates":[-73.956201,40.771739]}},
-    {"type":"Feature","properties":{"slug":"greenwood-heights-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.995823,40.657123]}}
+    {"type":"Feature","properties":{"slug":"greenwood-heights-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.995823,40.657123]}},
+    {"type":"Feature","properties":{"slug":"east-williamsburg-brooklyn","name":"East Williamsburg","color":1},"geometry":{"type":"Point","coordinates":[-73.931624,40.714364]}},
+    {"type":"Feature","properties":{"slug":"south-williamsburg-brooklyn","name":"South Williamsburg","color":1},"geometry":{"type":"Point","coordinates":[-73.969966,40.705103]}}
   ]
 }

@@ -1,0 +1,1 @@
+Fiske Terrace is a charming residential enclave within Flatbush, Brooklyn, known for its distinctive Arts and Crafts-style homes built in the early 20th century. The neighborhood maintains a strong community identity with well-preserved architecture.

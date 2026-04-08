@@ -6,6 +6,16 @@ import centroid from '@turf/centroid'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
+// Helper function to round coordinates to specified decimal places
+function roundCoordinates(coords, precision = 6) {
+  if (typeof coords[0] === 'number') {
+    // Single coordinate pair [lon, lat]
+    return coords.map(c => Number(c.toFixed(precision)))
+  }
+  // Nested arrays
+  return coords.map(c => roundCoordinates(c, precision))
+}
+
 // Get slug from command line argument
 const slug = process.argv[2]
 const isSub = process.argv.includes('--sub')
@@ -59,6 +69,9 @@ if (existingCentroid) {
 
 // Calculate centroid
 const centroidFeature = centroid(boundaryFeature)
+
+// Round coordinates to 6 decimal places
+centroidFeature.geometry.coordinates = roundCoordinates(centroidFeature.geometry.coordinates, 6)
 
 // Add properties (will be synced later by apply-properties)
 centroidFeature.properties = {

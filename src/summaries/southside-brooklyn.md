@@ -1,0 +1,1 @@
+Southside is the southern section of Williamsburg, Brooklyn, traditionally home to a large Hispanic community, particularly Puerto Rican and Dominican residents. The area has experienced significant gentrification in recent years while maintaining its cultural identity.

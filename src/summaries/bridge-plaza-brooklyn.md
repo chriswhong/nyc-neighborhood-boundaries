@@ -1,0 +1,1 @@
+Bridge Plaza is a small commercial district in the shadow of the Manhattan Bridge in downtown Brooklyn. The area serves as a gateway between Fort Greene and DUMBO, featuring a mix of retail shops and services.

@@ -1,0 +1,1 @@
+White Sands is a small beachfront community within Coney Island, Brooklyn, located between Sea Gate and Brighton Beach. The area features a mix of bungalows and small homes with direct beach access.

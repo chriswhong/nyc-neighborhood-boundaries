@@ -1,0 +1,1 @@
+City Line is a quiet residential area on the eastern edge of Brooklyn, bordering Queens. Named for its position along the city line between the two boroughs, it offers affordable housing and a close-knit community atmosphere.

@@ -1,0 +1,1 @@
+Beverley Square East is a residential enclave within Flatbush, Brooklyn, characterized by its well-maintained single-family homes and quiet tree-lined streets. The neighborhood offers a suburban feel while remaining close to Brooklyn's urban amenities.

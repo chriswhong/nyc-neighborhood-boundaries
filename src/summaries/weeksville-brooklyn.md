@@ -1,0 +1,1 @@
+Weeksville is a historic African-American settlement within Crown Heights, Brooklyn, founded in 1838 by free Black individuals. Once a thriving independent community, Weeksville Heritage Center now preserves and celebrates this important history.

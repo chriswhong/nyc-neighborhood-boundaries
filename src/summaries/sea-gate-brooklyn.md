@@ -1,0 +1,1 @@
+Sea Gate is a private gated community at the western tip of Coney Island, Brooklyn. Established in the 1890s, it features beachfront properties, a unique seaside atmosphere, and restricted access for non-residents.

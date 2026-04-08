@@ -1,0 +1,1 @@
+Starrett City, also known as Spring Creek Towers, is one of the largest federally subsidized housing complexes in the United States. Located in eastern Brooklyn, it features 46 high-rise buildings surrounding a central shopping area and recreational facilities.

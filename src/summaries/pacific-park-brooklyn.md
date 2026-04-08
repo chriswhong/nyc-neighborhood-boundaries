@@ -1,0 +1,1 @@
+Pacific Park is a mixed-use development area in Prospect Heights, Brooklyn, built over the former Atlantic Yards. The neighborhood features modern residential towers, retail spaces, and the Barclays Center arena.
