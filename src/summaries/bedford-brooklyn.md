@@ -1,0 +1,1 @@
+Bedford is a historic sub-neighborhood within Bedford-Stuyvesant in Brooklyn. Known for its tree-lined streets and brownstone architecture, it represents one of the earliest settled areas of the larger Bed-Stuy community.

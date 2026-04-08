@@ -1,0 +1,1 @@
+Remsen Village is a residential sub-neighborhood within East Flatbush, Brooklyn. The area is characterized by its tree-lined streets, single-family homes, and strong Caribbean-American community presence.

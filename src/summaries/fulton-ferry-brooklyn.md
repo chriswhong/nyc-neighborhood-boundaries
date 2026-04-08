@@ -1,0 +1,1 @@
+Fulton Ferry is a historic waterfront district in DUMBO, Brooklyn, named after the ferry service that once connected Brooklyn and Manhattan. The area features cobblestone streets, converted warehouses, and stunning views of the Brooklyn Bridge.

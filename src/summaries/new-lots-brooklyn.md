@@ -1,0 +1,1 @@
+New Lots is a residential area in eastern Brooklyn, known for its affordable housing and diverse immigrant communities. The neighborhood has deep Caribbean roots and features both single-family homes and larger apartment complexes.

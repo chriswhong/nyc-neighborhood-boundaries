@@ -1,0 +1,1 @@
+South Williamsburg is home to one of the largest Hasidic Jewish communities in the world, centered around the Satmar sect. The neighborhood features distinctive architecture, kosher businesses, and a strong sense of religious community alongside increasing gentrification pressures from nearby North Williamsburg.

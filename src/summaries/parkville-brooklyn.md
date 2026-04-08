@@ -1,0 +1,1 @@
+Parkville is a quiet residential sub-neighborhood within Kensington, Brooklyn, situated near the southern edge of Prospect Park. The area features modest homes and apartment buildings in a peaceful, family-friendly setting.

@@ -1,0 +1,1 @@
+Spring Creek is a residential neighborhood on the eastern edge of Brooklyn, bordering Jamaica Bay. The area is known for its large public housing developments and ethnic diversity, with a significant Caribbean population.

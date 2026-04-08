@@ -1,0 +1,1 @@
+East Williamsburg is an industrial-turned-residential neighborhood in northern Brooklyn, situated between Williamsburg and Bushwick. Once dominated by factories and warehouses, it has transformed into a creative hub with art studios, music venues, and trendy bars alongside remaining industrial uses.

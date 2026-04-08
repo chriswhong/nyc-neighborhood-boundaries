@@ -1,0 +1,1 @@
+Farragut is a residential sub-neighborhood within East Flatbush, Brooklyn. The area is primarily characterized by its diverse population and mix of single-family homes and apartment buildings.

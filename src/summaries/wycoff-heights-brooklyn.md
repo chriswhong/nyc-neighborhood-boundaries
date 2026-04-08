@@ -1,0 +1,1 @@
+Wyckoff Heights is a small residential area straddling the Brooklyn-Queens border, named after the historic Wyckoff family. The neighborhood features a mix of housing types and serves as a transitional area between Bushwick and Ridgewood.

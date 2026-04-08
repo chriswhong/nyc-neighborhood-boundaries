@@ -1,0 +1,1 @@
+South Slope refers to the area south of Park Slope in Brooklyn, extending down from Prospect Park toward Greenwood Cemetery. The neighborhood offers more affordable alternatives to Park Slope while maintaining a similar brownstone-lined character.
