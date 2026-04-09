@@ -51,7 +51,6 @@
     {"type":"Feature","properties":{"slug":"cypress-hills-brooklyn","name":"Cypress Hills"},"geometry":{"type":"Point","coordinates":[-73.886924,40.684648]}},
     {"type":"Feature","properties":{"slug":"farragut-brooklyn","name":"Farragut"},"geometry":{"type":"Point","coordinates":[-73.935313,40.639432]}},
     {"type":"Feature","properties":{"slug":"fiske-terrace-brooklyn","name":"Fiske Terrace"},"geometry":{"type":"Point","coordinates":[-73.959937,40.63229]}},
-    {"type":"Feature","properties":{"slug":"fort-greene-brooklyn","name":"Fort Greene"},"geometry":{"type":"Point","coordinates":[-73.97817,40.695355]}},
     {"type":"Feature","properties":{"slug":"fulton-ferry-brooklyn","name":"Fulton Ferry"},"geometry":{"type":"Point","coordinates":[-73.992706,40.703303]}},
     {"type":"Feature","properties":{"slug":"new-lots-brooklyn","name":"New Lots"},"geometry":{"type":"Point","coordinates":[-73.883016,40.664014]}},
     {"type":"Feature","properties":{"slug":"pacific-park-brooklyn","name":"Pacific Park"},"geometry":{"type":"Point","coordinates":[-73.972763,40.682655]}},
