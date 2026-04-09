@@ -1,0 +1,1 @@
+Green-Wood Cemetery is a 478-acre National Historic Landmark in Brooklyn, founded in 1838 and one of the first rural cemeteries in the United States. Its rolling hills, glacial ponds, and Gothic Revival gates draw visitors as both a park and a cultural institution, and it is the final resting place of figures including Boss Tweed, Leonard Bernstein, and Jean-Michel Basquiat.
