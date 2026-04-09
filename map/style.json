@@ -32,6 +32,235 @@
             "type": "geojson",
             "data": "https://raw.githubusercontent.com/chriswhong/mapboxgl-nyc-subway/refs/heads/master/data/nyc-subway-routes.geojson",
             "minzoom": 13
+        },
+        "nyc-land-borders": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "border": "bk-qn"
+                        },
+                        "geometry": {
+                            "type": "MultiLineString",
+                            "coordinates": [
+                                [
+                                    [
+                                        -73.86269794074407,
+                                        40.657617701019248
+                                    ],
+                                    [
+                                        -73.8631709901356,
+                                        40.658275905061096
+                                    ],
+                                    [
+                                        -73.860305105631127,
+                                        40.659634041011515
+                                    ],
+                                    [
+                                        -73.858514525730484,
+                                        40.659898324816609
+                                    ],
+                                    [
+                                        -73.857615534768513,
+                                        40.660118313726343
+                                    ],
+                                    [
+                                        -73.858117952151005,
+                                        40.662035950208171
+                                    ],
+                                    [
+                                        -73.858429664906026,
+                                        40.663452739383253
+                                    ],
+                                    [
+                                        -73.855684773050058,
+                                        40.663866866248021
+                                    ],
+                                    [
+                                        -73.856117560847025,
+                                        40.665508752504934
+                                    ],
+                                    [
+                                        -73.856846914729218,
+                                        40.668602305725699
+                                    ],
+                                    [
+                                        -73.857633378673768,
+                                        40.671655562531868
+                                    ],
+                                    [
+                                        -73.860385341459519,
+                                        40.671251084425208
+                                    ],
+                                    [
+                                        -73.862345933795282,
+                                        40.679164153741304
+                                    ],
+                                    [
+                                        -73.863283097257408,
+                                        40.6790787408545
+                                    ],
+                                    [
+                                        -73.864101087633799,
+                                        40.682372217670299
+                                    ],
+                                    [
+                                        -73.866020050360277,
+                                        40.681918957913688
+                                    ],
+                                    [
+                                        -73.866290146119411,
+                                        40.683114377192737
+                                    ],
+                                    [
+                                        -73.866598595793917,
+                                        40.685268927145088
+                                    ],
+                                    [
+                                        -73.867457047015492,
+                                        40.688399807569063
+                                    ],
+                                    [
+                                        -73.868058953971271,
+                                        40.691183321950568
+                                    ],
+                                    [
+                                        -73.868594877248881,
+                                        40.693883736177028
+                                    ],
+                                    [
+                                        -73.868405284800772,
+                                        40.694730546496309
+                                    ],
+                                    [
+                                        -73.868917720671178,
+                                        40.69514592205919
+                                    ],
+                                    [
+                                        -73.874020618909753,
+                                        40.69419066442731
+                                    ],
+                                    [
+                                        -73.879506492055526,
+                                        40.691146150356893
+                                    ],
+                                    [
+                                        -73.883777063783555,
+                                        40.687862802659382
+                                    ],
+                                    [
+                                        -73.884522588052349,
+                                        40.686684143161862
+                                    ],
+                                    [
+                                        -73.888083492815014,
+                                        40.685293033458663
+                                    ],
+                                    [
+                                        -73.889627949156278,
+                                        40.684235859267439
+                                    ],
+                                    [
+                                        -73.890154258594535,
+                                        40.685003395166447
+                                    ],
+                                    [
+                                        -73.892583100418562,
+                                        40.683491321451527
+                                    ],
+                                    [
+                                        -73.894174696339903,
+                                        40.685282658895275
+                                    ],
+                                    [
+                                        -73.89554865809599,
+                                        40.683791307112408
+                                    ],
+                                    [
+                                        -73.896526506663676,
+                                        40.682402717382509
+                                    ],
+                                    [
+                                        -73.901161596905069,
+                                        40.687877353405028
+                                    ],
+                                    [
+                                        -73.900424698228605,
+                                        40.688183315389686
+                                    ],
+                                    [
+                                        -73.901887802786021,
+                                        40.69107713542396
+                                    ],
+                                    [
+                                        -73.901398446873415,
+                                        40.691589405459148
+                                    ],
+                                    [
+                                        -73.902788283399119,
+                                        40.692417754099743
+                                    ],
+                                    [
+                                        -73.905795998680347,
+                                        40.694126572065919
+                                    ],
+                                    [
+                                        -73.90426021215265,
+                                        40.695699783564756
+                                    ],
+                                    [
+                                        -73.9110349039683,
+                                        40.699531530697115
+                                    ],
+                                    [
+                                        -73.911808207065846,
+                                        40.699937420398811
+                                    ],
+                                    [
+                                        -73.910678834214593,
+                                        40.7010453836468
+                                    ],
+                                    [
+                                        -73.912904041552949,
+                                        40.702361306711943
+                                    ],
+                                    [
+                                        -73.911807100537573,
+                                        40.703434364352411
+                                    ],
+                                    [
+                                        -73.921891817450771,
+                                        40.709395514568349
+                                    ],
+                                    [
+                                        -73.920748501750424,
+                                        40.710533063555346
+                                    ],
+                                    [
+                                        -73.92154598506454,
+                                        40.711042698475232
+                                    ],
+                                    [
+                                        -73.922234628206212,
+                                        40.712855367557509
+                                    ],
+                                    [
+                                        -73.924040071097508,
+                                        40.714007726556275
+                                    ],
+                                    [
+                                        -73.924081627323488,
+                                        40.714105381587515
+                                    ]
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            }
         }
     },
     "sprite": "mapbox://sprites/chriswhongmapbox/cmex1c2ou003i01se0k2gcq51/b8fjw435hx85pp7j172f016pl",
@@ -44,7 +273,14 @@
             "id": "neighborhoods-fill",
             "type": "fill",
             "source": "neighborhoods",
-            "filter": ["==", ["get", "kind"], "neighborhood"],
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "kind"
+                ],
+                "neighborhood"
+            ],
             "paint": {
                 "fill-color": [
                     "case",
@@ -139,7 +375,14 @@
             "id": "neighborhoods-stroke",
             "type": "line",
             "source": "neighborhoods",
-            "filter": ["==", ["get", "kind"], "neighborhood"],
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "kind"
+                ],
+                "neighborhood"
+            ],
             "paint": {
                 "line-color": "#666",
                 "line-width": [
@@ -228,13 +471,37 @@
                     1
                 ]
             },
-            "filter": ["all", ["==", ["get", "kind"], "neighborhood"], ["==", ["id"], ""]]
+            "filter": [
+                "all",
+                [
+                    "==",
+                    [
+                        "get",
+                        "kind"
+                    ],
+                    "neighborhood"
+                ],
+                [
+                    "==",
+                    [
+                        "id"
+                    ],
+                    ""
+                ]
+            ]
         },
         {
             "id": "neighborhoods-border-labels",
             "type": "symbol",
             "source": "neighborhoods",
-            "filter": ["==", ["get", "kind"], "neighborhood"],
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "kind"
+                ],
+                "neighborhood"
+            ],
             "minzoom": 14,
             "maxzoom": 22,
             "layout": {
@@ -320,7 +587,14 @@
             "id": "neighborhoods-sub-border-labels",
             "type": "symbol",
             "source": "neighborhoods",
-            "filter": ["==", ["get", "kind"], "sub-neighborhood"],
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "kind"
+                ],
+                "sub-neighborhood"
+            ],
             "minzoom": 14,
             "maxzoom": 22,
             "layout": {
@@ -406,7 +680,14 @@
             "id": "neighborhoods-labels",
             "type": "symbol",
             "source": "centroids",
-            "filter": ["==", ["get", "kind"], "neighborhood"],
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "kind"
+                ],
+                "neighborhood"
+            ],
             "minzoom": 2,
             "maxzoom": 18,
             "layout": {
@@ -499,7 +780,14 @@
             "id": "neighborhoods-sub-labels",
             "type": "symbol",
             "source": "centroids",
-            "filter": ["==", ["get", "kind"], "sub-neighborhood"],
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "kind"
+                ],
+                "sub-neighborhood"
+            ],
             "minzoom": 12,
             "maxzoom": 18,
             "layout": {
@@ -591,7 +879,14 @@
             "id": "neighborhoods-sub-fill",
             "type": "fill",
             "source": "neighborhoods",
-            "filter": ["==", ["get", "kind"], "sub-neighborhood"],
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "kind"
+                ],
+                "sub-neighborhood"
+            ],
             "paint": {
                 "fill-color": "#000",
                 "fill-opacity": 0.1
@@ -602,7 +897,14 @@
             "id": "neighborhoods-sub-stroke",
             "type": "line",
             "source": "neighborhoods",
-            "filter": ["==", ["get", "kind"], "sub-neighborhood"],
+            "filter": [
+                "==",
+                [
+                    "get",
+                    "kind"
+                ],
+                "sub-neighborhood"
+            ],
             "paint": {
                 "line-color": "#333333",
                 "line-opacity": 0.4,
@@ -619,12 +921,13 @@
                     14,
                     2
                 ],
-                "line-dasharray": [2, 2],
+                "line-dasharray": [
+                    2,
+                    2
+                ],
                 "line-occlusion-opacity": 1
             }
         },
-        
-        
         {
             "id": "subway_green",
             "source": "nyc-subway-routes",
@@ -653,8 +956,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -691,8 +998,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -729,8 +1040,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -767,8 +1082,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -805,8 +1124,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -843,8 +1166,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -886,8 +1213,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -924,8 +1255,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -962,8 +1297,12 @@
                 },
                 "line-opacity": [
                     "interpolate",
-                    ["linear"],
-                    ["zoom"],
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
                     13,
                     0,
                     13.3,
@@ -971,6 +1310,32 @@
                 ]
             },
             "slot": "middle"
+        },
+        {
+            "id": "nyc-land-borders",
+            "type": "line",
+            "slot": "top",
+            "paint": {
+                "line-color": "hsl(0, 0%, 39%)",
+                "line-dasharray": [
+                    3,
+                    1
+                ],
+                "line-width": [
+                    "interpolate",
+                    [
+                        "linear"
+                    ],
+                    [
+                        "zoom"
+                    ],
+                    9,
+                    0.6,
+                    14,
+                    9
+                ]
+            },
+            "source": "nyc-land-borders"
         }
     ]
 }

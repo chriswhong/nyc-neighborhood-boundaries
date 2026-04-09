@@ -150,6 +150,14 @@ describe('Sub-Neighborhoods GeoJSON Validation', () => {
             .map(f => f.properties.slug)
         expect(noParent, `Sub-neighborhoods with empty parent_neighborhoods: ${noParent.join(', ')}`).toHaveLength(0)
     })
+
+    test('no slug should appear in both boundaries and boundaries-sub', () => {
+        const mainSlugs = new Set(mainGeojson.features.map(f => f.properties.slug))
+        const duplicates = subGeojson.features
+            .map(f => f.properties.slug)
+            .filter(slug => mainSlugs.has(slug))
+        expect(duplicates, `Slugs appearing in both files: ${duplicates.join(', ')}`).toHaveLength(0)
+    })
 })
 
 describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
