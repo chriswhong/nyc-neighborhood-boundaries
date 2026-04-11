@@ -1,0 +1,128 @@
+neighborhood,action,parent,notes
+Arverne,keep,,
+Astoria,keep,,
+Auburndale,keep,,
+Bayside,keep,,
+Bellerose,keep,,
+Belle Harbor,keep,,
+Briarwood,keep,,
+Broad Channel,keep,,
+Cambria Heights,keep,,
+College Point,keep,,
+Corona,keep,,
+Douglaston-Little Neck,keep,,
+East Elmhurst,keep,,
+Elmhurst,keep,,
+Far Rockaway,keep,,
+Floral Park,keep,,fix typo — dataset has "Floral park"
+Forest Hills,keep,,
+Fresh Meadows,keep,,
+Glendale,keep,,
+Glen Oaks,keep,,
+Hollis,keep,,
+Howard Beach,keep,,
+Jackson Heights,keep,,
+Jamaica,keep,,
+Kew Gardens,keep,,
+Kew Gardens Hills,keep,,
+Laurelton,keep,,
+Maspeth,keep,,
+Middle Village,keep,,
+Neponsit,keep,,
+Ozone Park,keep,,
+Queens Village,keep,,
+Rego Park,keep,,
+Richmond Hill,keep,,
+Ridgewood,keep,,
+Rockaway Beach,keep,,
+Rockaway Park,keep,,
+Rosedale,keep,,
+Roxbury,keep,,
+Springfield Gardens,keep,,
+Sunnyside,keep,,
+Whitestone,keep,,
+Woodhaven,keep,,
+Woodside,keep,,
+East Jamaica Bay Islands,keep (non-residential),,not on Wikipedia — geographic feature
+Flushing Meadows Corona Park,keep (non-residential),,not on Wikipedia — park
+Flushing,keep,,
+Fort Tilden,keep (non-residential),,not on Wikipedia — park/military
+Jacob Riis Park,keep (non-residential),,not on Wikipedia — park
+John F. Kennedy International Airport,keep (non-residential),,not on Wikipedia — airport
+Astoria Heights,make sub,Astoria,currently top-level
+Bay Terrace,make sub,Bayside,currently top-level
+Blissville,make sub,Long Island City,Long Island City must be added first
+Forest Hills Gardens,make sub,Forest Hills,currently top-level
+Hillcrest,make sub,Fresh Meadows,currently top-level
+Holliswood,make sub,Hollis,currently top-level
+Hunters Point,make sub,Long Island City,Long Island City must be added first
+Jamaica Estates,make sub,Jamaica,currently top-level
+Jamaica Hills,make sub,Jamaica,currently top-level
+La Guardia Airport,make sub,East Elmhurst,currently top-level
+Malba,make sub,Whitestone,currently top-level
+Murray Hill,make sub,Flushing,currently top-level
+Oakland Gardens,make sub,Bayside,currently top-level
+Pomonok,make sub,Flushing,currently top-level
+Rochdale,make sub,Jamaica,rename to "Rochdale Village"
+South Ozone Park,make sub,Ozone Park,currently top-level
+St. Albans,make sub,Jamaica,currently top-level
+Utopia,make sub,Fresh Meadows,currently top-level
+Long Island City,add top-level,,Northwestern Queens
+Willets Point,add top-level,,Northwestern Queens
+The Hole,add top-level,,Southwestern Queens
+Bellaire,add top-level,,Southeastern Queens
+Brookville,add top-level,,Southeastern Queens
+Bayswater,add top-level,,The Rockaways
+Edgemere,add top-level,,The Rockaways
+Hammels,add top-level,,The Rockaways
+Seaside,add top-level,,The Rockaways
+Ditmars,add sub,Astoria,
+Steinway,add sub,Astoria,or sub of Ditmars
+Little Egypt,add sub,Astoria,
+Dutch Kills,add sub,Long Island City,
+Queensbridge,add sub,Long Island City,
+Queensview,add sub,Long Island City,
+Queens West,add sub,Long Island City,
+Ravenswood,add sub,Long Island City,
+Sunnyside Gardens,add sub,Sunnyside,
+Little Manila,add sub,Woodside,
+Boulevard Gardens,add sub,Woodside,
+Hamilton Beach,add sub,Howard Beach,
+Howard Park,add sub,Howard Beach,
+Lindenwood,add sub,Howard Beach,
+Old Howard Beach,add sub,Howard Beach,
+Ramblersville,add sub,Howard Beach,
+Rockwood Park,add sub,Howard Beach,
+Tudor Village,add sub,Ozone Park,
+LeFrak City,add sub,Corona,
+North Corona,add sub,Corona,
+Landing Lights,add sub,East Elmhurst,
+North Beach,add sub,East Elmhurst,
+Fresh Pond,add sub,Elmhurst,
+Wyckoff Heights,add sub,Ridgewood,
+Bayside Hills,add sub,Bayside,
+Fort Totten,add sub,Bayside,
+Broadway-Flushing,add sub,Flushing,
+Bowne Park,add sub,Flushing,
+Chinatown,add sub,Flushing,
+Downtown Flushing,add sub,Flushing,
+Koreatown,add sub,Flushing,
+Linden Hill,add sub,Flushing,
+Queensboro Hill,add sub,Flushing,
+Parkway Village,add sub,Kew Gardens Hills,
+North Shore Towers,add sub,Glen Oaks,
+Beechhurst,add sub,Whitestone,
+Clearview,add sub,Whitestone,
+Douglaston,add sub,Douglaston-Little Neck,
+Douglas Manor,add sub,Douglaston-Little Neck,
+Douglaston Hill,add sub,Douglaston-Little Neck,
+Douglaston Park,add sub,Douglaston-Little Neck,
+Winchester Estates,add sub,Douglaston-Little Neck,
+Little Neck,add sub,Douglaston-Little Neck,
+Little Neck Hills,add sub,Douglaston-Little Neck,
+Pines,add sub,Douglaston-Little Neck,
+Westmoreland,add sub,Douglaston-Little Neck,
+Hollis Hills,add sub,Hollis,
+South Jamaica,add sub,Jamaica,
+Meadowmere,add sub,Rosedale,
+Warnerville,add sub,Rosedale,
