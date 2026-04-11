@@ -83,7 +83,7 @@
     {"type":"Feature","properties":{"slug":"flatlands-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.927362,40.626464]}},
     {"type":"Feature","properties":{"slug":"floral-park-queens"},"geometry":{"type":"Point","coordinates":[-73.707807,40.740524]}},
     {"type":"Feature","properties":{"slug":"floyd-bennett-field-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.891875,40.591192]}},
-    {"type":"Feature","properties":{"slug":"flushing-queens"},"geometry":{"type":"Point","coordinates":[-73.823019,40.752898]}},
+    {"type":"Feature","properties":{"slug":"flushing-queens"},"geometry":{"type":"Point","coordinates":[-73.818523,40.759511]}},
     {"type":"Feature","properties":{"slug":"flushing-meadows-corona-park-queens"},"geometry":{"type":"Point","coordinates":[-73.841758,40.744631]}},
     {"type":"Feature","properties":{"slug":"fordham-bronx"},"geometry":{"type":"Point","coordinates":[-73.894978,40.86199]}},
     {"type":"Feature","properties":{"slug":"forest-hills-queens"},"geometry":{"type":"Point","coordinates":[-73.846817,40.717229]}},
@@ -93,7 +93,7 @@
     {"type":"Feature","properties":{"slug":"fort-wadsworth-staten-island"},"geometry":{"type":"Point","coordinates":[-74.058494,40.601861]}},
     {"type":"Feature","properties":{"slug":"fresh-kills-staten-island"},"geometry":{"type":"Point","coordinates":[-74.201294,40.569236]}},
     {"type":"Feature","properties":{"slug":"fresh-kills-park-staten-island"},"geometry":{"type":"Point","coordinates":[-74.179549,40.579795]}},
-    {"type":"Feature","properties":{"slug":"fresh-meadows-queens"},"geometry":{"type":"Point","coordinates":[-73.781972,40.733856]}},
+    {"type":"Feature","properties":{"slug":"fresh-meadows-queens"},"geometry":{"type":"Point","coordinates":[-73.788694,40.73163]}},
     {"type":"Feature","properties":{"slug":"garment-district-manhattan"},"geometry":{"type":"Point","coordinates":[-73.988162,40.751813]}},
     {"type":"Feature","properties":{"slug":"georgetown-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.911608,40.624404]}},
     {"type":"Feature","properties":{"slug":"gerritsen-beach-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.926794,40.591063]}},
@@ -127,7 +127,7 @@
     {"type":"Feature","properties":{"slug":"inwood-manhattan"},"geometry":{"type":"Point","coordinates":[-73.921415,40.868867]}},
     {"type":"Feature","properties":{"slug":"jackson-heights-queens"},"geometry":{"type":"Point","coordinates":[-73.884277,40.751635]}},
     {"type":"Feature","properties":{"slug":"jacob-riis-park-queens"},"geometry":{"type":"Point","coordinates":[-73.876501,40.566436]}},
-    {"type":"Feature","properties":{"slug":"jamaica-queens"},"geometry":{"type":"Point","coordinates":[-73.792846,40.693541]}},
+    {"type":"Feature","properties":{"slug":"jamaica-queens"},"geometry":{"type":"Point","coordinates":[-73.780791,40.690313]}},
     {"type":"Feature","properties":{"slug":"john-f-kennedy-international-airport-queens"},"geometry":{"type":"Point","coordinates":[-73.787891,40.642915]}},
     {"type":"Feature","properties":{"slug":"kensington-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.975837,40.639117]}},
     {"type":"Feature","properties":{"slug":"kew-gardens-queens"},"geometry":{"type":"Point","coordinates":[-73.829165,40.707243]}},
@@ -172,7 +172,7 @@
     {"type":"Feature","properties":{"slug":"oakwood-staten-island"},"geometry":{"type":"Point","coordinates":[-74.115574,40.558882]}},
     {"type":"Feature","properties":{"slug":"ocean-parkway-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.972471,40.620364]}},
     {"type":"Feature","properties":{"slug":"old-town-staten-island"},"geometry":{"type":"Point","coordinates":[-74.091048,40.59363]}},
-    {"type":"Feature","properties":{"slug":"ozone-park-queens"},"geometry":{"type":"Point","coordinates":[-73.844013,40.677828]}},
+    {"type":"Feature","properties":{"slug":"ozone-park-queens"},"geometry":{"type":"Point","coordinates":[-73.829342,40.677103]}},
     {"type":"Feature","properties":{"slug":"park-hill-staten-island"},"geometry":{"type":"Point","coordinates":[-74.082984,40.611493]}},
     {"type":"Feature","properties":{"slug":"park-slope-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.980718,40.670278]}},
     {"type":"Feature","properties":{"slug":"parkchester-bronx"},"geometry":{"type":"Point","coordinates":[-73.86104,40.837848]}},
@@ -257,7 +257,7 @@
     {"type":"Feature","properties":{"slug":"edgemere-queens","name":"Edgemere","color":0},"geometry":{"type":"Point","coordinates":[-73.778076,40.600008]}},
     {"type":"Feature","properties":{"slug":"green-wood-cemetery-brooklyn","name":"Green-Wood Cemetery","color":4},"geometry":{"type":"Point","coordinates":[-73.990043,40.652127]}},
     {"type":"Feature","properties":{"slug":"sea-gate-brooklyn","name":"Sea Gate"},"geometry":{"type":"Point","coordinates":[-74.007482,40.576976]}},
-    {"type":"Feature","properties":{"slug":"south-williamsburg-brooklyn","name":"South Williamsburg","color":1},"geometry":{"type":"Point","coordinates":[-73.969966,40.705103]}},
-    {"type":"Feature","properties":{"slug":"willets-point-queens","name":"Willets Point","color":4},"geometry":{"type":"Point","coordinates":[-73.846107,40.761265]}}
+    {"type":"Feature","properties":{"slug":"south-williamsburg-brooklyn","name":"South Williamsburg","color":1},"geometry":{"type":"Point","coordinates":[-73.961723,40.703179]}},
+    {"type":"Feature","properties":{"slug":"willets-point-queens","name":"Willets Point","color":4},"geometry":{"type":"Point","coordinates":[-73.84627,40.75804]}}
   ]
 }
