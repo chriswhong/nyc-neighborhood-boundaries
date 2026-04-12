@@ -1,1 +1,0 @@
-Westchester Heights is an eastern Bronx neighborhood built around one of the borough's oldest settlements — a Dutch outpost called "Ostdoorp" that served as the governmental seat of the Bronx and Westchester region until 1756. Today it is defined by a major cluster of hospitals including Jacobi, Einstein, and Bronx State, surrounded by prewar residential streets.

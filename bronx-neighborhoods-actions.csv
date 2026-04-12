@@ -1,0 +1,83 @@
+neighborhood,action,parent,notes
+Baychester,keep,,
+Bedford Park,keep,,
+Belmont,keep,,Wikipedia lists as "Belmont/Arthur Avenue"
+Castle Hill,keep,,
+City Island,keep,,
+Clason Point,keep,,
+Co-op City,keep,,
+Concourse,keep,,
+Country Club,keep,,
+East Tremont,keep,,
+Eastchester,keep,,
+Fordham,keep,,
+Hunts Point,keep,,
+Kingsbridge,keep,,
+Longwood,keep,,
+Melrose,keep,,
+Morris Heights,keep,,
+Morris Park,keep,,
+Mott Haven,keep,,
+Norwood,keep,,
+Parkchester,keep,,
+Pelham Bay,keep,,
+Pelham Gardens,keep,,
+Port Morris,keep,,
+Riverdale,keep,,
+Soundview,keep,,
+Spuyten Duyvil,keep,,Wikipedia lists as "Spuyten Duyvil/South Riverdale"
+Throggs Neck,keep,,
+Tremont,keep,,
+University Heights,keep,,
+Van Nest,keep,,
+Wakefield,keep,,
+West Farms,keep,,
+Westchester Heights,keep,,
+Williamsbridge,keep,,
+High Bridge,keep,,Wikipedia spells as "Highbridge" — same place; fix spelling?
+Woodlawn,keep,,Wikipedia lists as "Woodlawn Heights" — same place; fix name?
+Hart Island,keep,,Wikipedia groups under Pelham Islands; keep top-level
+Rikers Island,keep,,
+South Bronx,keep (non-neighborhood),,section name not a specific neighborhood on Wikipedia
+Bronx Park,keep (non-neighborhood),,park — not on Wikipedia neighborhood list
+Pelham Bay Park,keep (non-neighborhood),,park — not on Wikipedia neighborhood list
+Van Cortlandt Park,keep (non-neighborhood),,park — not on Wikipedia neighborhood list
+Fieldston,make sub,Riverdale,currently top-level
+North Riverdale,make sub,Riverdale,currently top-level
+Unionport,make sub,Castle Hill,currently top-level
+Allerton,add top-level,,Northeast Bronx
+Bathgate,add top-level,,Southwest Bronx
+Bronxdale,add top-level,,Northeast Bronx
+Claremont,add top-level,,Southwest Bronx
+Edenwald,add top-level,,Northeast Bronx
+Jerome Park,add top-level,,Northwest Bronx
+Morrisania,add top-level,,Southwest Bronx
+North Brother Island,add top-level,,Islands
+Park Versailles,add top-level,,Southeast Bronx
+Pelham Parkway,add top-level,,Northeast Bronx
+South Brother Island,add top-level,,Islands
+The Hub,add top-level,,Southwest Bronx
+Westchester Square,add top-level,,Southeast Bronx
+Fordham Heights,add sub,Fordham,
+Fordham Manor,add sub,Fordham,
+Kingsbridge Heights,add sub,Kingsbridge,
+Van Cortlandt Village,add sub,Kingsbridge,
+Central Riverdale,add sub,Riverdale,
+Hudson Hill,add sub,Riverdale,
+Foxhurst,add sub,Longwood,
+Woodstock,add sub,Longwood,
+Crotona Park East,add sub,Morrisania,Morrisania must be added first
+Fairmount,add sub,Tremont,
+Mount Hope,add sub,Tremont,
+Mount Eden,add sub,Tremont,
+Bronxwood,add sub,Allerton,Allerton must be added first
+Laconia,add sub,Allerton,Allerton must be added first
+Washingtonville,add sub,Wakefield,
+Olinville,add sub,Williamsbridge,
+Harding Park,add sub,Clason Point,
+Indian Village,add sub,Morris Park,
+Bronx River,add sub,Soundview,
+Bruckner,add sub,Soundview,
+Edgewater Park,add sub,Throggs Neck,
+Locust Point,add sub,Throggs Neck,
+Silver Beach,add sub,Throggs Neck,

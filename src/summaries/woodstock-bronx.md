@@ -1,0 +1,1 @@
+Woodstock is a sub-neighborhood within Longwood in the south Bronx, a residential pocket of low- and mid-rise apartment buildings that shares the broader Longwood community's predominantly Latino character and its history of urban renewal following the disinvestment years of the 1970s.

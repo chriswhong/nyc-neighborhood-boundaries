@@ -1,0 +1,1 @@
+Indian Village is a quiet residential sub-neighborhood within Morris Park in the east Bronx, characterized by one- and two-family detached homes on tree-lined streets that give it a distinctly suburban feel. It shares Morris Park's largely Italian-American heritage and is among the more stable and owner-occupied corners of the east Bronx.

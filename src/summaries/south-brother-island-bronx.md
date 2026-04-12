@@ -1,0 +1,1 @@
+South Brother Island is a tiny, completely uninhabited island in the East River just south of North Brother Island, owned by New York City and inaccessible to the public. It briefly served as the private retreat of baseball legend Babe Ruth in the 1920s, but has otherwise remained undeveloped, and today functions as a natural area slowly being reclaimed by vegetation.
