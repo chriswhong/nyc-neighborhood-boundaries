@@ -1,1 +1,0 @@
-The South Bronx encompasses the southernmost sections of the borough, a historically underserved area that became a symbol of urban decline in the 1970s before undergoing decades of rebuilding and reinvestment. Today it is a dynamic, majority Latino community with deep cultural roots in hip-hop and a rapidly evolving arts and development scene.

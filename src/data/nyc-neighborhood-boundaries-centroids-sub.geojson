@@ -112,6 +112,8 @@
     {"type":"Feature","properties":{"slug":"warnerville-queens","name":"Warnerville"},"geometry":{"type":"Point","coordinates":[-73.744293,40.638282]}},
     {"type":"Feature","properties":{"slug":"weeksville-brooklyn","name":"Weeksville"},"geometry":{"type":"Point","coordinates":[-73.929218,40.671081]}},
     {"type":"Feature","properties":{"slug":"white-sands-brooklyn","name":"White Sands"},"geometry":{"type":"Point","coordinates":[-73.990278,40.580874]}},
-    {"type":"Feature","properties":{"slug":"wyckoff-heights-brooklyn","name":"Wyckoff Heights"},"geometry":{"type":"Point","coordinates":[-73.916704,40.707988]}}
+    {"type":"Feature","properties":{"slug":"wyckoff-heights-brooklyn","name":"Wyckoff Heights"},"geometry":{"type":"Point","coordinates":[-73.916704,40.707988]}},
+    {"type":"Feature","properties":{"slug":"edenwald-bronx","name":"Edenwald"},"geometry":{"type":"Point","coordinates":[-73.843,40.888]}},
+    {"type":"Feature","properties":{"slug":"the-hub-bronx","name":"The Hub"},"geometry":{"type":"Point","coordinates":[-73.906,40.831]}}
   ]
 }

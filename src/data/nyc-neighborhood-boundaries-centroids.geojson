@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "metadata": {"version":4,"features_count":267},
+  "metadata": {"version":4,"features_count":262},
   "features": [
     {"type":"Feature","properties":{"slug":"annadale-staten-island"},"geometry":{"type":"Point","coordinates":[-74.173832,40.533962]}},
     {"type":"Feature","properties":{"slug":"arden-heights-staten-island"},"geometry":{"type":"Point","coordinates":[-74.190937,40.550745]}},
@@ -208,7 +208,6 @@
     {"type":"Feature","properties":{"slug":"soho-manhattan"},"geometry":{"type":"Point","coordinates":[-74.004988,40.725307]}},
     {"type":"Feature","properties":{"slug":"soundview-bronx"},"geometry":{"type":"Point","coordinates":[-73.871931,40.825242]}},
     {"type":"Feature","properties":{"slug":"south-beach-staten-island"},"geometry":{"type":"Point","coordinates":[-74.07562,40.587547]}},
-    {"type":"Feature","properties":{"slug":"south-bronx-bronx"},"geometry":{"type":"Point","coordinates":[-73.898385,40.832943]}},
     {"type":"Feature","properties":{"slug":"springfield-gardens-queens"},"geometry":{"type":"Point","coordinates":[-73.76256,40.659834]}},
     {"type":"Feature","properties":{"slug":"spuyten-duyvil-bronx"},"geometry":{"type":"Point","coordinates":[-73.916358,40.881903]}},
     {"type":"Feature","properties":{"slug":"st-george-staten-island"},"geometry":{"type":"Point","coordinates":[-74.079317,40.643187]}},
@@ -234,7 +233,6 @@
     {"type":"Feature","properties":{"slug":"west-brighton-staten-island"},"geometry":{"type":"Point","coordinates":[-74.114027,40.633407]}},
     {"type":"Feature","properties":{"slug":"west-farms-bronx"},"geometry":{"type":"Point","coordinates":[-73.879347,40.841507]}},
     {"type":"Feature","properties":{"slug":"west-jamaica-bay-islands-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.871899,40.62112]}},
-    {"type":"Feature","properties":{"slug":"westchester-heights-bronx"},"geometry":{"type":"Point","coordinates":[-73.843764,40.844864]}},
     {"type":"Feature","properties":{"slug":"westerleigh-staten-island"},"geometry":{"type":"Point","coordinates":[-74.136134,40.620064]}},
     {"type":"Feature","properties":{"slug":"whitestone-queens"},"geometry":{"type":"Point","coordinates":[-73.809393,40.786221]}},
     {"type":"Feature","properties":{"slug":"williamsbridge-bronx"},"geometry":{"type":"Point","coordinates":[-73.858261,40.876642]}},
@@ -250,24 +248,19 @@
     {"type":"Feature","properties":{"slug":"brighton-beach-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.961123,40.578449]}},
     {"type":"Feature","properties":{"slug":"manhattan-beach-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.943056,40.578317]}},
     {"type":"Feature","properties":{"slug":"allerton-bronx","name":"Allerton","color":0},"geometry":{"type":"Point","coordinates":[-73.866,40.857]}},
-    {"type":"Feature","properties":{"slug":"bathgate-bronx","name":"Bathgate","color":0},"geometry":{"type":"Point","coordinates":[-73.897,40.847]}},
     {"type":"Feature","properties":{"slug":"bayswater-queens","name":"Bayswater","color":0},"geometry":{"type":"Point","coordinates":[-73.769478,40.612037]}},
-    {"type":"Feature","properties":{"slug":"bronxdale-bronx","name":"Bronxdale","color":0},"geometry":{"type":"Point","coordinates":[-73.859,40.848]}},
     {"type":"Feature","properties":{"slug":"claremont-bronx","name":"Claremont","color":0},"geometry":{"type":"Point","coordinates":[-73.913,40.839]}},
     {"type":"Feature","properties":{"slug":"east-williamsburg-brooklyn","name":"East Williamsburg","color":1},"geometry":{"type":"Point","coordinates":[-73.931624,40.714364]}},
-    {"type":"Feature","properties":{"slug":"edenwald-bronx","name":"Edenwald","color":0},"geometry":{"type":"Point","coordinates":[-73.843,40.888]}},
     {"type":"Feature","properties":{"slug":"edgemere-queens","name":"Edgemere","color":0},"geometry":{"type":"Point","coordinates":[-73.778076,40.600008]}},
     {"type":"Feature","properties":{"slug":"green-wood-cemetery-brooklyn","name":"Green-Wood Cemetery","color":4},"geometry":{"type":"Point","coordinates":[-73.990043,40.652127]}},
-    {"type":"Feature","properties":{"slug":"jerome-park-bronx","name":"Jerome Park","color":0},"geometry":{"type":"Point","coordinates":[-73.896,40.876]}},
     {"type":"Feature","properties":{"slug":"morrisania-bronx","name":"Morrisania","color":0},"geometry":{"type":"Point","coordinates":[-73.904,40.838]}},
     {"type":"Feature","properties":{"slug":"north-brother-island-bronx","name":"North Brother Island","color":0},"geometry":{"type":"Point","coordinates":[-73.9,40.8]}},
-    {"type":"Feature","properties":{"slug":"park-versailles-bronx","name":"Park Versailles","color":0},"geometry":{"type":"Point","coordinates":[-73.84,40.838]}},
     {"type":"Feature","properties":{"slug":"pelham-parkway-bronx","name":"Pelham Parkway","color":0},"geometry":{"type":"Point","coordinates":[-73.857,40.857]}},
     {"type":"Feature","properties":{"slug":"sea-gate-brooklyn","name":"Sea Gate"},"geometry":{"type":"Point","coordinates":[-74.007482,40.576976]}},
     {"type":"Feature","properties":{"slug":"south-brother-island-bronx","name":"South Brother Island","color":0},"geometry":{"type":"Point","coordinates":[-73.897,40.796]}},
     {"type":"Feature","properties":{"slug":"south-williamsburg-brooklyn","name":"South Williamsburg","color":1},"geometry":{"type":"Point","coordinates":[-73.961723,40.703179]}},
-    {"type":"Feature","properties":{"slug":"the-hub-bronx","name":"The Hub","color":0},"geometry":{"type":"Point","coordinates":[-73.906,40.831]}},
     {"type":"Feature","properties":{"slug":"westchester-square-bronx","name":"Westchester Square","color":0},"geometry":{"type":"Point","coordinates":[-73.836,40.835]}},
-    {"type":"Feature","properties":{"slug":"willets-point-queens","name":"Willets Point","color":4},"geometry":{"type":"Point","coordinates":[-73.84627,40.75804]}}
+    {"type":"Feature","properties":{"slug":"willets-point-queens","name":"Willets Point","color":4},"geometry":{"type":"Point","coordinates":[-73.84627,40.75804]}},
+    {"type":"Feature","properties":{"slug":"crotona-park-east-bronx","name":"Crotona Park East","color":1},"geometry":{"type":"Point","coordinates":[-73.889609,40.835803]}}
   ]
 }
