@@ -1,0 +1,1 @@
+Van Cortlandt Village is a residential enclave within Kingsbridge in the northwest Bronx, bordering the southern edge of Van Cortlandt Park and characterized by large pre-war apartment buildings set along wide streets. Its location adjacent to one of the city's largest parks gives it a greener, more spacious feel than much of the surrounding urban Bronx.
