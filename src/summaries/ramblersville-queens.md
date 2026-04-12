@@ -1,0 +1,1 @@
+Ramblersville is a tiny waterfront hamlet within Hamilton Beach in southern Queens, sometimes cited as the smallest distinct neighborhood in New York City. Tucked along Hawtree Creek and Jamaica Bay, it consists of a handful of blocks of modest homes with a deeply local, off-the-grid character that sets it apart from virtually every other corner of the five boroughs.

@@ -1,0 +1,1 @@
+Meadowmere is a small, low-density residential community at the southeastern edge of Rosedale and the Queens-Nassau County border, one of the most remote and least-developed corners of New York City. Its modest single-family homes sit near the marshlands of Jamaica Bay's eastern shore, giving it a quiet, suburban character far removed from the density of most of the borough.
