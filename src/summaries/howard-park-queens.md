@@ -1,0 +1,1 @@
+Howard Park is a small residential enclave within the Howard Beach area of southern Queens, sharing the neighborhood's characteristic mix of single-family homes, proximity to Jamaica Bay, and the tight-knit community identity that defines this part of the borough.
