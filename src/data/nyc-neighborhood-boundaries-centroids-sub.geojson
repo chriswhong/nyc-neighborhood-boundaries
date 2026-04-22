@@ -75,7 +75,7 @@
     {"type":"Feature","properties":{"slug":"farragut-brooklyn","name":"Farragut"},"geometry":{"type":"Point","coordinates":[-73.935313,40.639432]}},
     {"type":"Feature","properties":{"slug":"fiske-terrace-brooklyn","name":"Fiske Terrace"},"geometry":{"type":"Point","coordinates":[-73.959937,40.63229]}},
     {"type":"Feature","properties":{"slug":"fordham-heights-bronx","name":"Fordham Heights"},"geometry":{"type":"Point","coordinates":[-73.899691,40.856563]}},
-    {"type":"Feature","properties":{"slug":"foxhurst-bronx","name":"Foxhurst"},"geometry":{"type":"Point","coordinates":[-73.892656,40.826147]}},
+    {"type":"Feature","properties":{"slug":"foxhurst-bronx","name":"Foxhurst"},"geometry":{"type":"Point","coordinates":[-73.89329,40.825795]}},
     {"type":"Feature","properties":{"slug":"fulton-ferry-brooklyn","name":"Fulton Ferry"},"geometry":{"type":"Point","coordinates":[-73.992706,40.703303]}},
     {"type":"Feature","properties":{"slug":"hamilton-beach-queens","name":"Hamilton Beach"},"geometry":{"type":"Point","coordinates":[-73.829642,40.652302]}},
     {"type":"Feature","properties":{"slug":"hollis-hills-queens","name":"Hollis Hills"},"geometry":{"type":"Point","coordinates":[-73.754739,40.731264]}},
@@ -123,7 +123,7 @@
     {"type":"Feature","properties":{"slug":"warnerville-queens","name":"Warnerville"},"geometry":{"type":"Point","coordinates":[-73.744293,40.638282]}},
     {"type":"Feature","properties":{"slug":"weeksville-brooklyn","name":"Weeksville"},"geometry":{"type":"Point","coordinates":[-73.929218,40.671081]}},
     {"type":"Feature","properties":{"slug":"white-sands-brooklyn","name":"White Sands"},"geometry":{"type":"Point","coordinates":[-73.990278,40.580874]}},
-    {"type":"Feature","properties":{"slug":"woodstock-bronx","name":"Woodstock"},"geometry":{"type":"Point","coordinates":[-73.906426,40.818184]}},
+    {"type":"Feature","properties":{"slug":"woodstock-bronx","name":"Woodstock"},"geometry":{"type":"Point","coordinates":[-73.901883,40.817677]}},
     {"type":"Feature","properties":{"slug":"wyckoff-heights-brooklyn","name":"Wyckoff Heights"},"geometry":{"type":"Point","coordinates":[-73.916704,40.707988]}}
   ]
 }
