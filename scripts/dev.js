@@ -8,6 +8,20 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..')
 const PORT = 3000
 
+// Load .env from project root
+const env = {}
+try {
+  const envFile = fs.readFileSync(path.join(ROOT, '.env'), 'utf8')
+  for (const line of envFile.split('\n')) {
+    const match = line.match(/^\s*([\w]+)\s*=\s*(.*)$/)
+    if (match) env[match[1]] = match[2].trim().replace(/^['"]|['"]$/g, '')
+  }
+} catch {
+  // .env is optional
+}
+const MAPBOX_TOKEN = env.MAPBOX_TOKEN || ''
+if (!MAPBOX_TOKEN) console.warn('[env] No MAPBOX_TOKEN found in .env — token will not be injected')
+
 const MIME = {
   '.html': 'text/html',
   '.js': 'application/javascript',
@@ -41,9 +55,11 @@ function serveFile(res, filePath) {
     const mime = MIME[ext] || 'application/octet-stream'
     res.writeHead(200, { 'Content-Type': mime })
 
-    // Inject reload script into HTML responses
+    // Inject reload script and token into HTML responses
     if (ext === '.html') {
-      const html = data.toString().replace('</body>', `${RELOAD_SCRIPT}</body>`)
+      const html = data.toString()
+        .replace('MAPBOX_ACCESS_TOKEN', MAPBOX_TOKEN)
+        .replace('</body>', `${RELOAD_SCRIPT}</body>`)
       res.end(html)
     } else {
       res.end(data)

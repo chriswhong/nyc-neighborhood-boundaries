@@ -122,11 +122,35 @@
         .modified-marker .mapboxgl-marker-anchor-center {
             opacity: 0.6;
         }
+
+        /* Click toast */
+        #click-toast {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.8);
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        #click-toast.visible {
+            opacity: 1;
+        }
     </style>
 </head>
 
 <body>
     <div id='map'></div>
+    <div id="click-toast"></div>
 
     <div id="edit-panel">
         <button id="edit-toggle">Edit Centroids</button>
@@ -141,7 +165,7 @@
     </div>
 
     <script>
-        mapboxgl.accessToken = 'MAPBOX_TOKEN';
+        mapboxgl.accessToken = 'MAPBOX_ACCESS_TOKEN';
 
         let map;
 
@@ -155,15 +179,15 @@
 
         // Load style.json, patch local data paths, then create the map
         (async () => {
-            const resp = await fetch('./style.json')
+            const resp = await fetch('/map/style.json')
             if (!resp.ok) throw new Error(`Failed to load style.json: ${resp.status} ${resp.statusText}`)
             const style = await resp.json()
 
             if (style.sources && style.sources.neighborhoods) {
-                style.sources.neighborhoods.data = '../dist/nyc-neighborhood-boundaries.geojson'
+                style.sources.neighborhoods.data = '/dist/nyc-neighborhood-boundaries.geojson'
             }
             if (style.sources && style.sources.centroids) {
-                style.sources.centroids.data = '../dist/nyc-neighborhood-boundaries-centroids.geojson'
+                style.sources.centroids.data = '/dist/nyc-neighborhood-boundaries-centroids.geojson'
             }
 
             map = new mapboxgl.Map({
@@ -179,6 +203,16 @@
             map.on('load', () => {
                 map.dragRotate.disable();
                 map.touchZoomRotate.disableRotation();
+
+                map.addInteraction('sub-neighborhood-click', {
+                    type: 'click',
+                    target: { layerId: 'neighborhoods-sub-fill' },
+                    handler: (e) => {
+                        const name = e.feature.properties.name
+                        const slug = e.feature.properties.slug
+                        showToast(`${name} (${slug})`)
+                    }
+                })
             });
 
             // Wire up edit panel buttons after map is ready
@@ -189,6 +223,17 @@
             console.error(err)
             alert('Failed to initialize map: ' + err.message)
         })
+
+        // ── Toast ─────────────────────────────────────────────────────────────
+
+        let toastTimer = null
+        function showToast(msg) {
+            const el = document.getElementById('click-toast')
+            el.textContent = msg
+            el.classList.add('visible')
+            clearTimeout(toastTimer)
+            toastTimer = setTimeout(() => el.classList.remove('visible'), 2500)
+        }
 
         // ── Edit mode ──────────────────────────────────────────────────────────
 
