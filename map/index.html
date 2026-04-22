@@ -34,23 +34,131 @@
             color: #666;
             text-transform: capitalize;
         }
+
+        /* Edit mode panel */
+        #edit-panel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 6px;
+            font-family: Arial, sans-serif;
+        }
+
+        #edit-panel button {
+            padding: 7px 13px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+        }
+
+        #edit-toggle {
+            background: #fff;
+            color: #333;
+        }
+
+        #edit-toggle.active {
+            background: #1a73e8;
+            color: #fff;
+        }
+
+        #edit-actions {
+            display: none;
+            gap: 6px;
+        }
+
+        #edit-actions.visible {
+            display: flex;
+        }
+
+        #save-btn {
+            background: #188038;
+            color: #fff;
+        }
+
+        #save-btn:disabled {
+            background: #aaa;
+            cursor: default;
+        }
+
+        #cancel-btn {
+            background: #fff;
+            color: #333;
+        }
+
+        #edit-legend {
+            display: none;
+            background: rgba(255,255,255,0.92);
+            border-radius: 4px;
+            padding: 7px 10px;
+            font-size: 12px;
+            color: #333;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+            line-height: 1.8;
+        }
+
+        #edit-legend.visible {
+            display: block;
+        }
+
+        .legend-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.3);
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        /* dim modified markers */
+        .modified-marker .mapboxgl-marker-anchor-center {
+            opacity: 0.6;
+        }
     </style>
 </head>
 
 <body>
     <div id='map'></div>
 
+    <div id="edit-panel">
+        <button id="edit-toggle">Edit Centroids</button>
+        <div id="edit-actions">
+            <button id="cancel-btn">Cancel</button>
+            <button id="save-btn" disabled>Save (0)</button>
+        </div>
+        <div id="edit-legend">
+            <div><span class="legend-dot" style="background:#1a73e8"></span> Neighborhood</div>
+            <div><span class="legend-dot" style="background:#e8711a"></span> Sub-neighborhood</div>
+        </div>
+    </div>
+
     <script>
         mapboxgl.accessToken = 'MAPBOX_TOKEN';
 
+        let map;
+
+        // Edit mode state
+        let editMode = false;
+        let editMarkers = [];
+        let sourceMain = null;   // features from centroids.geojson
+        let sourceSub = null;    // features from centroids-sub.geojson
+        let modifiedSlugs = new Set();
+        let labelData = null;    // GeoJSON kept in sync for the label layer
+
         // Load style.json, patch local data paths, then create the map
         (async () => {
-            // Load the style file
             const resp = await fetch('./style.json')
             if (!resp.ok) throw new Error(`Failed to load style.json: ${resp.status} ${resp.statusText}`)
             const style = await resp.json()
 
-            // Replace source data URLs with local files
             if (style.sources && style.sources.neighborhoods) {
                 style.sources.neighborhoods.data = '../dist/nyc-neighborhood-boundaries.geojson'
             }
@@ -58,8 +166,7 @@
                 style.sources.centroids.data = '../dist/nyc-neighborhood-boundaries-centroids.geojson'
             }
 
-            // Create the map using the modified style object
-            const map = new mapboxgl.Map({
+            map = new mapboxgl.Map({
                 container: 'map',
                 style: style,
                 center: [-73.99201, 40.74584],
@@ -70,36 +177,210 @@
             });
 
             map.on('load', () => {
-                // disable map rotation using right click + drag
                 map.dragRotate.disable();
-
-                // disable map rotation using touch rotation gesture
                 map.touchZoomRotate.disableRotation();
             });
 
-            // map.on('zoom', () => {
-            //     const zoom = map.getZoom();
-
-            //     // Calculate pitch based on zoom level
-            //     // Pitch starts at 0 at zoom 8 and below, reaches 45 degrees at zoom 16 and above
-            //     let pitch;
-            //     if (zoom <= 8) {
-            //         pitch = 0;
-            //     } else if (zoom >= 16) {
-            //         pitch = 45;
-            //     } else {
-            //         // Linear interpolation between zoom 8-16
-            //         pitch = ((zoom - 8) / (16 - 8)) * 45;
-            //     }
-
-            //     map.setPitch(pitch);
-            // });
+            // Wire up edit panel buttons after map is ready
+            document.getElementById('edit-toggle').addEventListener('click', toggleEditMode)
+            document.getElementById('save-btn').addEventListener('click', saveEdits)
+            document.getElementById('cancel-btn').addEventListener('click', cancelEdits)
         })().catch(err => {
-            // Minimal error handling for debug
-            // eslint-disable-next-line no-console
             console.error(err)
             alert('Failed to initialize map: ' + err.message)
         })
+
+        // ── Edit mode ──────────────────────────────────────────────────────────
+
+        async function toggleEditMode() {
+            if (editMode) {
+                cancelEdits()
+            } else {
+                await enterEditMode()
+            }
+        }
+
+        async function enterEditMode() {
+            editMode = true
+            modifiedSlugs.clear()
+
+            // Load source centroid files (slug + coords only)
+            const [main, sub] = await Promise.all([
+                fetch('/src/data/nyc-neighborhood-boundaries-centroids.geojson').then(r => r.json()),
+                fetch('/src/data/nyc-neighborhood-boundaries-centroids-sub.geojson').then(r => r.json()),
+            ])
+            sourceMain = main
+            sourceSub = sub
+
+            // Load built dist file for name lookup (has name + kind)
+            const built = await fetch('/dist/nyc-neighborhood-boundaries-centroids.geojson').then(r => r.json())
+            const nameLookup = new Map(built.features.map(f => [f.properties.slug, f.properties.name]))
+
+            // Hide label layers so markers are unobstructed
+            map.setLayoutProperty('neighborhoods-labels', 'visibility', 'none')
+            map.setLayoutProperty('neighborhoods-sub-labels', 'visibility', 'none')
+
+            // Build label GeoJSON (kept in sync as markers are dragged)
+            labelData = {
+                type: 'FeatureCollection',
+                features: [
+                    ...sourceMain.features.map(f => ({
+                        type: 'Feature',
+                        geometry: { type: 'Point', coordinates: [...f.geometry.coordinates] },
+                        properties: { slug: f.properties.slug, name: nameLookup.get(f.properties.slug) || f.properties.slug, kind: 'neighborhood' }
+                    })),
+                    ...sourceSub.features.map(f => ({
+                        type: 'Feature',
+                        geometry: { type: 'Point', coordinates: [...f.geometry.coordinates] },
+                        properties: { slug: f.properties.slug, name: nameLookup.get(f.properties.slug) || f.properties.slug, kind: 'sub-neighborhood' }
+                    })),
+                ]
+            }
+
+            map.addSource('edit-labels', { type: 'geojson', data: labelData })
+            map.addLayer({
+                id: 'edit-labels-layer',
+                type: 'symbol',
+                source: 'edit-labels',
+                layout: {
+                    'text-field': ['get', 'name'],
+                    'text-font': ['case', ['==', ['get', 'kind'], 'neighborhood'],
+                        ['literal', ['DIN Pro Medium']],
+                        ['literal', ['DIN Pro Italic']]
+                    ],
+                    'text-size': ['case', ['==', ['get', 'kind'], 'neighborhood'], 12, 10],
+                    'text-anchor': 'left',
+                    'text-offset': [1, 0],
+                    'text-allow-overlap': true,
+                    'text-ignore-placement': true,
+                },
+                paint: {
+                    'text-color': '#111',
+                    'text-halo-color': '#fff',
+                    'text-halo-width': 1.5,
+                }
+            })
+
+            // Create markers for main neighborhoods
+            sourceMain.features.forEach(feature => {
+                createMarker(feature, 'neighborhood', nameLookup)
+            })
+
+            // Create markers for sub-neighborhoods
+            sourceSub.features.forEach(feature => {
+                createMarker(feature, 'sub-neighborhood', nameLookup)
+            })
+
+            updateUI()
+        }
+
+        function createMarker(feature, kind, nameLookup) {
+            const slug = feature.properties.slug
+            const name = nameLookup.get(slug) || slug
+            const [lng, lat] = feature.geometry.coordinates
+
+            const color = kind === 'neighborhood' ? '#1a73e8' : '#e8711a'
+            const scale = kind === 'neighborhood' ? 0.7 : 0.5
+
+            const marker = new mapboxgl.Marker({ color, scale, draggable: true })
+                .setLngLat([lng, lat])
+                .addTo(map)
+
+            marker.on('drag', () => {
+                const { lng, lat } = marker.getLngLat()
+                const lf = labelData.features.find(f => f.properties.slug === slug)
+                if (lf) lf.geometry.coordinates = [lng, lat]
+                map.getSource('edit-labels').setData(labelData)
+            })
+
+            marker.on('dragend', () => {
+                const { lng, lat } = marker.getLngLat()
+                const coords = [
+                    Math.round(lng * 1e6) / 1e6,
+                    Math.round(lat * 1e6) / 1e6,
+                ]
+
+                const collection = kind === 'neighborhood' ? sourceMain : sourceSub
+                const f = collection.features.find(f => f.properties.slug === slug)
+                if (f) f.geometry.coordinates = coords
+
+                modifiedSlugs.add(slug)
+                updateUI()
+            })
+
+            editMarkers.push(marker)
+        }
+
+        function cancelEdits() {
+            exitEditMode()
+        }
+
+        function exitEditMode() {
+            editMode = false
+            editMarkers.forEach(m => m.remove())
+            editMarkers = []
+            sourceMain = null
+            sourceSub = null
+            modifiedSlugs.clear()
+
+            if (map) {
+                if (map.getLayer('edit-labels-layer')) map.removeLayer('edit-labels-layer')
+                if (map.getSource('edit-labels')) map.removeSource('edit-labels')
+                map.setLayoutProperty('neighborhoods-labels', 'visibility', 'visible')
+                map.setLayoutProperty('neighborhoods-sub-labels', 'visibility', 'visible')
+            }
+            labelData = null
+
+            updateUI()
+        }
+
+        async function saveEdits() {
+            if (modifiedSlugs.size === 0) return
+
+            const saveBtn = document.getElementById('save-btn')
+            saveBtn.textContent = 'Saving…'
+            saveBtn.disabled = true
+
+            try {
+                const resp = await fetch('/api/save-centroids', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        files: {
+                            'nyc-neighborhood-boundaries-centroids.geojson': sourceMain.features,
+                            'nyc-neighborhood-boundaries-centroids-sub.geojson': sourceSub.features,
+                        }
+                    })
+                })
+                if (!resp.ok) throw new Error(`HTTP ${resp.status}`)
+                // Dev server will detect file change, rebuild, and reload the page
+            } catch (err) {
+                alert('Save failed: ' + err.message)
+                updateUI()
+            }
+        }
+
+        function updateUI() {
+            const toggle = document.getElementById('edit-toggle')
+            const actions = document.getElementById('edit-actions')
+            const legend = document.getElementById('edit-legend')
+            const saveBtn = document.getElementById('save-btn')
+
+            if (editMode) {
+                toggle.textContent = 'Editing Centroids'
+                toggle.classList.add('active')
+                actions.classList.add('visible')
+                legend.classList.add('visible')
+                const n = modifiedSlugs.size
+                saveBtn.textContent = n > 0 ? `Save (${n})` : 'No changes'
+                saveBtn.disabled = n === 0
+            } else {
+                toggle.textContent = 'Edit Centroids'
+                toggle.classList.remove('active')
+                actions.classList.remove('visible')
+                legend.classList.remove('visible')
+            }
+        }
     </script>
 </body>
 
