@@ -52,6 +52,56 @@ function checkCoordinatePrecision(features, maxDecimals = 6) {
     return violations
 }
 
+describe('Content Files Validation', () => {
+    let mainGeojson
+    let subGeojson
+
+    beforeAll(() => {
+        mainGeojson = JSON.parse(readFileSync(join(__dirname, '../src/data/nyc-neighborhood-boundaries.geojson'), 'utf8'))
+        subGeojson = JSON.parse(readFileSync(join(__dirname, '../src/data/nyc-neighborhood-boundaries-sub.geojson'), 'utf8'))
+    })
+
+    test('no orphaned content files (every .json must match a known slug)', () => {
+        const allSlugs = new Set([
+            ...mainGeojson.features.map(f => f.properties.slug),
+            ...subGeojson.features.map(f => f.properties.slug)
+        ])
+        const contentDir = join(__dirname, '../src/content')
+        const orphaned = readdirSync(contentDir)
+            .filter(f => f.endsWith('.json'))
+            .map(f => f.replace(/\.json$/, ''))
+            .filter(slug => !allSlugs.has(slug))
+        expect(orphaned, `Orphaned content files with no matching neighborhood:\n${orphaned.map(s => `  src/content/${s}.json`).join('\n')}`).toHaveLength(0)
+    })
+
+    test('all content files must have a valid instagram_reels array', () => {
+        const contentDir = join(__dirname, '../src/content')
+        const invalid = []
+        readdirSync(contentDir).filter(f => f.endsWith('.json')).forEach(file => {
+            const content = JSON.parse(readFileSync(join(contentDir, file), 'utf8'))
+            if (!Array.isArray(content.instagram_reels) || content.instagram_reels.length === 0) {
+                invalid.push(file)
+            }
+        })
+        expect(invalid, `Content files with missing or empty instagram_reels:\n${invalid.map(f => `  src/content/${f}`).join('\n')}`).toHaveLength(0)
+    })
+
+    test('all instagram reels must have instagram_id, account, and title', () => {
+        const contentDir = join(__dirname, '../src/content')
+        const invalid = []
+        readdirSync(contentDir).filter(f => f.endsWith('.json')).forEach(file => {
+            const { instagram_reels } = JSON.parse(readFileSync(join(contentDir, file), 'utf8'))
+            if (!Array.isArray(instagram_reels)) return
+            instagram_reels.forEach((reel, i) => {
+                if (!reel.instagram_id || !reel.account || !reel.title) {
+                    invalid.push(`${file}[${i}]: missing field(s) — ${['instagram_id', 'account', 'title'].filter(k => !reel[k]).join(', ')}`)
+                }
+            })
+        })
+        expect(invalid, `Reels with missing required fields:\n${invalid.map(s => `  ${s}`).join('\n')}`).toHaveLength(0)
+    })
+})
+
 describe('Sub-Neighborhoods GeoJSON Validation', () => {
     let subGeojson
     let mainGeojson

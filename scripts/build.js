@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, rmSync, mkdirSync, existsSync } from 'fs'
+import { readFileSync, writeFileSync, rmSync, mkdirSync, existsSync, readdirSync } from 'fs'
 import { fileURLToPath } from 'url'
 import { dirname, join } from 'path'
 
@@ -10,7 +10,16 @@ const centroidsFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries-c
 const boundariesSubFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries-sub.geojson')
 const centroidsSubFile = join(__dirname, '../src/data/nyc-neighborhood-boundaries-centroids-sub.geojson')
 const summariesDir = join(__dirname, '../src/summaries')
+const contentDir = join(__dirname, '../src/content')
 const distDir = join(__dirname, '../dist')
+
+// Load content files into a slug → related_content map
+const contentBySlug = new Map()
+readdirSync(contentDir).forEach(file => {
+  if (!file.endsWith('.json')) return
+  const slug = file.replace('.json', '')
+  contentBySlug.set(slug, JSON.parse(readFileSync(join(contentDir, file), 'utf8')))
+})
 
 const boundaries = JSON.parse(readFileSync(boundariesFile, 'utf8'))
 const centroids = JSON.parse(readFileSync(centroidsFile, 'utf8'))
@@ -53,7 +62,8 @@ boundaries.features.forEach(feature => {
   const { slug } = feature.properties
   const summary = readFileSync(join(summariesDir, `${slug}.md`), 'utf8').trim()
   const child_neighborhoods = childrenByParent.get(slug) ?? []
-  propsMap.set(slug, { ...feature.properties, kind: 'neighborhood', child_neighborhoods, summary })
+  const related_content = contentBySlug.get(slug)
+  propsMap.set(slug, { ...feature.properties, kind: 'neighborhood', child_neighborhoods, summary, ...(related_content && { related_content }) })
 })
 
 // Build sub-neighborhoods properties map: expand parent slugs to {slug, name} objects
@@ -67,7 +77,8 @@ boundariesSub.features.forEach(feature => {
     : 0
   const summaryPath = join(summariesDir, `${slug}.md`)
   const summary = existsSync(summaryPath) ? readFileSync(summaryPath, 'utf8').trim() : ''
-  propsMapSub.set(slug, { ...feature.properties, kind: 'sub-neighborhood', color, parent_neighborhoods: parents, summary })
+  const related_content = contentBySlug.get(slug)
+  propsMapSub.set(slug, { ...feature.properties, kind: 'sub-neighborhood', color, parent_neighborhoods: parents, summary, ...(related_content && { related_content }) })
 })
 
 // Attach enriched properties to boundary features
