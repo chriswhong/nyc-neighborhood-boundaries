@@ -384,7 +384,7 @@
     {"type":"Feature","properties":{"slug":"warnerville-queens","name":"Warnerville","color":3,"kind":"sub-neighborhood","parent_neighborhoods":[{"slug":"rosedale-queens","name":"Rosedale"}]},"geometry":{"type":"Point","coordinates":[-73.744293,40.638282]}},
     {"type":"Feature","properties":{"slug":"weeksville-brooklyn","name":"Weeksville","color":2,"kind":"sub-neighborhood","parent_neighborhoods":[{"slug":"crown-heights-brooklyn","name":"Crown Heights"}]},"geometry":{"type":"Point","coordinates":[-73.929218,40.671081]}},
     {"type":"Feature","properties":{"slug":"white-sands-brooklyn","name":"White Sands","color":0,"kind":"sub-neighborhood","parent_neighborhoods":[{"slug":"bath-beach-brooklyn","name":"Bath Beach"}]},"geometry":{"type":"Point","coordinates":[-73.990278,40.580874]}},
-    {"type":"Feature","properties":{"slug":"woodstock-bronx","name":"Woodstock","color":2,"kind":"sub-neighborhood","parent_neighborhoods":[{"slug":"melrose-bronx","name":"Melrose"}]},"geometry":{"type":"Point","coordinates":[-73.901883,40.817677]}},
+    {"type":"Feature","properties":{"slug":"woodstock-bronx","name":"Woodstock","color":3,"kind":"sub-neighborhood","parent_neighborhoods":[{"slug":"melrose-bronx","name":"Melrose"}]},"geometry":{"type":"Point","coordinates":[-73.901883,40.817677]}},
     {"type":"Feature","properties":{"slug":"wyckoff-heights-brooklyn","name":"Wyckoff Heights","color":2,"kind":"sub-neighborhood","parent_neighborhoods":[{"slug":"ridgewood-queens","name":"Ridgewood"},{"slug":"bushwick-brooklyn","name":"Bushwick"}]},"geometry":{"type":"Point","coordinates":[-73.916704,40.707988]}}
   ]
 }
