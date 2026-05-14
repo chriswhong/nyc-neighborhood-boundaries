@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "metadata": {"version":4,"features_count":261},
+  "metadata": {"version":4,"features_count":262},
   "features": [
     {"type":"Feature","properties":{"slug":"annadale-staten-island"},"geometry":{"type":"Point","coordinates":[-74.173832,40.533962]}},
     {"type":"Feature","properties":{"slug":"arden-heights-staten-island"},"geometry":{"type":"Point","coordinates":[-74.190937,40.550745]}},
@@ -118,6 +118,7 @@
     {"type":"Feature","properties":{"slug":"hells-kitchen-manhattan"},"geometry":{"type":"Point","coordinates":[-73.9946,40.76335]}},
     {"type":"Feature","properties":{"slug":"high-bridge-bronx"},"geometry":{"type":"Point","coordinates":[-73.926182,40.83804]}},
     {"type":"Feature","properties":{"slug":"hollis-queens"},"geometry":{"type":"Point","coordinates":[-73.763006,40.707813]}},
+    {"type":"Feature","properties":{"slug":"holliswood-queens"},"geometry":{"type":"Point","coordinates":[-73.769014,40.721222]}},
     {"type":"Feature","properties":{"slug":"homecrest-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.95656,40.60086]}},
     {"type":"Feature","properties":{"slug":"howard-beach-queens"},"geometry":{"type":"Point","coordinates":[-73.844307,40.656745]}},
     {"type":"Feature","properties":{"slug":"hudson-yards-manhattan"},"geometry":{"type":"Point","coordinates":[-74.00291,40.75624]}},
