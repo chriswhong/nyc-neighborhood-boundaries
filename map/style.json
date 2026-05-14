@@ -444,8 +444,9 @@
                         3
                     ]
                 ],
-                "line-occlusion-opacity": 1
-            }
+                "line-occlusion-opacity": 0.3
+            },
+            "slot": "middle"
         },
         {
             "id": "neighborhoods-stroke-selected",
@@ -891,7 +892,7 @@
                 "fill-color": "#000",
                 "fill-opacity": 0.1
             },
-            "slot": "top"
+            "slot": "middle"
         },
         {
             "id": "neighborhoods-sub-stroke",
@@ -925,7 +926,7 @@
                     2,
                     2
                 ],
-                "line-occlusion-opacity": 1
+                "line-occlusion-opacity": 0.3
             }
         },
         {
@@ -1314,7 +1315,7 @@
         {
             "id": "nyc-land-borders",
             "type": "line",
-            "slot": "top",
+            "slot": "middle",
             "paint": {
                 "line-color": "hsl(0, 0%, 39%)",
                 "line-dasharray": [
@@ -1336,6 +1337,64 @@
                 ]
             },
             "source": "nyc-land-borders"
+        },
+        {
+            "id": "nyc-land-borders-label-queens",
+            "type": "symbol",
+            "slot": "middle",
+            "source": "nyc-land-borders",
+            "layout": {
+                "symbol-placement": "line",
+                "text-field": "QUEENS",
+                "text-size": 18,
+                "text-offset": [
+                    0,
+                    1
+                ],
+                "text-font": [
+                    "DIN Pro Medium"
+                ],
+                "text-letter-spacing": 0.2,
+                "text-rotation-alignment": "map",
+                "text-pitch-alignment": "viewport",
+                "text-max-angle": 30,
+                "symbol-spacing": 400,
+                "text-repeat-distance": 300
+            },
+            "paint": {
+                "text-color": "hsl(0, 0%, 39%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1
+            }
+        },
+        {
+            "id": "nyc-land-borders-label-brooklyn",
+            "type": "symbol",
+            "slot": "middle",
+            "source": "nyc-land-borders",
+            "layout": {
+                "symbol-placement": "line",
+                "text-field": "BROOKLYN",
+                "text-size": 18,
+                "text-offset": [
+                    0,
+                    -1
+                ],
+                "text-font": [
+                    "DIN Pro Medium"
+                ],
+                "text-letter-spacing": 0.1,
+                "text-rotation-alignment": "map",
+                "text-pitch-alignment": "viewport",
+                "text-max-angle": 30,
+                "symbol-spacing": 400,
+                "text-repeat-distance": 300
+            },
+            "paint": {
+                "text-color": "hsl(0, 0%, 39%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1
+            }
         }
     ]
 }
