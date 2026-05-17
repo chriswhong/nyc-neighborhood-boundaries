@@ -82,6 +82,26 @@ const CENTROID_FILES = new Set([
   'nyc-neighborhood-boundaries-centroids-sub.geojson',
 ])
 
+function writeBoundaryFile(filePath, existing, updatedFeatures) {
+  const updateMap = new Map(updatedFeatures.map(f => [f.properties.slug, f]))
+  const features = existing.features.map(f => {
+    const updated = updateMap.get(f.properties.slug)
+    return updated ? { ...f, geometry: updated.geometry } : f
+  })
+  let out = '{\n'
+  out += `  "type": "FeatureCollection",\n`
+  if (existing.metadata) {
+    out += `  "metadata": ${JSON.stringify({ ...existing.metadata, features_count: features.length })},\n`
+  }
+  out += `  "features": [\n`
+  features.forEach((f, i) => {
+    const comma = i < features.length - 1 ? ',' : ''
+    out += `    ${JSON.stringify(f)}${comma}\n`
+  })
+  out += `  ]\n}\n`
+  fs.writeFileSync(filePath, out, 'utf8')
+}
+
 function writeCentroidFile(filename, features) {
   const filePath = path.join(ROOT, 'src', 'data', filename)
   const existing = JSON.parse(fs.readFileSync(filePath, 'utf8'))
@@ -101,6 +121,48 @@ function writeCentroidFile(filename, features) {
 
 const server = http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://localhost:${PORT}`)
+
+  // Save boundary geometry edits (from geojson.io paste)
+  if (url.pathname === '/api/save-boundaries' && req.method === 'POST') {
+    try {
+      const body = await readBody(req)
+      const { features } = JSON.parse(body)
+
+      const mainPath = path.join(ROOT, 'src', 'data', 'nyc-neighborhood-boundaries.geojson')
+      const subPath = path.join(ROOT, 'src', 'data', 'nyc-neighborhood-boundaries-sub.geojson')
+      const mainData = JSON.parse(fs.readFileSync(mainPath, 'utf8'))
+      const subData = JSON.parse(fs.readFileSync(subPath, 'utf8'))
+
+      const mainSlugs = new Set(mainData.features.map(f => f.properties.slug))
+      const subSlugs = new Set(subData.features.map(f => f.properties.slug))
+
+      const mainUpdates = []
+      const subUpdates = []
+      for (const f of features) {
+        const slug = f.properties?.slug
+        if (!slug) continue
+        if (mainSlugs.has(slug)) mainUpdates.push(f)
+        else if (subSlugs.has(slug)) subUpdates.push(f)
+      }
+
+      if (mainUpdates.length > 0) {
+        writeBoundaryFile(mainPath, mainData, mainUpdates)
+        console.log(`[save] Updated ${mainUpdates.length} features in nyc-neighborhood-boundaries.geojson`)
+      }
+      if (subUpdates.length > 0) {
+        writeBoundaryFile(subPath, subData, subUpdates)
+        console.log(`[save] Updated ${subUpdates.length} features in nyc-neighborhood-boundaries-sub.geojson`)
+      }
+
+      res.writeHead(200, { 'Content-Type': 'application/json' })
+      res.end(JSON.stringify({ ok: true, mainCount: mainUpdates.length, subCount: subUpdates.length }))
+    } catch (err) {
+      console.error('[save] Error:', err)
+      res.writeHead(500)
+      res.end(JSON.stringify({ error: err.message }))
+    }
+    return
+  }
 
   // Save centroid edits
   if (url.pathname === '/api/save-centroids' && req.method === 'POST') {
