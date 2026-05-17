@@ -123,6 +123,219 @@
             opacity: 0.6;
         }
 
+        /* Selection panel */
+        #selection-panel {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            background: #fff;
+            border-radius: 6px;
+            padding: 10px 14px;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+            display: none;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #selection-panel.visible {
+            display: flex;
+        }
+
+        #selection-count {
+            font-weight: 600;
+            color: #333;
+        }
+
+        #clear-selection-btn {
+            background: none;
+            border: none;
+            color: #888;
+            cursor: pointer;
+            font-size: 12px;
+            padding: 0;
+            text-decoration: underline;
+        }
+
+        #clear-selection-btn:hover {
+            color: #333;
+        }
+
+        #open-geojson-btn {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            background: #1a73e8;
+            color: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        #open-geojson-btn:hover {
+            background: #1558b0;
+        }
+
+        /* Geojson.io modal */
+        #geojson-modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.45);
+            z-index: 100;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #geojson-modal-overlay.visible {
+            display: flex;
+        }
+
+        #geojson-modal {
+            background: #fff;
+            border-radius: 8px;
+            padding: 24px;
+            width: 540px;
+            max-width: calc(100vw - 40px);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        #geojson-modal h2 {
+            margin: 0;
+            font-size: 16px;
+            color: #111;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #modal-close-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            color: #888;
+            padding: 0;
+            line-height: 1;
+        }
+
+        #modal-close-btn:hover { color: #333; }
+
+        .modal-section-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        #modal-url-row {
+            display: flex;
+            gap: 8px;
+            align-items: stretch;
+        }
+
+        #modal-url-display {
+            flex: 1;
+            font-size: 11px;
+            font-family: monospace;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 7px 10px;
+            color: #333;
+            word-break: break-all;
+            max-height: 60px;
+            overflow-y: auto;
+        }
+
+        #modal-open-btn {
+            padding: 7px 14px;
+            background: #1a73e8;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        #modal-open-btn:hover { background: #1558b0; }
+
+        #modal-copy-btn {
+            align-self: flex-start;
+            padding: 5px 10px;
+            background: #f1f3f4;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-top: 6px;
+        }
+
+        #modal-copy-btn:hover { background: #e2e5e8; }
+
+        .modal-divider {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 0;
+        }
+
+        #modal-paste-area {
+            width: 100%;
+            box-sizing: border-box;
+            height: 120px;
+            font-family: monospace;
+            font-size: 11px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 8px 10px;
+            resize: vertical;
+            color: #333;
+        }
+
+        #modal-paste-area::placeholder {
+            color: #aaa;
+        }
+
+        #modal-save-btn {
+            align-self: flex-end;
+            padding: 8px 18px;
+            background: #188038;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        #modal-save-btn:disabled {
+            background: #aaa;
+            cursor: default;
+        }
+
+        #modal-save-btn:not(:disabled):hover { background: #0f5c29; }
+
+        #modal-status {
+            font-size: 12px;
+            color: #555;
+            min-height: 16px;
+        }
+
+        #modal-status.error { color: #c00; }
+        #modal-status.success { color: #188038; }
+
         /* Click toast */
         #click-toast {
             position: absolute;
@@ -152,6 +365,38 @@
     <div id='map'></div>
     <div id="click-toast"></div>
 
+    <!-- Selection panel -->
+    <div id="selection-panel">
+        <span id="selection-count"></span>
+        <button id="clear-selection-btn">Clear</button>
+        <button id="open-geojson-btn">Edit in geojson.io ↗</button>
+    </div>
+
+    <!-- geojson.io modal -->
+    <div id="geojson-modal-overlay">
+        <div id="geojson-modal">
+            <h2>
+                Edit in geojson.io
+                <button id="modal-close-btn" title="Close">&#x2715;</button>
+            </h2>
+            <div>
+                <div class="modal-section-label">Open in geojson.io</div>
+                <div id="modal-url-row">
+                    <div id="modal-url-display"></div>
+                    <button id="modal-open-btn">Open ↗</button>
+                </div>
+                <button id="modal-copy-btn">Copy GeoJSON to clipboard</button>
+            </div>
+            <hr class="modal-divider">
+            <div>
+                <div class="modal-section-label">Paste updated GeoJSON to save</div>
+                <textarea id="modal-paste-area" placeholder='Paste FeatureCollection from geojson.io here...'></textarea>
+            </div>
+            <div id="modal-status"></div>
+            <button id="modal-save-btn" disabled>Save Changes</button>
+        </div>
+    </div>
+
     <div id="edit-panel">
         <button id="edit-toggle">Edit Centroids</button>
         <div id="edit-actions">
@@ -168,6 +413,10 @@
         mapboxgl.accessToken = 'MAPBOX_ACCESS_TOKEN';
 
         let map;
+
+        // Selection state
+        let selectedSlugs = new Set()   // slug → 'neighborhood' | 'sub-neighborhood'
+        let selectedKinds = new Map()
 
         // Edit mode state
         let editMode = false;
@@ -201,16 +450,49 @@
             });
 
             map.on('load', () => {
-                // map.dragRotate.disable();
-                // map.touchZoomRotate.disableRotation();
+                // Add selection highlight layers (below labels)
+                map.addLayer({
+                    id: 'neighborhoods-selection',
+                    type: 'fill',
+                    source: 'neighborhoods',
+                    filter: ['==', ['get', 'kind'], 'neighborhood'],
+                    paint: {
+                        'fill-color': '#ffcc00',
+                        'fill-opacity': ['case', ['boolean', ['feature-state', 'selected'], false], 0.5, 0],
+                    }
+                }, 'neighborhoods-labels')
+
+                map.addLayer({
+                    id: 'neighborhoods-sub-selection',
+                    type: 'fill',
+                    source: 'neighborhoods',
+                    filter: ['==', ['get', 'kind'], 'sub-neighborhood'],
+                    paint: {
+                        'fill-color': '#ffcc00',
+                        'fill-opacity': ['case', ['boolean', ['feature-state', 'selected'], false], 0.5, 0],
+                    }
+                }, 'neighborhoods-labels')
+
+                // Click neighborhood to select/deselect
+                map.addInteraction('neighborhood-click', {
+                    type: 'click',
+                    target: { layerId: 'neighborhoods-fill' },
+                    handler: (e) => {
+                        if (editMode) return
+                        const slug = e.feature.properties.slug
+                        const kind = 'neighborhood'
+                        toggleSelection(slug, kind)
+                    }
+                })
 
                 map.addInteraction('sub-neighborhood-click', {
                     type: 'click',
                     target: { layerId: 'neighborhoods-sub-fill' },
                     handler: (e) => {
-                        const name = e.feature.properties.name
+                        if (editMode) return
                         const slug = e.feature.properties.slug
-                        showToast(`${name} (${slug})`)
+                        const kind = 'sub-neighborhood'
+                        toggleSelection(slug, kind)
                     }
                 })
             });
@@ -219,10 +501,204 @@
             document.getElementById('edit-toggle').addEventListener('click', toggleEditMode)
             document.getElementById('save-btn').addEventListener('click', saveEdits)
             document.getElementById('cancel-btn').addEventListener('click', cancelEdits)
+
+            // Wire up selection panel
+            document.getElementById('clear-selection-btn').addEventListener('click', clearSelection)
+            document.getElementById('open-geojson-btn').addEventListener('click', openGeojsonModal)
+
+            // Wire up modal
+            document.getElementById('modal-close-btn').addEventListener('click', closeGeojsonModal)
+            document.getElementById('geojson-modal-overlay').addEventListener('click', (e) => {
+                if (e.target === document.getElementById('geojson-modal-overlay')) closeGeojsonModal()
+            })
+            document.getElementById('modal-open-btn').addEventListener('click', () => {
+                window.open(document.getElementById('modal-open-btn').dataset.url, '_blank')
+            })
+            document.getElementById('modal-paste-area').addEventListener('input', onPasteInput)
+            document.getElementById('modal-save-btn').addEventListener('click', saveFromGeojson)
+            document.getElementById('modal-copy-btn').addEventListener('click', copyGeojsonToClipboard)
         })().catch(err => {
             console.error(err)
             alert('Failed to initialize map: ' + err.message)
         })
+
+        // ── Selection ──────────────────────────────────────────────────────────
+
+        function toggleSelection(slug, kind) {
+            if (selectedSlugs.has(slug)) {
+                selectedSlugs.delete(slug)
+                selectedKinds.delete(slug)
+                map.setFeatureState({ source: 'neighborhoods', id: slug }, { selected: false })
+            } else {
+                selectedSlugs.add(slug)
+                selectedKinds.set(slug, kind)
+                map.setFeatureState({ source: 'neighborhoods', id: slug }, { selected: true })
+            }
+            updateSelectionUI()
+        }
+
+        function clearSelection() {
+            for (const slug of selectedSlugs) {
+                map.setFeatureState({ source: 'neighborhoods', id: slug }, { selected: false })
+            }
+            selectedSlugs.clear()
+            selectedKinds.clear()
+            updateSelectionUI()
+        }
+
+        function updateSelectionUI() {
+            const panel = document.getElementById('selection-panel')
+            const count = document.getElementById('selection-count')
+            const n = selectedSlugs.size
+            if (n === 0) {
+                panel.classList.remove('visible')
+            } else {
+                panel.classList.add('visible')
+                count.textContent = `${n} selected`
+            }
+        }
+
+        // ── geojson.io modal ───────────────────────────────────────────────────
+
+        let cachedDistData = null
+        let currentModalFC = null
+
+        async function getDistData() {
+            if (!cachedDistData) {
+                cachedDistData = await fetch('/dist/nyc-neighborhood-boundaries.geojson').then(r => r.json())
+            }
+            return cachedDistData
+        }
+
+        async function openGeojsonModal() {
+            const overlay = document.getElementById('geojson-modal-overlay')
+            const urlDisplay = document.getElementById('modal-url-display')
+            const openBtn = document.getElementById('modal-open-btn')
+            const pasteArea = document.getElementById('modal-paste-area')
+            const saveBtn = document.getElementById('modal-save-btn')
+            const status = document.getElementById('modal-status')
+
+            // Reset modal state
+            pasteArea.value = ''
+            saveBtn.disabled = true
+            status.textContent = ''
+            status.className = ''
+            urlDisplay.textContent = 'Building URL…'
+            overlay.classList.add('visible')
+
+            try {
+                const dist = await getDistData()
+                const slugArr = [...selectedSlugs]
+                const features = dist.features
+                    .filter(f => slugArr.includes(f.properties.slug))
+                    .map(f => ({
+                        type: 'Feature',
+                        properties: {
+                            slug: f.properties.slug,
+                            name: f.properties.name,
+                            borough: f.properties.borough,
+                            kind: f.properties.kind,
+                        },
+                        geometry: f.geometry,
+                    }))
+
+                const fc = { type: 'FeatureCollection', features }
+                currentModalFC = fc
+                const encoded = encodeURIComponent(JSON.stringify(fc))
+                const url = `https://geojson.io/next?data=data:application/json,${encoded}`
+
+                urlDisplay.textContent = url
+                openBtn.dataset.url = url
+            } catch (err) {
+                urlDisplay.textContent = 'Error building URL: ' + err.message
+            }
+        }
+
+        function closeGeojsonModal() {
+            document.getElementById('geojson-modal-overlay').classList.remove('visible')
+            currentModalFC = null
+        }
+
+        async function copyGeojsonToClipboard() {
+            if (!currentModalFC) return
+            const btn = document.getElementById('modal-copy-btn')
+            try {
+                await navigator.clipboard.writeText(JSON.stringify(currentModalFC, null, 2))
+                btn.textContent = 'Copied!'
+                setTimeout(() => { btn.textContent = 'Copy GeoJSON to clipboard' }, 2000)
+            } catch {
+                btn.textContent = 'Copy failed'
+                setTimeout(() => { btn.textContent = 'Copy GeoJSON to clipboard' }, 2000)
+            }
+        }
+
+        function onPasteInput() {
+            const val = document.getElementById('modal-paste-area').value.trim()
+            const saveBtn = document.getElementById('modal-save-btn')
+            const status = document.getElementById('modal-status')
+            status.textContent = ''
+            status.className = ''
+
+            if (!val) {
+                saveBtn.disabled = true
+                return
+            }
+            try {
+                const parsed = JSON.parse(val)
+                if (parsed.type !== 'FeatureCollection' || !Array.isArray(parsed.features)) {
+                    throw new Error('Not a FeatureCollection')
+                }
+                saveBtn.disabled = false
+                status.textContent = `${parsed.features.length} feature(s) ready to save`
+            } catch {
+                saveBtn.disabled = true
+                status.textContent = 'Invalid GeoJSON — paste a FeatureCollection'
+                status.className = 'error'
+            }
+        }
+
+        async function saveFromGeojson() {
+            const val = document.getElementById('modal-paste-area').value.trim()
+            const saveBtn = document.getElementById('modal-save-btn')
+            const status = document.getElementById('modal-status')
+
+            let parsed
+            try {
+                parsed = JSON.parse(val)
+            } catch {
+                status.textContent = 'Invalid JSON'
+                status.className = 'error'
+                return
+            }
+
+            saveBtn.disabled = true
+            status.textContent = 'Saving…'
+            status.className = ''
+
+            try {
+                const resp = await fetch('/api/save-boundaries', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ features: parsed.features }),
+                })
+                if (!resp.ok) {
+                    const err = await resp.json().catch(() => ({ error: `HTTP ${resp.status}` }))
+                    throw new Error(err.error || `HTTP ${resp.status}`)
+                }
+                const result = await resp.json()
+                const parts = []
+                if (result.mainCount) parts.push(`${result.mainCount} neighborhood(s)`)
+                if (result.subCount) parts.push(`${result.subCount} sub-neighborhood(s)`)
+                status.textContent = `Saved ${parts.join(' and ')} — rebuilding…`
+                status.className = 'success'
+                cachedDistData = null  // invalidate cache
+                // Dev server file watcher will rebuild and reload
+            } catch (err) {
+                status.textContent = 'Save failed: ' + err.message
+                status.className = 'error'
+                saveBtn.disabled = false
+            }
+        }
 
         // ── Toast ─────────────────────────────────────────────────────────────
 
