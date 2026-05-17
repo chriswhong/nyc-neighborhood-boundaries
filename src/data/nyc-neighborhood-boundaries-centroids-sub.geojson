@@ -18,7 +18,6 @@
     {"type":"Feature","properties":{"slug":"yorkville-manhattan"},"geometry":{"type":"Point","coordinates":[-73.948549,40.778027]}},
     {"type":"Feature","properties":{"slug":"alphabet-city-manhattan"},"geometry":{"type":"Point","coordinates":[-73.97968,40.725388]}},
     {"type":"Feature","properties":{"slug":"bowery-manhattan"},"geometry":{"type":"Point","coordinates":[-73.99203,40.720368]}},
-    {"type":"Feature","properties":{"slug":"coop-village-manhattan"},"geometry":{"type":"Point","coordinates":[-73.979774,40.714507]}},
     {"type":"Feature","properties":{"slug":"little-australia-manhattan"},"geometry":{"type":"Point","coordinates":[-73.996328,40.720624]}},
     {"type":"Feature","properties":{"slug":"astor-row-houses-manhattan"},"geometry":{"type":"Point","coordinates":[-73.941651,40.810082]}},
     {"type":"Feature","properties":{"slug":"mount-morris-park-manhattan"},"geometry":{"type":"Point","coordinates":[-73.946582,40.804435]}},
