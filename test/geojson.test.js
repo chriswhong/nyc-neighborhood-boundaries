@@ -147,7 +147,7 @@ describe('Sub-Neighborhoods GeoJSON Validation', () => {
     })
 
     test('sub-neighborhoods should not have unexpected properties', () => {
-        const allowed = ['name', 'borough', 'slug', 'wikipedia_url', 'parent_neighborhoods']
+        const allowed = ['name', 'borough', 'slug', 'wikipedia_url', 'parent_neighborhoods', 'alternate_names']
         subGeojson.features.forEach((feature) => {
             const unexpected = Object.keys(feature.properties).filter(p => !allowed.includes(p))
             expect(unexpected, `"${feature.properties.slug}" has unexpected properties: ${unexpected.join(', ')}`).toHaveLength(0)
@@ -192,6 +192,21 @@ describe('Sub-Neighborhoods GeoJSON Validation', () => {
     test('all coordinates should have at most 6 decimal places', () => {
         const violations = checkCoordinatePrecision(subGeojson.features)
         expect(violations, `Coordinates with too many decimal places:\n${violations.join('\n')}`).toHaveLength(0)
+    })
+
+    test('alternate_names, if present, must be a non-empty array of unique non-empty strings', () => {
+        subGeojson.features.forEach((feature) => {
+            const { slug, alternate_names } = feature.properties
+            if (!Object.prototype.hasOwnProperty.call(feature.properties, 'alternate_names')) return
+            expect(Array.isArray(alternate_names), `"${slug}" alternate_names must be an array`).toBe(true)
+            expect(alternate_names.length, `"${slug}" alternate_names must not be empty`).toBeGreaterThan(0)
+            alternate_names.forEach((name, i) => {
+                expect(typeof name, `"${slug}" alternate_names[${i}] must be a string`).toBe('string')
+                expect(name.trim().length, `"${slug}" alternate_names[${i}] must not be empty`).toBeGreaterThan(0)
+            })
+            const unique = new Set(alternate_names)
+            expect(unique.size, `"${slug}" alternate_names must not contain duplicates`).toBe(alternate_names.length)
+        })
     })
 
     test('all sub-neighborhoods must have at least one parent', () => {
@@ -386,7 +401,7 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
             geojson.features.forEach((feature, index) => {
                 const properties = feature.properties
                 const propertyNames = Object.keys(properties)
-                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color', 'wikipedia_url', 'slug'].includes(prop))
+                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color', 'wikipedia_url', 'slug', 'alternate_names'].includes(prop))
                 
                 expect(unexpectedProps, `Feature ${index + 1} should not have unexpected properties: ${unexpectedProps.join(', ')}`).toHaveLength(0)
             })
@@ -399,6 +414,21 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
                 
                 expect(typeof feature.properties.borough, `Feature ${index + 1} borough should be a string`).toBe('string')
                 expect(feature.properties.borough.length, `Feature ${index + 1} borough should not be empty`).toBeGreaterThan(0)
+            })
+        })
+
+        test('alternate_names, if present, must be a non-empty array of unique non-empty strings', () => {
+            geojson.features.forEach((feature) => {
+                const { slug, alternate_names } = feature.properties
+                if (!Object.prototype.hasOwnProperty.call(feature.properties, 'alternate_names')) return
+                expect(Array.isArray(alternate_names), `"${slug}" alternate_names must be an array`).toBe(true)
+                expect(alternate_names.length, `"${slug}" alternate_names must not be empty`).toBeGreaterThan(0)
+                alternate_names.forEach((name, i) => {
+                    expect(typeof name, `"${slug}" alternate_names[${i}] must be a string`).toBe('string')
+                    expect(name.trim().length, `"${slug}" alternate_names[${i}] must not be empty`).toBeGreaterThan(0)
+                })
+                const unique = new Set(alternate_names)
+                expect(unique.size, `"${slug}" alternate_names must not contain duplicates`).toBe(alternate_names.length)
             })
         })
 
