@@ -401,7 +401,7 @@ describe('NYC Neighborhood Boundaries GeoJSON Validation', () => {
             geojson.features.forEach((feature, index) => {
                 const properties = feature.properties
                 const propertyNames = Object.keys(properties)
-                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color', 'wikipedia_url', 'slug', 'alternate_names'].includes(prop))
+                const unexpectedProps = propertyNames.filter(prop => !['name', 'borough', 'color', 'wikipedia_url', 'slug', 'alternate_names', 'subreddit'].includes(prop))
                 
                 expect(unexpectedProps, `Feature ${index + 1} should not have unexpected properties: ${unexpectedProps.join(', ')}`).toHaveLength(0)
             })
