@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "metadata": {"version":4,"features_count":260},
+  "metadata": {"version":4,"features_count":261},
   "features": [
     {"type":"Feature","properties":{"slug":"annadale-staten-island"},"geometry":{"type":"Point","coordinates":[-74.173832,40.533962]}},
     {"type":"Feature","properties":{"slug":"arden-heights-staten-island"},"geometry":{"type":"Point","coordinates":[-74.190937,40.550745]}},
@@ -102,7 +102,8 @@
     {"type":"Feature","properties":{"slug":"gramercy-manhattan"},"geometry":{"type":"Point","coordinates":[-73.98371,40.735331]}},
     {"type":"Feature","properties":{"slug":"graniteville-staten-island"},"geometry":{"type":"Point","coordinates":[-74.157654,40.621491]}},
     {"type":"Feature","properties":{"slug":"grant-city-staten-island"},"geometry":{"type":"Point","coordinates":[-74.105774,40.578648]}},
-    {"type":"Feature","properties":{"slug":"grasmere-concord-staten-island"},"geometry":{"type":"Point","coordinates":[-74.083711,40.603053]}},
+    {"type":"Feature","properties":{"slug":"grasmere-staten-island"},"geometry":{"type":"Point","coordinates":[-74.077713,40.60192]}},
+    {"type":"Feature","properties":{"slug":"concord-staten-island"},"geometry":{"type":"Point","coordinates":[-74.090968,40.604099]}},
     {"type":"Feature","properties":{"slug":"gravesend-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.972597,40.595333]}},
     {"type":"Feature","properties":{"slug":"great-kills-staten-island"},"geometry":{"type":"Point","coordinates":[-74.146694,40.547064]}},
     {"type":"Feature","properties":{"slug":"greenpoint-brooklyn"},"geometry":{"type":"Point","coordinates":[-73.949358,40.72945]}},
